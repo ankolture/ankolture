@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: ${sans.style.fontFamily};
+  color-scheme: light only;
+}
+
+@supports (font: -apple-system-body) and (-webkit-appearance: none) {
+  img[loading='lazy'] {
+    clip-path: inset(0.6px);
+  }
+}
+
+html,
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+.outer-scroller-div {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.outer-scroller-div::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.unselectable {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
