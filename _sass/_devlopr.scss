@@ -1335,3 +1335,41 @@ footer {
     height: 100%;
     object-fit: cover;
   }
+
+
+
+  .profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: 10%;
+    height: auto;
+    max-width: 200px;
+  
+    border-radius: 50%;
+  }
+  
+  .profile-name {
+    text-align: center;
+  
+    padding: 30px;
+    font-size: 28px;
+  }
+  
+  .links {
+    text-align: center;
+    margin-top: 20px;
+    border: 100px solid rgb(0, 0, 0);
+    border-width: 2px;
+    padding: 20px;
+  
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    border-radius: 40px;
+  
+    font-size: 18px;
+  }
