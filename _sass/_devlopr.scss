@@ -1285,3 +1285,53 @@ footer {
 .highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
+
+.carousel-inner {
+    display: flex;
+}
+.carousel-item {
+    flex: 0 0 calc(100% / 3); /* Muestra 3 elementos por vista */
+}
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+.card-body {
+    background-color: #b2dfdb;
+    text-align: center;
+}
+.card-title {
+    font-weight: bold;
+    color: #7b1fa2;
+}
+.btn-custom {
+    background-color: #6d214f;
+    color: white;
+    border-radius: 20px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
