@@ -9,7 +9,7 @@ $(document).ready(function () {
         navText: ["‹", "›"],
         responsive: {
           0: {
-            items: 3,     // 👈 Forzamos 3 en móvil
+            items: 1,     // 👈 Forzamos 3 en móvil
             center: false
           },
           600: {
