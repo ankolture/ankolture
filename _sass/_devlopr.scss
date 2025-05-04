@@ -1373,3 +1373,58 @@ footer {
   
     font-size: 18px;
   }
+
+
+
+
+
+
+  .slider-container {
+    max-width: 100%;
+    padding: 10px 20px; /* margen para separarlo de otros elementos */
+    box-sizing: border-box;
+    position: relative;
+    // background-color: white;
+  }
+
+  /* 🟩 Card del carrusel */
+  .owl-carousel .item {
+    background: #4CAF50;
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 5px;
+    aspect-ratio: 1 / 1;
+  }
+
+  /* 🟧 Flechas pegadas al carrusel */
+  .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 0 5px;
+    pointer-events: none;
+  }
+
+  .owl-nav button.owl-prev,
+  .owl-nav button.owl-next {
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    pointer-events: all;
+  }
+
+  .owl-nav button:hover {
+    background: rgba(0, 0, 0, 0.9);
+  }
+
