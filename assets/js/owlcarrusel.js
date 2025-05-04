@@ -4,7 +4,7 @@ $(document).ready(function () {
         margin: 10,
         nav: false,
         autoplay: true,            // ✅ Activa el movimiento automático
-        autoplayTimeout: 3000,     // ⏱️ Tiempo entre cambios (milisegundos)
+        autoplayTimeout: 5000,     // ⏱️ Tiempo entre cambios (milisegundos)
         autoplayHoverPause: true,  // 🛑 Pausa si el mouse está encima
         navText: ["‹", "›"],
         responsive: {

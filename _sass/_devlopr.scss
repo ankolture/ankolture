@@ -1380,10 +1380,15 @@ footer {
 
 
   .slider-container {
-    max-width: 100%;
+    text-align: center;
+    max-width: 290px;
     padding: 10px 20px; /* margen para separarlo de otros elementos */
     box-sizing: border-box;
     position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
     // background-color: white;
   }
   .owl-carousel .item {
