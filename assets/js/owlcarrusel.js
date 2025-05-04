@@ -2,7 +2,10 @@ $(document).ready(function () {
     $(".owl-carousel").owlCarousel({
         loop: true,
         margin: 10,
-        nav: true,
+        nav: false,
+        autoplay: true,            // ✅ Activa el movimiento automático
+        autoplayTimeout: 3000,     // ⏱️ Tiempo entre cambios (milisegundos)
+        autoplayHoverPause: true,  // 🛑 Pausa si el mouse está encima
         navText: ["‹", "›"],
         responsive: {
           0: {

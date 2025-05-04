@@ -1386,17 +1386,22 @@ footer {
     position: relative;
     // background-color: white;
   }
-
-  /* 🟩 Card del carrusel */
   .owl-carousel .item {
-    background: #4CAF50;
-    color: white;
-    padding: 30px 10px;
-    text-align: center;
-    font-size: 18px;
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Cuadrado */
     border-radius: 10px;
-    margin: 5px;
-    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee; /* opcional, para ver los bordes */
+  }
+  
+  .owl-carousel .item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
   }
 
   /* 🟧 Flechas pegadas al carrusel */
