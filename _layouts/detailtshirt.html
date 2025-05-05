@@ -29,7 +29,7 @@ layout: default
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="d-flex align-items-center">
                                     <a href="{{site.url}}{{site.baseurl}}/">
-                                        <i class="fa fa-long-arrow-left"></i>
+                                        <i class="fa fa-long-arrow-alt-left"></i>
                                         <span class="ml-1">Volver</span>
                                     </a>
                                 </div>
@@ -56,11 +56,30 @@ layout: default
                                     <span>XL</span> </label> <label class="radio"> <input type="radio" name="size"
                                         value="XXL"> <span>XXL</span> </label>
                             </div>
-                            <div class="cart mt-4 align-items-center"> <button
-                                    class="btn btn-danger text-uppercase mr-2 px-4">Agregar al Carrito</button>
-                                <i class="fa fa-heart text-muted"></i> <i class="fa fa-share-alt text-muted"></i>
-                            </div>
-                        </div>
+                            <div class="cart mt-4 d-flex flex-column align-items-center text-center">
+                                <button class="btn btn-danger text-uppercase mb-3 px-4">Agregar al Carrito</button>
+                              
+                                <div class="share-section text-muted">
+                                  <strong class="d-block mb-2">Compartir:</strong>
+                                  <div>
+                                    <!-- Facebook -->
+                                    <a href="#" onclick="shareFacebook()" class="share-icon mx-2">
+                                      <i class="fab fa-facebook-f"></i>
+                                    </a>
+                              
+                                    <!-- Instagram (no permite compartir por URL) -->
+                                    <a href="https://www.instagram.com/" target="_blank" class="share-icon mx-2">
+                                      <i class="fab fa-instagram"></i>
+                                    </a>
+                              
+                                    <!-- WhatsApp -->
+                                    <a href="#" onclick="shareWhatsApp()" class="share-icon mx-2">
+                                      <i class="fab fa-whatsapp"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              
                     </div>
                 </div>
             </div>
@@ -117,4 +136,19 @@ layout: default
     function change_image(image) {
         document.getElementById("main-image").src = image.src;
     }
+
+
+
+    const pageUrl = window.location.href;
+  const message = encodeURIComponent("¡Mira esta camiseta que encontré!");
+
+  function shareFacebook() {
+    const url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}`;
+    window.open(url, '_blank');
+  }
+
+  function shareWhatsApp() {
+    const url = `https://api.whatsapp.com/send?text=${message}%20${encodeURIComponent(pageUrl)}`;
+    window.open(url, '_blank');
+  }
 </script>
