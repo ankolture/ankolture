@@ -21,54 +21,70 @@ thepockets:
     - name: donkeykong-men-black.jpg
       id : 115
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINRuR0xK68
     - name: donkeykong-men-white.jpg
       id : 116
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINRuR0xK68
     - name: donkeykong-women-black.jpg
       id : 117
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINRuR0xK68
     - name: donkeykong-women-white.jpg
       id : 118
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINRuR0xK68
 
   waluigi:
     - name: waluigi-men-black.jpg
       id : 119
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DIP3AftxeZV
     - name: waluigi-men-white.jpg
       id : 121
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DIP3AftxeZV
     - name: waluigi-women-black.jpg
       id : 122
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DIP3AftxeZV
     - name: waluigi-women-white.jpg
       id : 123
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DIP3AftxeZV
 
   wario:
     - name: wario-men-black.jpg
       id : 124
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DIP34sMRezH
     - name: wario-men-white.jpg
       id : 125
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DIP34sMRezH
     - name: wario-women-black.jpg
       id : 126
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DIP34sMRezH
     - name: wario-women-white.jpg
       id : 127
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DIP34sMRezH
 
   yoshi:
     - name: yoshi-men-black.jpg
       id : 128
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DIP2td4vwky
     - name: yoshi-men-white.jpg
       id : 129
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DIP2td4vwky
     - name: yoshi-women-black.jpg
       id : 130
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DIP2td4vwky
     - name: yoshi-women-white.jpg
       id : 131
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DIP2td4vwky

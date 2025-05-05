@@ -58,9 +58,9 @@ layout: default
 
                             <div class="sizes mt-2 align-items-center text-center">
                                 <h6 class="text-uppercase">GENERO</h6>
-                                <label class="radio"> <input type="radio" name="gender" value="hombre" checked>
+                                <label class="radio"> <input type="radio" name="gender" value="Hombre" checked>
                                     <span>HOMBRE</span></label>
-                                <label class="radio"> <input type="radio" name="gender" value="mujer">
+                                <label class="radio"> <input type="radio" name="gender" value="Mujer">
                                     <span>MUJER</span></label>
 
                             </div>
@@ -81,12 +81,12 @@ layout: default
                                 <h6 class="text-uppercase">COLOR</h6>
 
                                 <label class="color-radio">
-                                    <input type="radio" name="color" value="negro" checked>
+                                    <input type="radio" name="color" value="Negro" checked>
                                     <span class="color-circle" style="background-color: black;"></span>
                                 </label>
 
                                 <label class="color-radio">
-                                    <input type="radio" name="color" value="blanco">
+                                    <input type="radio" name="color" value="Blanco">
                                     <span class="color-circle" style="background-color: white;"></span>
                                 </label>
 
@@ -212,7 +212,7 @@ layout: default
 
 
         const pageUrl = window.location.href;
-        const message = encodeURIComponent("¡Mira esta camiseta que encontré!");
+        const message = encodeURIComponent("¡Mira esta super camiseta que encontré!");
 
         function shareWhatsApp() {
             const url = `https://api.whatsapp.com/send?text=${message}%20${encodeURIComponent(pageUrl)}`;
@@ -239,14 +239,20 @@ layout: default
         }
 
         document.getElementById("confirmAdd").addEventListener("click", function () {
-            const genero = document.querySelector('input[name="size"]:checked')?.value;
+            const genero = document.querySelector('input[name="gender"]:checked')?.value;
             const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
                 document.querySelectorAll('input[name="size"]')[2].checked ? "L" :
                     document.querySelectorAll('input[name="size"]')[3].checked ? "XL" : "S";
             const color = document.querySelector('input[name="color"]:checked')?.value;
 
-            const redirectUrl = `/carrito.html?genero=${genero}&talla=${talla}&color=${color}`;
-            window.location.href = redirectUrl;
+            const message = encodeURIComponent(`¡Hola! Acabo de realizar mi pedido de la camiseta y estoy emocionado de recibirla. Quisiera confirmar que todo está en orden y que el pedido está siendo procesado. Detalles del pedido: Género: ${genero}, Talla: ${talla}, Color: ${color}`);
+
+            const phoneNumber = '573233398124'; 
+            const pageUrl = window.location.href;
+            const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${decodeURIComponent(message)}%20${decodeURIComponent(pageUrl)}`;
+            window.open(url);
+
+
         });
 
 
