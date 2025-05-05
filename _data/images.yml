@@ -3,15 +3,19 @@ thepockets:
     - name: bowsy-men-black.jpg
       id : 111
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
     - name: bowsy-men-white.jpg
       id : 112
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
     - name: bowsy-women-black.jpg
       id : 113
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
     - name: bowsy-women-white.jpg
       id : 114
       url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
 
   donkeykong:
     - name: donkeykong-men-black.jpg
