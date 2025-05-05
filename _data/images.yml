@@ -1,12 +1,16 @@
 thepockets:
   bowsy:
     - name: bowsy-men-black.jpg
+      id : 111
       url: detailthirt?id=111
     - name: bowsy-men-white.jpg
+      id : 112
       url: detailthirt?id=112
     - name: bowsy-women-black.jpg
+      id : 113
       url: detailthirt?id=113
     - name: bowsy-women-white.jpg
+      id : 114
       url: detailthirt?id=114
 
   donkeykong:
