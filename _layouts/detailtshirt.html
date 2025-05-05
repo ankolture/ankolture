@@ -14,23 +14,13 @@ layout: default
                 <div class="row">
                     <div class="col-md-6">
                         <div class="images p-3">
-                            <!-- {% for folder in site.data.images.thepockets %}
-                            {% assign folder_name = folder[0] %}
-                            {% assign images = folder[1] %}
-                            {% for image in images %}
 
-                            {% if image.id ==  %}
-                            <img src="{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/{{ folder_name }}/{{ image.name }}"
-                            alt="{{ image.name | split: '/' | last }}">
-                            {% endif %}
-                           
-                            {% endfor %}
-                            {% endfor %} -->
                             <div class="text-center p-4"> <img id="main-image" src="https://i.imgur.com/Dhebu4F.jpg"
                                     width="250" /> </div>
-                            <div class="thumbnail text-center"> <img onclick="change_image(this)"
-                                    src="https://i.imgur.com/Rx7uKd0.jpg" width="70"> <img onclick="change_image(this)"
-                                    src="https://i.imgur.com/Dhebu4F.jpg" width="70"> </div>
+                            <div id="thumbnail-container" class="thumbnail text-center">
+                                <!-- <img onclick="change_image(this)" src="https://i.imgur.com/Rx7uKd0.jpg" width="70"> <img
+                                    onclick="change_image(this)" src="https://i.imgur.com/Dhebu4F.jpg" width="70"> -->
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -79,31 +69,51 @@ layout: default
 
 
 
-
-
-
-
-
-
 <script>
+    const pocketsData = {{ site.data.images.thepockets | jsonify }};
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
 
     if (id) {
-        console.log("entre " + id);
         document.getElementById("tshirt-id").textContent = "ID: " + id;
+
+        let found = false;
+
+        for (const [folderName, items] of Object.entries(pocketsData)) {
+            const match = items.find(item => String(item.id) === id);
+            if (match) {
+                const imagePath = "{{ site.baseurl }}/assets/img/collection/thepockets/" + folderName + "/" + match.name;
+                document.getElementById("main-image").src = imagePath;
+
+                const thumbnailContainer = document.getElementById("thumbnail-container");
+                thumbnailContainer.innerHTML = "";
+
+                items.forEach(item => {
+                    if (String(item.id) !== id) {
+                        console.log("hola" + item.name);
+                        const thumb = document.createElement("img");
+                        thumb.src = "{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/" + folderName + "/" + item.name;
+                        thumb.width = 70;
+                        thumb.style.cursor = "pointer";
+                        thumb.onclick = function () {
+                            change_image(this);
+                        };
+                        thumbnailContainer.appendChild(thumb);
+
+                    };
+                });
+
+                found = true;
+                break;
+            }
+        }
+
+        if (!found) {
+            console.warn("Imagen no encontrada para ID:", id);
+        }
     }
 
     function change_image(image) {
-
-        var container = document.getElementById("main-image");
-
-        container.src = image.src;
+        document.getElementById("main-image").src = image.src;
     }
-
-
-    document.addEventListener("DOMContentLoaded", function (event) {
-
-    });
-
 </script>
