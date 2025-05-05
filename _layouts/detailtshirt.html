@@ -89,7 +89,7 @@ layout: default
                 thumbnailContainer.innerHTML = "";
 
                 items.forEach(item => {
-                    if (String(item.id) !== id) {
+                   
                         console.log("hola" + item.name);
                         const thumb = document.createElement("img");
                         thumb.src = "{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/" + folderName + "/" + item.name;
@@ -100,7 +100,7 @@ layout: default
                         };
                         thumbnailContainer.appendChild(thumb);
 
-                    };
+                 
                 });
 
                 found = true;

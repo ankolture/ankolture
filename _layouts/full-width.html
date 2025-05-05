@@ -58,7 +58,7 @@ layout: compress
         {% assign images = folder[1] %}
         {% for image in images %}
         <div class="item">
-          <a href="{{site.url}}{{site.baseurl}}/{{ image.url }}">
+          <a href="{{site.url}}{{site.baseurl}}/{{ image.url }}?id={{ image.id }}">
             <img src="{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/{{ folder_name }}/{{ image.name }}" alt="{{ image.name | split: '/' | last }}">
           </a>
         </div>

@@ -2,69 +2,69 @@ thepockets:
   bowsy:
     - name: bowsy-men-black.jpg
       id : 111
-      url: detailthirt?id=111
+      url: detailthirt
     - name: bowsy-men-white.jpg
       id : 112
-      url: detailthirt?id=112
+      url: detailthirt
     - name: bowsy-women-black.jpg
       id : 113
-      url: detailthirt?id=113
+      url: detailthirt
     - name: bowsy-women-white.jpg
       id : 114
-      url: detailthirt?id=114
+      url: detailthirt
 
   donkeykong:
     - name: donkeykong-men-black.jpg
       id : 115
-      url: https://ejemplo.com/dk1
+      url: detailthirt
     - name: donkeykong-men-white.jpg
       id : 116
-      url: https://ejemplo.com/dk2
+      url: detailthirt
     - name: donkeykong-women-black.jpg
       id : 117
-      url: https://ejemplo.com/dk3
+      url: detailthirt
     - name: donkeykong-women-white.jpg
       id : 118
-      url: https://ejemplo.com/dk4
+      url: detailthirt
 
   waluigi:
     - name: waluigi-men-black.jpg
       id : 119
-      url: https://ejemplo.com/waluigi1
+      url: detailthirt
     - name: waluigi-men-white.jpg
       id : 121
-      url: https://ejemplo.com/waluigi2
+      url: detailthirt
     - name: waluigi-women-black.jpg
       id : 122
-      url: https://ejemplo.com/waluigi3
+      url: detailthirt
     - name: waluigi-women-white.jpg
       id : 123
-      url: https://ejemplo.com/waluigi4
+      url: detailthirt
 
   wario:
     - name: wario-men-black.jpg
       id : 124
-      url: https://ejemplo.com/wario1
+      url: detailthirt
     - name: wario-men-white.jpg
       id : 125
-      url: https://ejemplo.com/wario2
+      url: detailthirt
     - name: wario-women-black.jpg
       id : 126
-      url: https://ejemplo.com/wario3
+      url: detailthirt
     - name: wario-women-white.jpg
       id : 127
-      url: https://ejemplo.com/wario4
+      url: detailthirt
 
   yoshi:
     - name: yoshi-men-black.jpg
       id : 128
-      url: https://ejemplo.com/yoshi1
+      url: detailthirt
     - name: yoshi-men-white.jpg
       id : 129
-      url: https://ejemplo.com/yoshi2
+      url: detailthirt
     - name: yoshi-women-black.jpg
       id : 130
-      url: https://ejemplo.com/yoshi3
+      url: detailthirt
     - name: yoshi-women-white.jpg
       id : 131
-      url: https://ejemplo.com/yoshi4
+      url: detailthirt
