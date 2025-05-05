@@ -1477,3 +1477,17 @@ footer {
  .btn-danger{background-color: #ff0000 !important;border-color: #ff0000 !important}
  .btn-danger:hover{background-color: #da0606 !important;border-color: #da0606 !important}
  .btn-danger:focus{box-shadow: none}.cart i{margin-right: 10px}
+
+ #thumbnail-container img {
+    width: 70px;              /* Tamaño fijo de la imagen */
+    height: 70px;             /* Forzar que sea cuadrada */
+    margin: 5px;              /* Espaciado entre las imágenes */
+    object-fit: cover;        /* Asegura que la imagen se ajuste correctamente dentro del contenedor */
+    cursor: pointer;         /* Mantener el cursor como puntero cuando pasa sobre la imagen */
+    border-radius: 5px;       /* Bordes redondeados */
+    transition: transform 0.3s ease;  /* Transición suave al hacer hover */
+}
+
+#thumbnail-container img:hover {
+    transform: scale(1.1);    /* Efecto de zoom cuando se pasa el ratón sobre la imagen */
+}
