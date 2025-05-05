@@ -1466,7 +1466,7 @@ footer {
  .card{border:none}
  .product{background-color: #eee}
  .brand{font-size: 13px}
- .act-price{color:gold;font-weight: 700}
+ .act-price{color:#f69801;font-weight: 700}
  .dis-price{text-decoration: line-through}
  .about{font-size: 14px}
  .color{margin-bottom:10px}
@@ -1474,7 +1474,7 @@ footer {
  label.radio input{position: absolute;top: 0;left: 0;visibility: hidden;pointer-events: none}
  label.radio span{padding: 2px 9px;border: 2px solid #fff;display: inline-block;color: #fff;border-radius: 3px;text-transform: uppercase}
  label.radio input:checked+span{border-color: #fff;background-color: #fff;color: #000}
- .btn-danger{background-color: #FFD700 !important;border-color: #FFD700 !important}
+ .btn-danger{background-color: #f69801 !important;border-color: #f69801 !important}
  .btn-danger:hover{background-color: #DAA520 !important;border-color: #DAA520!important}
  .btn-danger:focus{box-shadow: none}.cart i{margin-right: 10px}
 
@@ -1503,7 +1503,8 @@ footer {
     height: 110px;             /* Forzar que sea cuadrada */
     margin: 5px;              /* Espaciado entre las imágenes */
     object-fit: cover;        /* Asegura que la imagen se ajuste correctamente dentro del contenedor */
-    cursor: pointer;         /* Mantener el cursor como puntero cuando pasa sobre la imagen */
+    cursor: pointer;
+    border: 2px solid #ffffff;         /* Mantener el cursor como puntero cuando pasa sobre la imagen */
     border-radius: 5px;       /* Bordes redondeados */
     transition: transform 0.3s ease;  /* Transición suave al hacer hover */
 }
@@ -1518,6 +1519,3 @@ footer {
     cursor: pointer;
   }
   
-  .share-icon i:active {
-    transform: scale(1.2); /* efecto al hacer clic */
-  }
