@@ -1,0 +1,50 @@
+thepockets:
+  bowsy:
+    - name: bowsy-men-black.jpg
+      url: https://ejemplo.com/producto1
+    - name: bowsy-men-white.jpg
+      url: https://ejemplo.com/producto2
+    - name: bowsy-women-black.jpg
+      url: https://ejemplo.com/producto3
+    - name: bowsy-women-white.jpg
+      url: https://ejemplo.com/producto4
+
+  donkeykong:
+    - name: donkeykong-men-black.jpg
+      url: https://ejemplo.com/dk1
+    - name: donkeykong-men-white.jpg
+      url: https://ejemplo.com/dk2
+    - name: donkeykong-women-black.jpg
+      url: https://ejemplo.com/dk3
+    - name: donkeykong-women-white.jpg
+      url: https://ejemplo.com/dk4
+
+  waluigi:
+    - name: waluigi-men-black.jpg
+      url: https://ejemplo.com/waluigi1
+    - name: waluigi-men-white.jpg
+      url: https://ejemplo.com/waluigi2
+    - name: waluigi-women-black.jpg
+      url: https://ejemplo.com/waluigi3
+    - name: waluigi-women-white.jpg
+      url: https://ejemplo.com/waluigi4
+
+  wario:
+    - name: wario-men-black.jpg
+      url: https://ejemplo.com/wario1
+    - name: wario-men-white.jpg
+      url: https://ejemplo.com/wario2
+    - name: wario-women-black.jpg
+      url: https://ejemplo.com/wario3
+    - name: wario-women-white.jpg
+      url: https://ejemplo.com/wario4
+
+  yoshi:
+    - name: yoshi-men-black.jpg
+      url: https://ejemplo.com/yoshi1
+    - name: yoshi-men-white.jpg
+      url: https://ejemplo.com/yoshi2
+    - name: yoshi-women-black.jpg
+      url: https://ejemplo.com/yoshi3
+    - name: yoshi-women-white.jpg
+      url: https://ejemplo.com/yoshi4

@@ -1,4 +1,21 @@
 $(document).ready(function () {
+
+  var items = document.querySelectorAll('.owl-carousel .item'); // Selecciona todos los elementos con la clase item del carousel
+    
+  // Convierte los elementos NodeList a un array para poder ordenarlos
+  var itemsArray = Array.prototype.slice.call(items);
+
+  // Aleatoriza el array de elementos
+  itemsArray.sort(function() {
+    return 0.5 - Math.random();
+  });
+
+  // Reorganiza los elementos aleatorios en el DOM
+  var carousel = document.querySelector('.owl-carousel');
+  itemsArray.forEach(function(item) {
+    carousel.appendChild(item);
+  });
+
     $(".owl-carousel").owlCarousel({
         loop: true,
         margin: 10,
