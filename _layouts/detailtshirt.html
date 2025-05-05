@@ -25,7 +25,7 @@ layout: default
                             </div>
                           
                             <!-- Derecha: ícono de carrito -->
-                            <i class="fab fa-instagram"> VER EN INSTAGRAM</i>
+                           <a href="#"><i class="fab fa-instagram"> VER EN INSTAGRAM</i></a> 
                           </div>
                         <div class="images">
 
@@ -44,28 +44,56 @@ layout: default
                                
                             </div>
                             <div class="mt-4 mb-3"> <span class="text-uppercase text-muted brand">Orianz</span>
-                                <h5 class="text-uppercase">Men's slim fit t-shirt</h5>
+                                <h5 class="text-uppercase">YOSHI t-shirt</h5>
                                 <div class="price d-flex flex-row align-items-center"> <span
-                                        class="act-price">$20</span>
-                                    <div class="ml-2"> <small class="dis-price">$59</small> <span>40%
+                                        class="act-price">$60.000</span> <span>COP</span>
+                                    <div class="ml-2"> <small class="dis-price">$80.000</small> <span>25%
                                             OFF</span> </div>
                                 </div>
                             </div>
                             <p class="about">Shop from a wide range of t-shirt from orianz. Pefect for
                                 your everyday use, you could pair it with a stylish pair of jeans or
                                 trousers complete the look.</p>
-                            <div class="sizes mt-5 align-items-center text-center">
+
+                                <div class="sizes mt-2 align-items-center text-center">
+                                    <h6 class="text-uppercase">GENERO</h6> 
+                                    <label class="radio"> <input type="radio" name="gender" value="hombre" checked> <span>HOMBRE</span></label>
+                                    <label class="radio"> <input type="radio" name="gender" value="mujer"> <span>MUJER</span></label> 
+                                      
+                                </div>
+
+                            <div class="sizes mt-2 align-items-center text-center">
                                 <h6 class="text-uppercase">TALLA</h6> <label class="radio"> <input type="radio"
                                         name="size" value="S" checked> <span>S</span>
                                 </label> <label class="radio"> <input type="radio" name="size" value="M"> <span>M</span>
                                 </label> <label class="radio"> <input type="radio" name="size" value="L"> <span>L</span>
                                 </label>
                                 <label class="radio"> <input type="radio" name="size" value="XL">
-                                    <span>XL</span> </label> <label class="radio"> <input type="radio" name="size"
-                                        value="XXL"> <span>XXL</span> </label>
+                                    <span>XL</span> </label> 
+                                  
                             </div>
+
+
+                            <div class="colors mt-2 align-items-center text-center">
+                                <h6 class="text-uppercase">COLOR</h6>
+                              
+                                <label class="color-radio">
+                                  <input type="radio" name="color" value="negro" checked>
+                                  <span class="color-circle" style="background-color: black;"></span>
+                                </label>
+                              
+                                <label class="color-radio">
+                                  <input type="radio" name="color" value="blanco">
+                                  <span class="color-circle" style="background-color: white;"></span>
+                                </label>
+                              
+                              </div>
+
+
                             <div class="cart mt-4 d-flex flex-column align-items-center text-center">
-                                <button class="btn btn-danger text-uppercase mb-3 px-4">Agregar al Carrito</button>
+                         
+                                <button class="btn btn-danger text-uppercase mb-3 px-4" onclick="mostrarModal()">Agregar al Carrito</button>
+
                               
                                 <div class="share-section text-muted">
                                   <strong class="d-block mb-2">Compartir:</strong>
@@ -86,6 +114,35 @@ layout: default
     </div>
 </div>
 
+
+
+<!-- Modal personalizado -->
+<div class="modal fade" id="addToCartModal" tabindex="-1" aria-labelledby="addToCartModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark text-white"> <!-- Fondo negro y texto blanco -->
+        <div class="modal-header border-0">
+          <h5 class="modal-title text-white text-center w-100" id="addToCartModalLabel">Confirmar selección</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+            <p>Estos son los datos de la camiseta que has seleccionado.
+                Si estás seguro de que toda la información es correcta, haz clic en Aceptar para continuar con tu pedido.<br>
+                Si detectas algún error, por favor haz clic en Cancelar, revisa los datos y vuelve a intentarlo.</p>
+                <div class="text-center">
+          <p><strong>Género:</strong> <span id="modal-genero"></span></p>
+          <p><strong>Talla:</strong> <span id="modal-talla"></span></p>
+          <p><strong>Color:</strong> <span id="modal-color"></span></p>
+        </div>
+        </div>
+        <div class="modal-footer justify-content-center border-0"> <!-- Centra los botones -->
+          <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary" id="confirmAdd">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
 
 
 <script>
@@ -145,4 +202,35 @@ layout: default
     const url = `https://api.whatsapp.com/send?text=${message}%20${encodeURIComponent(pageUrl)}`;
     window.open(url, '_blank');
   }
+
+
+
+  function mostrarModal() {
+  const genero = document.querySelector('input[name="gender"]:checked')?.value;
+  const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
+                document.querySelectorAll('input[name="size"]')[2].checked ? "L" :
+                document.querySelectorAll('input[name="size"]')[3].checked ? "XL" : "S";
+  const color = document.querySelector('input[name="color"]:checked')?.value;
+
+
+  document.getElementById("modal-genero").textContent = genero;
+  document.getElementById("modal-talla").textContent = talla;
+  document.getElementById("modal-color").textContent = color;
+
+
+  const modal = new bootstrap.Modal(document.getElementById('addToCartModal'));
+  modal.show();
+}
+
+document.getElementById("confirmAdd").addEventListener("click", function () {
+  const genero = document.querySelector('input[name="size"]:checked')?.value;
+  const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
+                document.querySelectorAll('input[name="size"]')[2].checked ? "L" :
+                document.querySelectorAll('input[name="size"]')[3].checked ? "XL" : "S";
+  const color = document.querySelector('input[name="color"]:checked')?.value;
+
+  const redirectUrl = `/carrito.html?genero=${genero}&talla=${talla}&color=${color}`;
+  window.location.href = redirectUrl;
+});
+
 </script>

@@ -1519,3 +1519,27 @@ footer {
     cursor: pointer;
   }
   
+
+  .color-radio {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .color-radio input[type="radio"] {
+    display: none;
+  }
+  
+  .color-circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: border 0.2s ease;
+  }
+  
+  /* Estilo para el color seleccionado */
+  .color-radio input[type="radio"]:checked + .color-circle {
+    border: 2px solid #f69801;
+  }
