@@ -82,7 +82,7 @@ layout: default
         for (const [folderName, items] of Object.entries(pocketsData)) {
             const match = items.find(item => String(item.id) === id);
             if (match) {
-                const imagePath = "{{ site.baseurl }}/assets/img/collection/thepockets/" + folderName + "/" + match.name;
+                const imagePath = "/assets/img/collection/thepockets/" + folderName + "/" + match.name;
                 document.getElementById("main-image").src = imagePath;
 
                 const thumbnailContainer = document.getElementById("thumbnail-container");
@@ -92,7 +92,7 @@ layout: default
                    
                         console.log("hola" + item.name);
                         const thumb = document.createElement("img");
-                        thumb.src = "{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/" + folderName + "/" + item.name;
+                        thumb.src = "/assets/img/collection/thepockets/" + folderName + "/" + item.name;
                         thumb.width = 70;
                         thumb.style.cursor = "pointer";
                         thumb.onclick = function () {
