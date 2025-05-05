@@ -15,7 +15,7 @@ layout: default
                     <div class="col-md-6">
                         <div class="images">
 
-                            <div class="w-100 p-2">
+                            <div class="image-wrapper w-100 p-2">
                                 <img id="main-image" class="main-img" src="https://i.imgur.com/Dhebu4F.jpg" />
                               </div>
                             <div id="thumbnail-container" class="thumbnail text-center">
@@ -83,7 +83,7 @@ layout: default
         for (const [folderName, items] of Object.entries(pocketsData)) {
             const match = items.find(item => String(item.id) === id);
             if (match) {
-                const imagePath = "/assets/img/collection/thepockets/" + folderName + "/" + match.name;
+                const imagePath = "{{site.url}}{{site.baseurl}}//assets/img/collection/thepockets/" + folderName + "/" + match.name;
                 document.getElementById("main-image").src = imagePath;
 
                 const thumbnailContainer = document.getElementById("thumbnail-container");
