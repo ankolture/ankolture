@@ -1,13 +1,13 @@
 thepockets:
   bowsy:
     - name: bowsy-men-black.jpg
-      url: shop
+      url: detailthirt?id=111
     - name: bowsy-men-white.jpg
-      url: shop
+      url: detailthirt?id=112
     - name: bowsy-women-black.jpg
-      url: shop
+      url: detailthirt?id=113
     - name: bowsy-women-white.jpg
-      url: shop
+      url: detailthirt?id=114
 
   donkeykong:
     - name: donkeykong-men-black.jpg

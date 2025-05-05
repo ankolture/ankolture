@@ -20,6 +20,8 @@ urls:
       url : /shop
     - text: Contact
       url : /contact
+    - text: Tshirt
+      url : /detailthirt
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
