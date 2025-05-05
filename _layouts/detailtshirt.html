@@ -96,7 +96,7 @@ layout: default
 
                               
                                 <div class="share-section text-muted">
-                                  <strong class="d-block mb-2">Compartir:</strong>
+                                  <strong class="d-block mb-2 share-text">Compartir:</strong>
                                   <div>
                                   
                                     <!-- WhatsApp -->
@@ -117,15 +117,15 @@ layout: default
 
 
 <!-- Modal personalizado -->
-<div class="modal fade" id="addToCartModal" tabindex="-1" aria-labelledby="addToCartModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+<div class="modal fade" id="addToCartModal" tabindex="-1">
+    <div class="modal-dialog  modal-fullscreen">
       <div class="modal-content bg-dark text-white"> <!-- Fondo negro y texto blanco -->
         <div class="modal-header border-0">
           <h5 class="modal-title text-white text-center w-100" id="addToCartModalLabel">Confirmar selección</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
         <div class="modal-body">
-            <p>Estos son los datos de la camiseta que has seleccionado.
+            <p class="text-center">Estos son los datos de la camiseta que has seleccionado.<br>
                 Si estás seguro de que toda la información es correcta, haz clic en Aceptar para continuar con tu pedido.<br>
                 Si detectas algún error, por favor haz clic en Cancelar, revisa los datos y vuelve a intentarlo.</p>
                 <div class="text-center">
@@ -135,8 +135,8 @@ layout: default
         </div>
         </div>
         <div class="modal-footer justify-content-center border-0"> <!-- Centra los botones -->
-          <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">Cancelar</button>
-          <button type="button" class="btn btn-primary" id="confirmAdd">Aceptar</button>
+          <button type="button" class="btn btn-secondary me-2" id="cancelModal" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="modal-accept" id="confirmAdd">Aceptar</button>
         </div>
       </div>
     </div>
@@ -232,5 +232,7 @@ document.getElementById("confirmAdd").addEventListener("click", function () {
   const redirectUrl = `/carrito.html?genero=${genero}&talla=${talla}&color=${color}`;
   window.location.href = redirectUrl;
 });
+
+
 
 </script>
