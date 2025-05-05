@@ -56,13 +56,15 @@ layout: default
                                 your everyday use, you could pair it with a stylish pair of jeans or
                                 trousers complete the look.</p>
 
-                                <!-- cuando seleccione tipo de tela cambiar precio y descripcion
-                                al seccionar premiun qutar fots de mujer y radio de genero -->
+                            <!-- cuando seleccione tipo de tela cambiar precio y descripcion
+                                al seccionar premiun dedesllcioanr genero y bloquear -->
                             <div class="sizes mt-2 align-items-center text-center">
-                                <h6 class="text-uppercase">TELA</h6> 
-                                <label class="radio"> <input type="radio" name="tela" value="Premium"> <span>Premium</span>
-                                </label> <label class="radio"> <input type="radio" name="tela" value="Normal" checked> <span>Normal</span>
-                           
+                                <h6 class="text-uppercase">TELA</h6>
+                                <label class="radio"> <input type="radio" name="cloth" value="Premium">
+                                    <span>Premium</span>
+                                </label> <label class="radio"> <input type="radio" name="cloth" value="Normal" checked>
+                                    <span>Normal</span>
+
                             </div>
 
                             <div class="sizes mt-2 align-items-center text-center">
@@ -148,6 +150,7 @@ layout: default
                         Si detectas algún error, por favor haz clic en Cancelar, revisa los datos y vuelve a intentarlo.
                     </p>
                     <div class="text-center">
+                        <p><strong>Tela:</strong> <span id="modal-tela"></span></p>
                         <p><strong>Género:</strong> <span id="modal-genero"></span></p>
                         <p><strong>Talla:</strong> <span id="modal-talla"></span></p>
                         <p><strong>Color:</strong> <span id="modal-color"></span></p>
@@ -250,7 +253,7 @@ layout: default
 
 
             const colorMap = {
-               "white.jpg": "Blanco",
+                "white.jpg": "Blanco",
                 "black.jpg": "Negro"
             };
 
@@ -276,6 +279,7 @@ layout: default
 
 
         function mostrarModal() {
+            const tela = document.querySelector('input[name="cloth"]:checked')?.value;
             const genero = document.querySelector('input[name="gender"]:checked')?.value;
             const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
                 document.querySelectorAll('input[name="size"]')[2].checked ? "L" :
@@ -283,6 +287,7 @@ layout: default
             const color = document.querySelector('input[name="color"]:checked')?.value;
 
 
+            document.getElementById("modal-tela").textContent = tela;
             document.getElementById("modal-genero").textContent = genero;
             document.getElementById("modal-talla").textContent = talla;
             document.getElementById("modal-color").textContent = color;
@@ -309,6 +314,25 @@ layout: default
 
 
 
+        });
+
+
+        document.querySelectorAll('input[name="cloth"]').forEach(function (radio) {
+            radio.addEventListener('change', function () {
+                const isPremium = this.value === "Premium";
+
+                const genderRadios = document.querySelectorAll('input[name="gender"]');
+
+                genderRadios.forEach(function (genderRadio) {
+                    genderRadio.disabled = isPremium;
+                    if (isPremium) {
+                        genderRadio.checked = false;
+                    }
+                    else{
+                        genderRadio.checked = true;
+                    }
+                });
+            });
         });
 
 
