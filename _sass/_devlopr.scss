@@ -1485,7 +1485,7 @@ footer {
     align-items: center;
     width: 100%;
   }
-  
+
  .main-img {
     width: 100%;         /* Ocupa el 95% del ancho del contenedor */
     height: auto !important;      /* Mantiene la proporción original */
@@ -1493,12 +1493,14 @@ footer {
     margin-left: auto;
     margin-right: auto;
     object-fit: contain; /* Asegura que no se recorte nada */
+    border: 4px solid #ffffff; /* Borde blanco de 4px */
+    border-radius: 20px;
   }
   
 
  #thumbnail-container img {
-    width: 70px;              /* Tamaño fijo de la imagen */
-    height: 70px;             /* Forzar que sea cuadrada */
+    width: 110px;              /* Tamaño fijo de la imagen */
+    height: 110px;             /* Forzar que sea cuadrada */
     margin: 5px;              /* Espaciado entre las imágenes */
     object-fit: cover;        /* Asegura que la imagen se ajuste correctamente dentro del contenedor */
     cursor: pointer;         /* Mantener el cursor como puntero cuando pasa sobre la imagen */
