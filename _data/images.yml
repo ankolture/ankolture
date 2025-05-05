@@ -1,13 +1,13 @@
 thepockets:
   bowsy:
     - name: bowsy-men-black.jpg
-      url: https://ejemplo.com/producto1
+      url: shop
     - name: bowsy-men-white.jpg
-      url: https://ejemplo.com/producto2
+      url: shop
     - name: bowsy-women-black.jpg
-      url: https://ejemplo.com/producto3
+      url: shop
     - name: bowsy-women-white.jpg
-      url: https://ejemplo.com/producto4
+      url: shop
 
   donkeykong:
     - name: donkeykong-men-black.jpg
