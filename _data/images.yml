@@ -15,40 +15,56 @@ thepockets:
 
   donkeykong:
     - name: donkeykong-men-black.jpg
+      id : 115
       url: https://ejemplo.com/dk1
     - name: donkeykong-men-white.jpg
+      id : 116
       url: https://ejemplo.com/dk2
     - name: donkeykong-women-black.jpg
+      id : 117
       url: https://ejemplo.com/dk3
     - name: donkeykong-women-white.jpg
+      id : 118
       url: https://ejemplo.com/dk4
 
   waluigi:
     - name: waluigi-men-black.jpg
+      id : 119
       url: https://ejemplo.com/waluigi1
     - name: waluigi-men-white.jpg
+      id : 121
       url: https://ejemplo.com/waluigi2
     - name: waluigi-women-black.jpg
+      id : 122
       url: https://ejemplo.com/waluigi3
     - name: waluigi-women-white.jpg
+      id : 123
       url: https://ejemplo.com/waluigi4
 
   wario:
     - name: wario-men-black.jpg
+      id : 124
       url: https://ejemplo.com/wario1
     - name: wario-men-white.jpg
+      id : 125
       url: https://ejemplo.com/wario2
     - name: wario-women-black.jpg
+      id : 126
       url: https://ejemplo.com/wario3
     - name: wario-women-white.jpg
+      id : 127
       url: https://ejemplo.com/wario4
 
   yoshi:
     - name: yoshi-men-black.jpg
+      id : 128
       url: https://ejemplo.com/yoshi1
     - name: yoshi-men-white.jpg
+      id : 129
       url: https://ejemplo.com/yoshi2
     - name: yoshi-women-black.jpg
+      id : 130
       url: https://ejemplo.com/yoshi3
     - name: yoshi-women-white.jpg
+      id : 131
       url: https://ejemplo.com/yoshi4
