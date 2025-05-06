@@ -69,10 +69,16 @@ layout: default
 
                             <div class="sizes mt-2 align-items-center text-center">
                                 <h6 class="text-uppercase">GENERO</h6>
+                                <div id="gender-radios">
                                 <label class="radio"> <input type="radio" name="gender" value="Hombre" checked>
                                     <span>HOMBRE</span></label>
                                 <label class="radio"> <input type="radio" name="gender" value="Mujer">
                                     <span>MUJER</span></label>
+                                </div>
+                                    <div id="gender-unisex" style="display: none;">
+                                        <label class="radio"> <input type="radio" name="gender" value="Unisex" checked>
+                                            <span>UNISEX</span></label>
+                                    </div>
 
                             </div>
 
@@ -238,6 +244,10 @@ layout: default
             const gender = document.getElementById("main-image").dataset.gender;
             const color = document.getElementById("main-image").dataset.color;
 
+            const selectedCloth = document.querySelector('input[name="cloth"]:checked');
+            const isPremium = selectedCloth && selectedCloth.value === "Premium";
+
+            if (!isPremium) {
             const genderMap = {
                 women: "Mujer",
                 men: "Hombre"
@@ -250,6 +260,7 @@ layout: default
             if (genderRadio) {
                 genderRadio.checked = true;
             }
+        }
 
 
             const colorMap = {
@@ -318,22 +329,33 @@ layout: default
 
 
         document.querySelectorAll('input[name="cloth"]').forEach(function (radio) {
-            radio.addEventListener('change', function () {
-                const isPremium = this.value === "Premium";
+    radio.addEventListener('change', function () {
+        const isPremium = this.value === "Premium";
 
-                const genderRadios = document.querySelectorAll('input[name="gender"]');
+        const genderRadiosContainer = document.getElementById('gender-radios');
+        const genderUnisexText = document.getElementById('gender-unisex');
+        const genderRadios = document.querySelectorAll('input[name="gender"]');
 
-                genderRadios.forEach(function (genderRadio) {
-                    genderRadio.disabled = isPremium;
-                    if (isPremium) {
-                        genderRadio.checked = false;
-                    }
-                    else{
-                        genderRadio.checked = true;
-                    }
-                });
+        if (isPremium) {
+        
+            genderRadiosContainer.style.display = "none";
+            genderUnisexText.style.display = "block";
+            genderRadios.forEach(r => {
+                r.disabled = true;
+                r.checked = (r.value === "Unisex");
             });
-        });
+        } else {
+          
+            genderRadiosContainer.style.display = "block";
+            genderUnisexText.style.display = "none";
+            genderRadios.forEach(r => {
+                r.disabled = false;
+                r.checked = (r.value === "Hombre");
+            });
+        }
+    });
+});
+
 
 
 
