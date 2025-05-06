@@ -44,6 +44,9 @@ layout: default
                             <div class="d-flex justify-content-between align-items-center">
 
                             </div>
+
+                            <img src="{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/thepocketsn.png"
+                                alt="" style="width: 160px; height: auto;" class="img-fluid d-block mx-auto mb-1">
                             <div class="mt-4 mb-3"> <span class="text-uppercase text-muted brand">Orianz</span>
                                 <h5 class="text-uppercase"><span class="tshirt-name">###</span> T-SHIRT</h5>
                                 <div class="price d-flex flex-row align-items-center"> <span
@@ -70,15 +73,15 @@ layout: default
                             <div class="sizes mt-2 align-items-center text-center">
                                 <h6 class="text-uppercase">GENERO</h6>
                                 <div id="gender-radios">
-                                <label class="radio"> <input type="radio" name="gender" value="Hombre" checked>
-                                    <span>HOMBRE</span></label>
-                                <label class="radio"> <input type="radio" name="gender" value="Mujer">
-                                    <span>MUJER</span></label>
+                                    <label class="radio"> <input type="radio" name="gender" value="Hombre" checked>
+                                        <span>HOMBRE</span></label>
+                                    <label class="radio"> <input type="radio" name="gender" value="Mujer">
+                                        <span>MUJER</span></label>
                                 </div>
-                                    <div id="gender-unisex" style="display: none;">
-                                        <label class="radio"> <input type="radio" name="gender" value="Unisex" checked>
-                                            <span>UNISEX</span></label>
-                                    </div>
+                                <div id="gender-unisex" style="display: none;">
+                                    <label class="radio"> <input type="radio" name="gender" value="Unisex" checked>
+                                        <span>UNISEX</span></label>
+                                </div>
 
                             </div>
 
@@ -248,19 +251,19 @@ layout: default
             const isPremium = selectedCloth && selectedCloth.value === "Premium";
 
             if (!isPremium) {
-            const genderMap = {
-                women: "Mujer",
-                men: "Hombre"
-            };
+                const genderMap = {
+                    women: "Mujer",
+                    men: "Hombre"
+                };
 
-            const genderRadio = document.querySelector(
-                `input[name="gender"][value="${genderMap[gender]}"]`
-            );
+                const genderRadio = document.querySelector(
+                    `input[name="gender"][value="${genderMap[gender]}"]`
+                );
 
-            if (genderRadio) {
-                genderRadio.checked = true;
+                if (genderRadio) {
+                    genderRadio.checked = true;
+                }
             }
-        }
 
 
             const colorMap = {
@@ -329,32 +332,32 @@ layout: default
 
 
         document.querySelectorAll('input[name="cloth"]').forEach(function (radio) {
-    radio.addEventListener('change', function () {
-        const isPremium = this.value === "Premium";
+            radio.addEventListener('change', function () {
+                const isPremium = this.value === "Premium";
 
-        const genderRadiosContainer = document.getElementById('gender-radios');
-        const genderUnisexText = document.getElementById('gender-unisex');
-        const genderRadios = document.querySelectorAll('input[name="gender"]');
+                const genderRadiosContainer = document.getElementById('gender-radios');
+                const genderUnisexText = document.getElementById('gender-unisex');
+                const genderRadios = document.querySelectorAll('input[name="gender"]');
 
-        if (isPremium) {
-        
-            genderRadiosContainer.style.display = "none";
-            genderUnisexText.style.display = "block";
-            genderRadios.forEach(r => {
-                r.disabled = true;
-                r.checked = (r.value === "Unisex");
+                if (isPremium) {
+
+                    genderRadiosContainer.style.display = "none";
+                    genderUnisexText.style.display = "block";
+                    genderRadios.forEach(r => {
+                        r.disabled = true;
+                        r.checked = (r.value === "Unisex");
+                    });
+                } else {
+
+                    genderRadiosContainer.style.display = "block";
+                    genderUnisexText.style.display = "none";
+                    genderRadios.forEach(r => {
+                        r.disabled = false;
+                        r.checked = (r.value === "Hombre");
+                    });
+                }
             });
-        } else {
-          
-            genderRadiosContainer.style.display = "block";
-            genderUnisexText.style.display = "none";
-            genderRadios.forEach(r => {
-                r.disabled = false;
-                r.checked = (r.value === "Hombre");
-            });
-        }
-    });
-});
+        });
 
 
 
