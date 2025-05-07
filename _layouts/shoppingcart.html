@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div id="carrito-listado" class="container mt-4"></div>
+<button onclick="clearLocalStorage()">LIMPIAR CARRITO</button>
 
 
 
@@ -43,5 +44,8 @@ function renderizarCarrito() {
   });
 }
 
-
+function clearLocalStorage() {
+    localStorage.clear();
+    alert("El almacenamiento local ha sido limpiado.");
+  }
     </script>
