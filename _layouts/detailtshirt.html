@@ -26,7 +26,12 @@ layout: default
                             </div>
 
                             <!-- Derecha: ícono de carrito -->
-                            <a href="#"><i class="fab fa-instagram"> VER EN INSTAGRAM</i></a>
+                            <a href="#"><i class="fab fa-instagram"></i> VER EN INSTAGRAM</a>
+                            <i class="fas fa-shopping-cart" style="margin-left: 10px; color:#fff; position: relative; font-size: 30px;">
+                                <span id="cart-count" style="position: absolute; top: -15px; right: -15px; background-color: #f69801; color: white; border-radius: 50%; padding: 5px 5px; font-size: 14px;">0</span>
+                              </i>
+                              
+                              
                         </div>
                         <div class="images">
 
@@ -66,6 +71,7 @@ layout: default
                                     <span>Premium</span>
                                 </label> <label class="radio"> <input type="radio" name="cloth" value="Normal" checked>
                                     <span>Normal</span>
+                                </label>
 
                             </div>
 
@@ -111,13 +117,24 @@ layout: default
 
                             </div>
 
+                            <div class="cantidad-container" style="margin-top: 10px;">
+                                <label for="cantidad">Cantidad:</label>
+                                <div class="cantidad-contenido">
+                                    <button id="restar" class="btn-cantidad" disabled>-</button>
+                                    <span id="cantidad" class="cantidad-texto">0</span>
+                                    <button id="sumar" class="btn-cantidad">+</button>
+                                </div>
+                            </div>
+
 
 
 
                             <div class="cart mt-4 d-flex flex-column align-items-center text-center">
 
-                                <button class="btn btn-danger text-uppercase mb-3 px-4" onclick="mostrarModal()">Agregar
-                                    al Carrito</button>
+                                <button class="btn btn-danger text-uppercase mb-3 px-4" onclick="mostrarModal()">Realizar Pedido</button>
+
+                                    <button class="btn btn-danger text-uppercase mb-3 px-4" onclick="agregarAlCarrito()">Agregar al Carrito Nuevo</button>
+
 
 
                                 <div class="share-section text-muted">
@@ -194,7 +211,7 @@ layout: default
 
 
                     currentProduct = match;
-                
+
 
                     const imagePath = "{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/" + folderName + "/" + match.name;
                     document.getElementById("main-image").src = imagePath;
@@ -378,6 +395,92 @@ layout: default
                 }
             });
         });
+
+
+
+
+
+        const btnSumar = document.getElementById('sumar');
+        const btnRestar = document.getElementById('restar');
+        const cantidadSpan = document.getElementById('cantidad');
+        let cantidad = 0;
+
+
+        btnSumar.addEventListener('click', (event) => {
+            event.preventDefault();
+            cantidad++;
+            cantidadSpan.textContent = cantidad;
+            btnRestar.disabled = false;
+        });
+
+
+        btnRestar.addEventListener('click', (event) => {
+            event.preventDefault();
+            if (cantidad > 0) {
+                cantidad--;
+                cantidadSpan.textContent = cantidad;
+                if (cantidad === 0) {
+                    btnRestar.disabled = true;
+                }
+            }
+        });
+
+
+
+
+       
+        const cartCount = document.getElementById('cart-count');
+
+function agregarAlCarrito() {
+  const tela = document.querySelector('input[name="cloth"]:checked')?.value;
+  const genero = document.querySelector('input[name="gender"]:checked')?.value;
+  const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
+                document.querySelectorAll('input[name="size"]')[2].checked ? "L" :
+                document.querySelectorAll('input[name="size"]')[3].checked ? "XL" : "S";
+  const color = document.querySelector('input[name="color"]:checked')?.value;
+  const cantidad = parseInt(cantidadSpan.textContent);
+
+  if (!talla || !color || cantidad <= 0) {
+    alert("Por favor, selecciona una talla, un color y una cantidad.");
+    return;
+  }
+
+  const producto = {
+    talla: talla,
+    color: color
+  };
+
+  let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+
+
+  const productoExistente = carrito.find(p => p.talla === producto.talla && p.color === producto.color);
+
+  if (productoExistente) {
+   
+    productoExistente.cantidad += cantidad;
+  } else {
+
+    producto.cantidad = cantidad;
+    carrito.push(producto);
+  }
+
+  localStorage.setItem('carrito', JSON.stringify(carrito));
+
+  actualizarContadorCarrito();
+}
+
+function actualizarContadorCarrito() {
+  const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+
+
+  const totalProductos = carrito.reduce((sum, prod) => sum + prod.cantidad, 0);
+
+  cartCount.textContent = totalProductos;
+}
+
+document.addEventListener('DOMContentLoaded', actualizarContadorCarrito);
+
+
 
 
     </script>

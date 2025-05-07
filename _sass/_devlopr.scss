@@ -1372,8 +1372,8 @@ footer {
     border-radius: 40px;
   
     font-size: 18px;
+    text-decoration: none;
   }
-
 
 
 
@@ -1581,3 +1581,74 @@ footer {
     border: 2px solid #f69801;
   }
 
+
+
+
+
+
+
+
+  label[for="cantidad"] {
+    color: white; /* Color blanco */
+    font-size: 16px; /* Tamaño de texto */
+    font-weight: bold; /* Texto en negrita */
+    display: block; /* Hacer que el label ocupe todo el ancho */
+  }
+  
+  /* Estilo para el contenedor de los botones y el texto de cantidad */
+  .cantidad-container {
+    display: flex; /* Usamos flexbox */
+    flex-direction: column; /* Apilamos los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+  }
+  
+  /* Contenedor que tiene los botones y el texto de cantidad */
+  .cantidad-contenido {
+    display: flex; /* Usamos flexbox */
+    flex-direction: row; /* Alineamos los botones y el texto en una fila */
+    align-items: center; /* Centra los elementos verticalmente */
+    gap: 10px; /* Espacio entre los elementos */
+  }
+  
+  /* Estilo para los botones de cantidad */
+  .btn-cantidad {
+    background-color: white; /* Fondo blanco */
+    color: black; /* Texto negro */
+    font-size: 18px; /* Tamaño de fuente */
+    padding: 10px 15px; /* Espaciado alrededor del texto */
+    border: 2px solid black; /* Borde negro */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Transición suave */
+    display: inline-block; /* Asegura que los botones estén alineados horizontalmente */
+    box-sizing: border-box; /* Para mantener las dimensiones constantes */
+  }
+  
+  /* Estilo cuando el botón está en hover */
+  .btn-cantidad:hover {
+    background-color: black; /* Fondo negro al hacer hover */
+    color: white; /* Texto blanco al hacer hover */
+    transform: none; /* Evitar cualquier cambio de movimiento */
+  }
+  
+  /* Estilo para el estado activo (cuando se hace clic) */
+  .btn-cantidad:active {
+    transform: none; /* Evitar cualquier cambio de movimiento */
+  }
+  
+  /* Estilo para el texto de cantidad */
+  .cantidad-texto {
+    font-size: 20px; /* Tamaño de texto */
+    font-weight: bold; /* Texto en negrita */
+    margin: 0 10px; /* Margen entre los botones y el texto */
+    color: white;
+  }
+  
+  /* Desactivar el botón cuando no se puede restar */
+  #restar:disabled {
+    background-color: #e0e0e0; /* Fondo gris claro */
+    color: #b0b0b0; /* Texto gris */
+    cursor: not-allowed; /* Cursor de no permitido */
+  }
+  
