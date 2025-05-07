@@ -51,15 +51,15 @@ layout: default
                                 <h5 class="text-uppercase"><span class="tshirt-name">###</span> T-SHIRT</h5>
                                 <div class="price d-flex flex-row align-items-center"> <span
                                         class="act-price">$60.000</span> <span>COP</span>
-                                    <div class="ml-2"> <small class="dis-price">.</small> <span>INCLUYE ENVIO</span> </div>
+                                    <div class="ml-2"> <small class="dis-price">.</small> <span>INCLUYE ENVIO</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="about">Shop from a wide range of t-shirt from orianz. Pefect for
                                 your everyday use, you could pair it with a stylish pair of jeans or
                                 trousers complete the look.</p>
 
-                            <!-- cuando seleccione tipo de tela cambiar precio y descripcion
-                                al seccionar premiun dedesllcioanr genero y bloquear -->
+
                             <div class="sizes mt-2 align-items-center text-center">
                                 <h6 class="text-uppercase">TELA</h6>
                                 <label class="radio"> <input type="radio" name="cloth" value="Premium">
@@ -177,6 +177,8 @@ layout: default
 
 
     <script>
+
+        let currentProduct = null;
         const pocketsData = {{ site.data.images.thepockets | jsonify }};
         const params = new URLSearchParams(window.location.search);
         const id = params.get("id");
@@ -189,10 +191,21 @@ layout: default
             for (const [folderName, items] of Object.entries(pocketsData)) {
                 const match = items.find(item => String(item.id) === id);
                 if (match) {
+
+
+                    currentProduct = match;
+                
+
                     const imagePath = "{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/" + folderName + "/" + match.name;
                     document.getElementById("main-image").src = imagePath;
                     document.getElementById("main-image").dataset.pid = id;
 
+
+                    document.querySelector('.act-price').textContent = '$' + match.price_premium;
+                    document.querySelector('.about').textContent = match.description_premium;
+
+                    document.querySelector('.act-price').textContent = '$' + match.price_normal;
+                    document.querySelector('.about').textContent = match.description_normal;
 
                     document.querySelector("a[href='#'] i.fab.fa-instagram").parentElement.href = match.url_instagram;
 
@@ -332,6 +345,7 @@ layout: default
 
         document.querySelectorAll('input[name="cloth"]').forEach(function (radio) {
             radio.addEventListener('change', function () {
+
                 const isPremium = this.value === "Premium";
 
                 const genderRadiosContainer = document.getElementById('gender-radios');
@@ -346,6 +360,9 @@ layout: default
                         r.disabled = true;
                         r.checked = (r.value === "Unisex");
                     });
+
+                    document.querySelector('.act-price').textContent = '$' + currentProduct.price_premium;
+                    document.querySelector('.about').textContent = currentProduct.description_premium;
                 } else {
 
                     genderRadiosContainer.style.display = "block";
@@ -354,11 +371,12 @@ layout: default
                         r.disabled = false;
                         r.checked = (r.value === "Hombre");
                     });
+
+                    document.querySelector('.act-price').textContent = '$' + currentProduct.price_normal;
+                    document.querySelector('.about').textContent = currentProduct.description_normal;
                 }
             });
         });
-
-
 
 
     </script>
