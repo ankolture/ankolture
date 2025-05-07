@@ -27,11 +27,13 @@ layout: default
 
                             <!-- Derecha: ícono de carrito -->
                             <a href="#"><i class="fab fa-instagram"></i> VER EN INSTAGRAM</a>
-                            <i class="fas fa-shopping-cart" style="margin-left: 10px; color:#fff; position: relative; font-size: 30px;">
-                                <span class="cart-count" style="position: absolute; top: -15px; right: -15px; background-color: #f69801; color: white; border-radius: 50%; padding: 5px 5px; font-size: 14px;">0</span>
-                              </i>
-                              
-                              
+                            <i class="fas fa-shopping-cart"
+                                style="margin-left: 10px; color:#fff; position: relative; font-size: 30px;">
+                                <span class="cart-count"
+                                    style="position: absolute; top: -15px; right: -15px; background-color: #f69801; color: white; border-radius: 50%; padding: 5px 5px; font-size: 14px;">0</span>
+                            </i>
+
+
                         </div>
                         <div class="images">
 
@@ -131,376 +133,384 @@ layout: default
 
                             <div class="cart mt-4 d-flex flex-column align-items-center text-center">
 
-                                <button class="btn btn-danger text-uppercase mb-3 px-4" onclick="mostrarModal()">Realizar Pedido</button>
+                                <button class="btn btn-danger text-uppercase mb-3 px-4"
+                                    onclick="mostrarModal()">Realizar Pedido</button>
 
-                                    <button class="btn btn-danger text-uppercase mb-3 px-4" onclick="agregarAlCarrito()">Agregar al Carrito Nuevo</button>
+                                <button class="btn btn-danger text-uppercase mb-3 px-4"
+                                    onclick="agregarAlCarrito()">Agregar al Carrito Nuevo</button>
 
-                                    <div id="btnHola" style="display: none;" >
-                                    <i class="fas fa-shopping-cart" style="margin-left: 10px; color:#fff; position: relative; font-size: 30px;">
-                                        <span class="cart-count" style="position: absolute; top: -15px; right: -15px; background-color: #f69801; color: white; border-radius: 50%; padding: 5px 5px; font-size: 14px;">0</span>
-                                      </i>
+                                <div id="btnHola" style="display: none;">
+                                    <a href="{{site.url}}{{site.baseurl}}/shoppingcart">VER CARRITO</a>
                                     </dic>
 
 
 
-                                <div class="share-section text-muted">
-                                    <strong class="d-block mb-2 share-text">Compartir:</strong>
-                                    <div>
+                                    <div class="share-section text-muted">
+                                        <strong class="d-block mb-2 share-text">Compartir:</strong>
+                                        <div>
 
-                                        <!-- WhatsApp -->
-                                        <a href="#" onclick="shareWhatsApp()" class="share-icon mx-2">
-                                            <i class="fab fa-whatsapp"></i>
-                                        </a>
+                                            <!-- WhatsApp -->
+                                            <a href="#" onclick="shareWhatsApp()" class="share-icon mx-2">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
-    <!-- Modal personalizado -->
-    <div class="modal fade" id="addToCartModal" tabindex="-1">
-        <div class="modal-dialog  modal-fullscreen">
-            <div class="modal-content bg-dark text-white"> <!-- Fondo negro y texto blanco -->
-                <div class="modal-header border-0">
-                    <h5 class="modal-title text-white text-center w-100" id="addToCartModalLabel">Confirmar selección
-                    </h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
-                        aria-label="Cerrar"></button>
-                </div>
-                <div class="modal-body">
-                    <p class="text-center">Estos son los datos de la camiseta que has seleccionado.<br>
-                        Si estás seguro de que toda la información es correcta, haz clic en Aceptar para continuar con
-                        tu pedido.<br>
-                        Si detectas algún error, por favor haz clic en Cancelar, revisa los datos y vuelve a intentarlo.
-                    </p>
-                    <div class="text-center">
-                        <p><strong>Tela:</strong> <span id="modal-tela"></span></p>
-                        <p><strong>Género:</strong> <span id="modal-genero"></span></p>
-                        <p><strong>Talla:</strong> <span id="modal-talla"></span></p>
-                        <p><strong>Color:</strong> <span id="modal-color"></span></p>
+        <!-- Modal personalizado -->
+        <div class="modal fade" id="addToCartModal" tabindex="-1">
+            <div class="modal-dialog  modal-fullscreen">
+                <div class="modal-content bg-dark text-white"> <!-- Fondo negro y texto blanco -->
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title text-white text-center w-100" id="addToCartModalLabel">Confirmar
+                            selección
+                        </h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Cerrar"></button>
                     </div>
-                </div>
-                <div class="modal-footer justify-content-center border-0"> <!-- Centra los botones -->
-                    <button type="button" class="btn btn-secondary me-2" id="cancelModal"
-                        data-bs-dismiss="modal">Cancelar</button>
-                    <button type="button" class="modal-accept" id="confirmAdd">Aceptar</button>
+                    <div class="modal-body">
+                        <p class="text-center">Estos son los datos de la camiseta que has seleccionado.<br>
+                            Si estás seguro de que toda la información es correcta, haz clic en Aceptar para continuar
+                            con
+                            tu pedido.<br>
+                            Si detectas algún error, por favor haz clic en Cancelar, revisa los datos y vuelve a
+                            intentarlo.
+                        </p>
+                        <div class="text-center">
+                            <p><strong>Tela:</strong> <span id="modal-tela"></span></p>
+                            <p><strong>Género:</strong> <span id="modal-genero"></span></p>
+                            <p><strong>Talla:</strong> <span id="modal-talla"></span></p>
+                            <p><strong>Color:</strong> <span id="modal-color"></span></p>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center border-0"> <!-- Centra los botones -->
+                        <button type="button" class="btn btn-secondary me-2" id="cancelModal"
+                            data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="modal-accept" id="confirmAdd">Aceptar</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
 
-    <script>
+        <script>
 
-        let currentProduct = null;
-        const pocketsData = {{ site.data.images.thepockets | jsonify }};
-        const params = new URLSearchParams(window.location.search);
-        const id = params.get("id");
+            let currentProduct = null;
+            const pocketsData = {{ site.data.images.thepockets | jsonify }};
+            const params = new URLSearchParams(window.location.search);
+            const id = params.get("id");
 
-        if (id) {
-            document.querySelector(".tshirt-id").textContent = "SKU: " + id;
+            if (id) {
+                document.querySelector(".tshirt-id").textContent = "SKU: " + id;
 
-            let found = false;
+                let found = false;
 
-            for (const [folderName, items] of Object.entries(pocketsData)) {
-                const match = items.find(item => String(item.id) === id);
-                if (match) {
-
-
-                    currentProduct = match;
+                for (const [folderName, items] of Object.entries(pocketsData)) {
+                    const match = items.find(item => String(item.id) === id);
+                    if (match) {
 
 
-                    const imagePath = "{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/" + folderName + "/" + match.name;
-                    document.getElementById("main-image").src = imagePath;
-                    document.getElementById("main-image").dataset.pid = id;
+                        currentProduct = match;
 
 
-                    document.querySelector('.act-price').textContent = '$' + match.price_premium;
-                    document.querySelector('.about').textContent = match.description_premium;
-
-                    document.querySelector('.act-price').textContent = '$' + match.price_normal;
-                    document.querySelector('.about').textContent = match.description_normal;
-
-                    document.querySelector("a[href='#'] i.fab.fa-instagram").parentElement.href = match.url_instagram;
+                        const imagePath = "{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/" + folderName + "/" + match.name;
+                        document.getElementById("main-image").src = imagePath;
+                        document.getElementById("main-image").dataset.pid = id;
 
 
-                    document.querySelectorAll(".tshirt-name").forEach(function (el) {
-                        el.textContent = folderName.toUpperCase();
-                    });
+                        document.querySelector('.act-price').textContent = '$' + match.price_premium;
+                        document.querySelector('.about').textContent = match.description_premium;
 
-                    const thumbnailContainer = document.getElementById("thumbnail-container");
-                    thumbnailContainer.innerHTML = "";
+                        document.querySelector('.act-price').textContent = '$' + match.price_normal;
+                        document.querySelector('.about').textContent = match.description_normal;
 
-                    items.forEach(item => {
-
-                        const attribtshirt = item.name.split('-');
+                        document.querySelector("a[href='#'] i.fab.fa-instagram").parentElement.href = match.url_instagram;
 
 
-                        const thumb = document.createElement("img");
-                        thumb.src = "{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/" + folderName + "/" + item.name;
-                        thumb.width = 70;
-                        thumb.style.cursor = "pointer";
-                        thumb.dataset.name = attribtshirt[0];
-                        thumb.dataset.gender = attribtshirt[1];
-                        thumb.dataset.color = attribtshirt[2];
+                        document.querySelectorAll(".tshirt-name").forEach(function (el) {
+                            el.textContent = folderName.toUpperCase();
+                        });
 
-                        thumb.onclick = function () {
-                            document.getElementById("main-image").dataset.pid = item.id;
-                            document.getElementById("main-image").dataset.name = attribtshirt[0];
-                            document.getElementById("main-image").dataset.gender = attribtshirt[1];
-                            document.getElementById("main-image").dataset.color = attribtshirt[2];
-                            document.querySelector(".tshirt-id").textContent = "SKU: " + item.id;
-                            change_image(this);
-                        };
-                        thumbnailContainer.appendChild(thumb);
+                        const thumbnailContainer = document.getElementById("thumbnail-container");
+                        thumbnailContainer.innerHTML = "";
+
+                        items.forEach(item => {
+
+                            const attribtshirt = item.name.split('-');
 
 
-                    });
+                            const thumb = document.createElement("img");
+                            thumb.src = "{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/" + folderName + "/" + item.name;
+                            thumb.width = 70;
+                            thumb.style.cursor = "pointer";
+                            thumb.dataset.name = attribtshirt[0];
+                            thumb.dataset.gender = attribtshirt[1];
+                            thumb.dataset.color = attribtshirt[2];
 
-                    found = true;
-                    break;
+                            thumb.onclick = function () {
+                                document.getElementById("main-image").dataset.pid = item.id;
+                                document.getElementById("main-image").dataset.name = attribtshirt[0];
+                                document.getElementById("main-image").dataset.gender = attribtshirt[1];
+                                document.getElementById("main-image").dataset.color = attribtshirt[2];
+                                document.querySelector(".tshirt-id").textContent = "SKU: " + item.id;
+                                change_image(this);
+                            };
+                            thumbnailContainer.appendChild(thumb);
+
+
+                        });
+
+                        found = true;
+                        break;
+                    }
+                }
+
+                if (!found) {
+                    console.warn("Imagen no encontrada para ID:", id);
                 }
             }
 
-            if (!found) {
-                console.warn("Imagen no encontrada para ID:", id);
-            }
-        }
+            function change_image(image) {
+                document.getElementById("main-image").src = image.src;
 
-        function change_image(image) {
-            document.getElementById("main-image").src = image.src;
+                const gender = document.getElementById("main-image").dataset.gender;
+                const color = document.getElementById("main-image").dataset.color;
 
-            const gender = document.getElementById("main-image").dataset.gender;
-            const color = document.getElementById("main-image").dataset.color;
+                const selectedCloth = document.querySelector('input[name="cloth"]:checked');
+                const isPremium = selectedCloth && selectedCloth.value === "Premium";
 
-            const selectedCloth = document.querySelector('input[name="cloth"]:checked');
-            const isPremium = selectedCloth && selectedCloth.value === "Premium";
+                if (!isPremium) {
+                    const genderMap = {
+                        women: "Mujer",
+                        men: "Hombre"
+                    };
 
-            if (!isPremium) {
-                const genderMap = {
-                    women: "Mujer",
-                    men: "Hombre"
+                    const genderRadio = document.querySelector(
+                        `input[name="gender"][value="${genderMap[gender]}"]`
+                    );
+
+                    if (genderRadio) {
+                        genderRadio.checked = true;
+                    }
+                }
+
+
+                const colorMap = {
+                    "white.jpg": "Blanco",
+                    "black.jpg": "Negro"
                 };
 
-                const genderRadio = document.querySelector(
-                    `input[name="gender"][value="${genderMap[gender]}"]`
+                const colorRadio = document.querySelector(
+                    `input[name="color"][value="${colorMap[color]}"]`
                 );
 
-                if (genderRadio) {
-                    genderRadio.checked = true;
+                if (colorRadio) {
+                    colorRadio.checked = true;
                 }
             }
 
 
-            const colorMap = {
-                "white.jpg": "Blanco",
-                "black.jpg": "Negro"
-            };
 
-            const colorRadio = document.querySelector(
-                `input[name="color"][value="${colorMap[color]}"]`
-            );
+            const pageUrl = window.location.href;
+            const message = encodeURIComponent("¡Mira esta super camiseta que encontré!");
 
-            if (colorRadio) {
-                colorRadio.checked = true;
+            function shareWhatsApp() {
+                const url = `https://api.whatsapp.com/send?text=${message}%20${encodeURIComponent(pageUrl)}`;
+                window.open(url, '_blank');
             }
-        }
 
 
 
-        const pageUrl = window.location.href;
-        const message = encodeURIComponent("¡Mira esta super camiseta que encontré!");
-
-        function shareWhatsApp() {
-            const url = `https://api.whatsapp.com/send?text=${message}%20${encodeURIComponent(pageUrl)}`;
-            window.open(url, '_blank');
-        }
-
-
-
-        function mostrarModal() {
-            const tela = document.querySelector('input[name="cloth"]:checked')?.value;
-            const genero = document.querySelector('input[name="gender"]:checked')?.value;
-            const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
-                document.querySelectorAll('input[name="size"]')[2].checked ? "L" :
-                    document.querySelectorAll('input[name="size"]')[3].checked ? "XL" : "S";
-            const color = document.querySelector('input[name="color"]:checked')?.value;
+            function mostrarModal() {
+                const tela = document.querySelector('input[name="cloth"]:checked')?.value;
+                const genero = document.querySelector('input[name="gender"]:checked')?.value;
+                const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
+                    document.querySelectorAll('input[name="size"]')[2].checked ? "L" :
+                        document.querySelectorAll('input[name="size"]')[3].checked ? "XL" : "S";
+                const color = document.querySelector('input[name="color"]:checked')?.value;
 
 
-            document.getElementById("modal-tela").textContent = tela;
-            document.getElementById("modal-genero").textContent = genero;
-            document.getElementById("modal-talla").textContent = talla;
-            document.getElementById("modal-color").textContent = color;
+                document.getElementById("modal-tela").textContent = tela;
+                document.getElementById("modal-genero").textContent = genero;
+                document.getElementById("modal-talla").textContent = talla;
+                document.getElementById("modal-color").textContent = color;
 
 
-            const modal = new bootstrap.Modal(document.getElementById('addToCartModal'));
-            modal.show();
-        }
+                const modal = new bootstrap.Modal(document.getElementById('addToCartModal'));
+                modal.show();
+            }
 
-        document.getElementById("confirmAdd").addEventListener("click", function () {
-            const tela = document.querySelector('input[name="cloth"]:checked')?.value;
-            const genero = document.querySelector('input[name="gender"]:checked')?.value;
-            const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
-                document.querySelectorAll('input[name="size"]')[2].checked ? "L" :
-                    document.querySelectorAll('input[name="size"]')[3].checked ? "XL" : "S";
-            const color = document.querySelector('input[name="color"]:checked')?.value;
+            document.getElementById("confirmAdd").addEventListener("click", function () {
+                const tela = document.querySelector('input[name="cloth"]:checked')?.value;
+                const genero = document.querySelector('input[name="gender"]:checked')?.value;
+                const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
+                    document.querySelectorAll('input[name="size"]')[2].checked ? "L" :
+                        document.querySelectorAll('input[name="size"]')[3].checked ? "XL" : "S";
+                const color = document.querySelector('input[name="color"]:checked')?.value;
 
-            const message = encodeURIComponent(`¡Hola! Acabo de realizar mi pedido de la camiseta y estoy emocionado de recibirla. Quisiera confirmar que todo está en orden y que el pedido está siendo procesado. Detalles del pedido: Tela: ${tela}, Género: ${genero}, Talla: ${talla}, Color: ${color}`);
+                const message = encodeURIComponent(`¡Hola! Acabo de realizar mi pedido de la camiseta y estoy emocionado de recibirla. Quisiera confirmar que todo está en orden y que el pedido está siendo procesado. Detalles del pedido: Tela: ${tela}, Género: ${genero}, Talla: ${talla}, Color: ${color}`);
 
-            const phoneNumber = '573233398124';
-            const pid = document.getElementById("main-image").dataset.pid;
-            const pageUrl = `${window.location.origin}${window.location.pathname}?id=${pid}`;
-            const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${decodeURIComponent(message)}%20${decodeURIComponent(pageUrl)}`;
-            window.open(url);
+                const phoneNumber = '573233398124';
+                const pid = document.getElementById("main-image").dataset.pid;
+                const pageUrl = `${window.location.origin}${window.location.pathname}?id=${pid}`;
+                const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${decodeURIComponent(message)}%20${decodeURIComponent(pageUrl)}`;
+                window.open(url);
 
 
 
-        });
+            });
 
 
-        document.querySelectorAll('input[name="cloth"]').forEach(function (radio) {
-            radio.addEventListener('change', function () {
+            document.querySelectorAll('input[name="cloth"]').forEach(function (radio) {
+                radio.addEventListener('change', function () {
 
-                const isPremium = this.value === "Premium";
+                    const isPremium = this.value === "Premium";
 
-                const genderRadiosContainer = document.getElementById('gender-radios');
-                const genderUnisexText = document.getElementById('gender-unisex');
-                const genderRadios = document.querySelectorAll('input[name="gender"]');
+                    const genderRadiosContainer = document.getElementById('gender-radios');
+                    const genderUnisexText = document.getElementById('gender-unisex');
+                    const genderRadios = document.querySelectorAll('input[name="gender"]');
 
-                if (isPremium) {
+                    if (isPremium) {
 
-                    genderRadiosContainer.style.display = "none";
-                    genderUnisexText.style.display = "block";
-                    genderRadios.forEach(r => {
-                        r.disabled = true;
-                        r.checked = (r.value === "Unisex");
-                    });
+                        genderRadiosContainer.style.display = "none";
+                        genderUnisexText.style.display = "block";
+                        genderRadios.forEach(r => {
+                            r.disabled = true;
+                            r.checked = (r.value === "Unisex");
+                        });
 
-                    document.querySelector('.act-price').textContent = '$' + currentProduct.price_premium;
-                    document.querySelector('.about').textContent = currentProduct.description_premium;
-                } else {
+                        document.querySelector('.act-price').textContent = '$' + currentProduct.price_premium;
+                        document.querySelector('.about').textContent = currentProduct.description_premium;
+                    } else {
 
-                    genderRadiosContainer.style.display = "block";
-                    genderUnisexText.style.display = "none";
-                    genderRadios.forEach(r => {
-                        r.disabled = false;
-                        r.checked = (r.value === "Hombre");
-                    });
+                        genderRadiosContainer.style.display = "block";
+                        genderUnisexText.style.display = "none";
+                        genderRadios.forEach(r => {
+                            r.disabled = false;
+                            r.checked = (r.value === "Hombre");
+                        });
 
-                    document.querySelector('.act-price').textContent = '$' + currentProduct.price_normal;
-                    document.querySelector('.about').textContent = currentProduct.description_normal;
+                        document.querySelector('.act-price').textContent = '$' + currentProduct.price_normal;
+                        document.querySelector('.about').textContent = currentProduct.description_normal;
+                    }
+                });
+            });
+
+
+
+
+
+            const btnSumar = document.getElementById('sumar');
+            const btnRestar = document.getElementById('restar');
+            const cantidadSpan = document.getElementById('cantidad');
+            let cantidadd = 0;
+
+
+            btnSumar.addEventListener('click', (event) => {
+                event.preventDefault();
+                cantidadd++;
+                cantidadSpan.textContent = cantidadd;
+                btnRestar.disabled = false;
+            });
+
+
+            btnRestar.addEventListener('click', (event) => {
+                event.preventDefault();
+                if (cantidadd > 0) {
+                    cantidadd--;
+                    cantidadSpan.textContent = cantidadd;
+                    if (cantidadd === 0) {
+                        btnRestar.disabled = true;
+                    }
                 }
             });
-        });
 
 
 
 
 
-        const btnSumar = document.getElementById('sumar');
-        const btnRestar = document.getElementById('restar');
-        const cantidadSpan = document.getElementById('cantidad');
-        let cantidadd = 0;
+
+            const cartCount = document.querySelectorAll('.cart-count');
 
 
-        btnSumar.addEventListener('click', (event) => {
-            event.preventDefault();
-            cantidadd++;
-            cantidadSpan.textContent = cantidadd;
-            btnRestar.disabled = false;
-        });
+            function agregarAlCarrito() {
+                const tela = document.querySelector('input[name="cloth"]:checked')?.value;
+                const genero = document.querySelector('input[name="gender"]:checked')?.value;
+                const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
+                    document.querySelectorAll('input[name="size"]')[2].checked ? "L" :
+                        document.querySelectorAll('input[name="size"]')[3].checked ? "XL" : "S";
+                const color = document.querySelector('input[name="color"]:checked')?.value;
+                const cantidad = parseInt(cantidadSpan.textContent);
+
+                if (!talla || !color || cantidad <= 0) {
+                    alert("Por favor, selecciona una talla, un color y una cantidad.");
+                    return;
+                }
+
+                const producto = {
+                    id: id,
+                    name: "",
+                    tela: tela,
+                    genero: genero,
+                    talla: talla,
+                    color: color,
+                    price: 0
+                };
+
+                let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
 
-        btnRestar.addEventListener('click', (event) => {
-            event.preventDefault();
-            if (cantidadd > 0) {
-                cantidadd--;
-                cantidadSpan.textContent = cantidadd;
-                if (cantidadd === 0) {
-                    btnRestar.disabled = true;
+                const productoExistente = carrito.find(p => p.talla === producto.talla && p.color === producto.color);
+
+                if (productoExistente) {
+
+                    productoExistente.cantidad += cantidad;
+                } else {
+
+                    producto.cantidad = cantidad;
+                    carrito.push(producto);
+                }
+
+                localStorage.setItem('carrito', JSON.stringify(carrito));
+
+                actualizarContadorCarrito();
+
+                window.cantidad = 0;
+                cantidadd = 0;
+                cantidadSpan.textContent = 0;
+                btnRestar.disabled = true;
+            }
+
+            function actualizarContadorCarrito() {
+                const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+                cartCount.textContent = carrito.length;
+
+
+                const totalProductos = carrito.reduce((sum, prod) => sum + prod.cantidad, 0);
+                cartCount.forEach(el => el.textContent = totalProductos);
+
+                const btnHola = document.getElementById('btnHola');
+                if (carrito.length > 0) {
+                    btnHola.style.display = 'inline-block';
+                } else {
+                    btnHola.style.display = 'none';
                 }
             }
-        });
+
+            document.addEventListener('DOMContentLoaded', actualizarContadorCarrito);
 
 
 
 
-       
-  
-        const cartCount = document.querySelectorAll('.cart-count');
-
-
-function agregarAlCarrito() {
-  const tela = document.querySelector('input[name="cloth"]:checked')?.value;
-  const genero = document.querySelector('input[name="gender"]:checked')?.value;
-  const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
-                document.querySelectorAll('input[name="size"]')[2].checked ? "L" :
-                document.querySelectorAll('input[name="size"]')[3].checked ? "XL" : "S";
-  const color = document.querySelector('input[name="color"]:checked')?.value;
-  const cantidad = parseInt(cantidadSpan.textContent);
-
-  if (!talla || !color || cantidad <= 0) {
-    alert("Por favor, selecciona una talla, un color y una cantidad.");
-    return;
-  }
-
-  const producto = {
-    talla: talla,
-    color: color
-  };
-
-  let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
-
-
-  const productoExistente = carrito.find(p => p.talla === producto.talla && p.color === producto.color);
-
-  if (productoExistente) {
-   
-    productoExistente.cantidad += cantidad;
-  } else {
-
-    producto.cantidad = cantidad;
-    carrito.push(producto);
-  }
-
-  localStorage.setItem('carrito', JSON.stringify(carrito));
-
-  actualizarContadorCarrito();
-
-  window.cantidad = 0;
-  cantidadd = 0;
-  cantidadSpan.textContent = 0;
-  btnRestar.disabled = true;
-}
-
-function actualizarContadorCarrito() {
-  const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
-  cartCount.textContent = carrito.length;
-
-
-  const totalProductos = carrito.reduce((sum, prod) => sum + prod.cantidad, 0);
-  cartCount.forEach(el => el.textContent = totalProductos);
-
-  const btnHola = document.getElementById('btnHola');
-  if (carrito.length > 0) {
-    btnHola.style.display = 'inline-block';
-  } else {
-    btnHola.style.display = 'none';
-  }
-}
-
-document.addEventListener('DOMContentLoaded', actualizarContadorCarrito);
-
-
-
-
-    </script>
+        </script>
