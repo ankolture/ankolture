@@ -28,6 +28,8 @@
 
 
 function agregarAlCarrito() {
+
+    const name = document.querySelector('.tshirt-name').textContent;
     const tela = document.querySelector('input[name="cloth"]:checked')?.value;
     const genero = document.querySelector('input[name="gender"]:checked')?.value;
     const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
@@ -36,6 +38,15 @@ function agregarAlCarrito() {
     const color = document.querySelector('input[name="color"]:checked')?.value;
     const cantidad = parseInt(cantidadSpan.textContent);
 
+    const url_image = document.getElementById("main-image").src;
+    const image = reemplazarParteDeURL(url_image, genero, color);
+
+
+    const price =  document.querySelector('.act-price').textContent;
+    const cleanPrice = parseInt(price.replace(/\$/g, "").replace(/\./g, ""),10);
+
+
+
     if (!talla || !color || cantidad <= 0) {
         console.log("Por favor, selecciona una talla, un color y una cantidad.");
         return;
@@ -43,18 +54,19 @@ function agregarAlCarrito() {
 
     const producto = {
         id: id,
-        name: "",
+        name: name,
+        image: image,
         tela: tela,
         genero: genero,
         talla: talla,
         color: color,
-        price: 0
+        price: cleanPrice
     };
 
     let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
 
-    const productoExistente = carrito.find(p => p.id === producto.id && p.tela === producto.tela && p.genero === producto.genere && p.talla === producto.talla && p.color === producto.color && p.price === producto.price);
+    const productoExistente = carrito.find(p => p.id === producto.id && p.tela === producto.tela && p.genero === producto.genero && p.talla === producto.talla && p.color === producto.color && p.price === producto.price);
 
     if (productoExistente) {
 
@@ -75,3 +87,24 @@ function agregarAlCarrito() {
     btnRestar.disabled = true;
 }
 
+
+
+function reemplazarParteDeURL(url, genero, color) {
+    let nuevoValor = "";
+  
+    if (genero === "Hombre" && color === "Blanco") {
+      nuevoValor = "men-white";
+    }
+    if (genero === "Hombre" && color === "Negro") {
+      nuevoValor = "men-black";
+    }
+    if (genero === "Mujer" && color === "Blanco") {
+      nuevoValor = "women-white";
+    }
+    if (genero === "Mujer" && color === "Negro") {
+      nuevoValor = "women-black";
+    }
+  
+    const nuevaURL = url.replace(/-[a-zA-Z]+-[a-zA-Z]+\.jpg$/, `-${nuevoValor}.jpg`);
+    return nuevaURL;
+  }

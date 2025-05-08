@@ -2,50 +2,81 @@
 layout: default
 ---
 
-<div id="carrito-listado" class="container mt-4"></div>
+
+
+<div  class="container mt-5"></div>
+<div class="d-flex align-items-center">
+  <a href="{{site.url}}{{site.baseurl}}/" class="d-flex align-items-center text-decoration-none">
+    <i class="fa fa-long-arrow-alt-left mr-2"></i>
+    <span>Volver</span>
+  </a>
+</div>
+<div id="carrito-listado" class="container">
+
+</div>
 <button onclick="clearLocalStorage()">LIMPIAR CARRITO</button>
+</div>
 
 
 
-    <script>
+<script>
 
-renderizarCarrito();
-function renderizarCarrito() {
-  const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
-  const contenedor = document.getElementById('carrito-listado');
-  contenedor.innerHTML = '';
+  renderizarCarrito();
+  function renderizarCarrito() {
+    const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+    const contenedor = document.getElementById('carrito-listado');
+    contenedor.innerHTML = '';
 
-  if (carrito.length === 0) {
-    contenedor.innerHTML = '<p class="text-center text-muted">Tu carrito está vacío.</p>';
-    return;
-  }
+    if (carrito.length === 0) {
+      contenedor.innerHTML = '<p class="text-center text-muted">Tu carrito está vacío.</p>';
+      return;
+    }
 
-  carrito.forEach((producto, index) => {
-    const item = document.createElement('div');
-    item.classList.add('card', 'mb-3');
-    item.innerHTML = `
-      <div class="card-body d-flex flex-column flex-md-row justify-content-between align-items-center">
-        <div class="mb-2 mb-md-0">
-          <h5 class="card-title mb-1">Producto</h5>
-             <p class="card-text mb-0"><strong>Tela:</strong> ${producto.tela}</p>
-                <p class="card-text mb-0"><strong>Genero:</strong> ${producto.genero}</p>
-          <p class="card-text mb-0"><strong>Talla:</strong> ${producto.talla}</p>
-          <p class="card-text mb-0"><strong>Color:</strong> ${producto.color}</p>
+
+
+    carrito.forEach((producto, index) => {
+      const item = document.createElement('div');
+      item.classList.add('mb-3');
+
+      item.innerHTML = `
+      <div class="align-items-center justify-content-between text-white">
+        <div class="d-flex align-items-center">
+          <img src="${producto.image}" alt="${producto.name}" class="img-thumbnails me-3" style="width: 60px; height: 60px; object-fit: cover;">
+          <div>
+            <h5 class="mb-1">${producto.name}</h5>
+            <small> ${producto.tela},${producto.genero},${producto.talla}, ${producto.color}</small>
+                      <strong class="me-3">$${(producto.price * producto.cantidad).toLocaleString('es-ES')}</strong>
+          </div>
         </div>
-        <div class="d-flex align-items-center gap-2">
+
+        <div class="d-flex align-items-center">
+
+             <div class="d-flex align-items-center gap-2">
           <button class="btn btn-outline-secondary btn-sm" onclick="cambiarCantidad(${index}, -1)">-</button>
           <span class="fs-5">${producto.cantidad}</span>
           <button class="btn btn-outline-secondary btn-sm" onclick="cambiarCantidad(${index}, 1)">+</button>
-          <button class="btn btn-outline-danger btn-sm" onclick="eliminarProducto(${index})">Eliminar</button>
+        </div>
+          <button class="btn btn-outline-danger btn-sm" onclick="eliminarProducto(${index})">
+            <i class="fa fa-trash"></i>
+          </button>
         </div>
       </div>
     `;
-    contenedor.appendChild(item);
-  });
-}
 
-function clearLocalStorage() {
-    localStorage.clear();
-    alert("El almacenamiento local ha sido limpiado.");
+
+      contenedor.appendChild(item);
+    });
   }
-    </script>
+
+
+  function clearLocalStorage() {
+    localStorage.clear();
+    location.reload();
+
+  }
+</script>
+
+
+
+
+
