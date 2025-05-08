@@ -1,30 +1,30 @@
 
-
-const btnSumar = document.getElementById('sumar');
-const btnRestar = document.getElementById('restar');
-const cantidadSpan = document.getElementById('cantidad');
-const cartCount = document.querySelectorAll('.cart-count');
-let cantidadd = 0;
-
-
-btnSumar.addEventListener('click', (event) => {
-    event.preventDefault();
-    cantidadd++;
-    cantidadSpan.textContent = cantidadd;
-    btnRestar.disabled = false;
-});
+    const btnSumar = document.getElementById('sumar');
+    const btnRestar = document.getElementById('restar');
+    const cantidadSpan = document.getElementById('cantidad');
+    
+    let cantidadd = 1;
 
 
-btnRestar.addEventListener('click', (event) => {
-    event.preventDefault();
-    if (cantidadd > 0) {
-        cantidadd--;
+    btnSumar.addEventListener('click', (event) => {
+        event.preventDefault();
+        cantidadd++;
         cantidadSpan.textContent = cantidadd;
-        if (cantidadd === 0) {
-            btnRestar.disabled = true;
+        btnRestar.disabled = false;
+    });
+
+
+    btnRestar.addEventListener('click', (event) => {
+        event.preventDefault();
+        if (cantidadd > 1) {
+            cantidadd--;
+            cantidadSpan.textContent = cantidadd;
+            if (cantidadd === 1) {
+                btnRestar.disabled = true;
+            }
         }
-    }
-});
+    });
+
 
 
 function agregarAlCarrito() {
@@ -37,7 +37,7 @@ function agregarAlCarrito() {
     const cantidad = parseInt(cantidadSpan.textContent);
 
     if (!talla || !color || cantidad <= 0) {
-        alert("Por favor, selecciona una talla, un color y una cantidad.");
+        console.log("Por favor, selecciona una talla, un color y una cantidad.");
         return;
     }
 
@@ -69,26 +69,9 @@ function agregarAlCarrito() {
 
     actualizarContadorCarrito();
 
-    window.cantidad = 0;
-    cantidadd = 0;
-    cantidadSpan.textContent = 0;
+    window.cantidad = 1;
+    cantidadd = 1;
+    cantidadSpan.textContent = 1;
     btnRestar.disabled = true;
 }
 
-function actualizarContadorCarrito() {
-    const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
-    cartCount.textContent = carrito.length;
-
-
-    const totalProductos = carrito.reduce((sum, prod) => sum + prod.cantidad, 0);
-    cartCount.forEach(el => el.textContent = totalProductos);
-
-    const btnHola = document.getElementById('btnHola');
-    if (carrito.length > 0) {
-        btnHola.style.display = 'inline-block';
-    } else {
-        btnHola.style.display = 'none';
-    }
-}
-
-document.addEventListener('DOMContentLoaded', actualizarContadorCarrito);
