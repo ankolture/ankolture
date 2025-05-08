@@ -1,19 +1,11 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="topNav">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="icono-hamburger" id="navbar-hamburger"> </span>
+  </button>
 
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="topNav">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="icono-hamburger" id="navbar-hamburger"> </span>
-          </button>
-          
-         
-          <!-- <ul class="nav justify-content-end">
+
+  <!-- <ul class="nav justify-content-end">
         
             <li class="nav-item"> 
               <input
@@ -23,29 +15,39 @@
               />
             </li>
           </ul> -->
-        </nav>
-        <div id="progress-bar"></div>
-        <!-- Search Form -->
-        <div class="search-form-container">
-
-          <form class="search-form">
-            <fieldset class="search-form__fieldset">
-              <div class="row">
-                <div class="col-lg-8 offset-md-2">
-                  <input class="search-form__field" placeholder="Type to Search..." autofocus>
-                  <input class="search-form__submit" type="submit" value="search">
-                </div>
-              </div>
-            </fieldset>
-          </form>
-
-          <div class="row">
-            <div class="col-lg-8 offset-md-2 search-results">
-              <div class="card search-results"></div>
+     
+          <div class="d-flex justify-content-end p-3">
+            <div class="position-relative">
+              <i class="fas fa-shopping-cart text-white fs-3">
+                <span class="cart-count"
+                style="position: absolute; top: -15px; right: -15px; background-color: #f69801; color: black; border-radius: 50%; padding: 5px 5px; font-size: 14px;">0</span>
+              </i>
             </div>
           </div>
 
-          <div class="close-search-button search-form-container__close">
-              <i class="fa fa-times icon"></i>
-          </div>
+</nav>
+<div id="progress-bar"></div>
+<!-- Search Form -->
+<div class="search-form-container">
+
+  <form class="search-form">
+    <fieldset class="search-form__fieldset">
+      <div class="row">
+        <div class="col-lg-8 offset-md-2">
+          <input class="search-form__field" placeholder="Type to Search..." autofocus>
+          <input class="search-form__submit" type="submit" value="search">
         </div>
+      </div>
+    </fieldset>
+  </form>
+
+  <div class="row">
+    <div class="col-lg-8 offset-md-2 search-results">
+      <div class="card search-results"></div>
+    </div>
+  </div>
+
+  <div class="close-search-button search-form-container__close">
+    <i class="fa fa-times icon"></i>
+  </div>
+</div>

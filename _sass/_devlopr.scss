@@ -1440,6 +1440,18 @@ footer {
 
 
 
+.cart-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 30px;            /* tamaño base del icono */
+}
+
+.cart-wrapper .fa-shopping-cart {
+  display: block;
+}
+
+
 
 
   .modal-fullscreen{
