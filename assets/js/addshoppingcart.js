@@ -1,29 +1,29 @@
 
-    const btnSumar = document.getElementById('sumar');
-    const btnRestar = document.getElementById('restar');
-    const cantidadSpan = document.getElementById('cantidad');
-    
-    let cantidadd = 1;
+const btnSumar = document.getElementById('sumar');
+const btnRestar = document.getElementById('restar');
+const cantidadSpan = document.getElementById('cantidad');
+
+let cantidadd = 1;
 
 
-    btnSumar.addEventListener('click', (event) => {
-        event.preventDefault();
-        cantidadd++;
+btnSumar.addEventListener('click', (event) => {
+    event.preventDefault();
+    cantidadd++;
+    cantidadSpan.textContent = cantidadd;
+    btnRestar.disabled = false;
+});
+
+
+btnRestar.addEventListener('click', (event) => {
+    event.preventDefault();
+    if (cantidadd > 1) {
+        cantidadd--;
         cantidadSpan.textContent = cantidadd;
-        btnRestar.disabled = false;
-    });
-
-
-    btnRestar.addEventListener('click', (event) => {
-        event.preventDefault();
-        if (cantidadd > 1) {
-            cantidadd--;
-            cantidadSpan.textContent = cantidadd;
-            if (cantidadd === 1) {
-                btnRestar.disabled = true;
-            }
+        if (cantidadd === 1) {
+            btnRestar.disabled = true;
         }
-    });
+    }
+});
 
 
 
@@ -42,8 +42,8 @@ function agregarAlCarrito() {
     const image = reemplazarParteDeURL(url_image, genero, color);
 
 
-    const price =  document.querySelector('.act-price').textContent;
-    const cleanPrice = parseInt(price.replace(/\$/g, "").replace(/\./g, ""),10);
+    const price = document.querySelector('.act-price').textContent;
+    const cleanPrice = parseInt(price.replace(/\$/g, "").replace(/\./g, ""), 10);
 
 
 
@@ -91,20 +91,34 @@ function agregarAlCarrito() {
 
 function reemplazarParteDeURL(url, genero, color) {
     let nuevoValor = "";
-  
+
     if (genero === "Hombre" && color === "Blanco") {
-      nuevoValor = "men-white";
+        nuevoValor = "men-white";
     }
     if (genero === "Hombre" && color === "Negro") {
-      nuevoValor = "men-black";
+        nuevoValor = "men-black";
     }
     if (genero === "Mujer" && color === "Blanco") {
-      nuevoValor = "women-white";
+        nuevoValor = "women-white";
     }
     if (genero === "Mujer" && color === "Negro") {
-      nuevoValor = "women-black";
+        nuevoValor = "women-black";
     }
-  
+    if (genero === "Unisex" && color === "Blanco") {
+        nuevoValor = "men-white";
+    }
+    if (genero === "Unisex" && color === "Negro") {
+        nuevoValor = "men-black";
+    }
+    if (genero === "Unisex" && color === "Blanco") {
+        nuevoValor = "women-white";
+    }
+    if (genero === "Unisex" && color === "Negro") {
+        nuevoValor = "women-black";
+    }
+
     const nuevaURL = url.replace(/-[a-zA-Z]+-[a-zA-Z]+\.jpg$/, `-${nuevoValor}.jpg`);
+
+    console.log(nuevaURL);
     return nuevaURL;
-  }
+}
