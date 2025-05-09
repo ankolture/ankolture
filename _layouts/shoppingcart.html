@@ -21,7 +21,6 @@ layout: defaults
 </div>
 
 
-
 <div id="total-carrito-fixed"
      class="text-white py-2"
      style="background-color:#1c1c1e; font-size: 0.8rem; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1030; box-shadow: 0 -2px 10px rgba(0,0,0,0.2);">
@@ -29,13 +28,51 @@ layout: defaults
     <h6>Total: $<span id="total-sum"></span></h6>
     <div class="cart mt-2 d-flex justify-content-center gap-2">
       <button class="btn btn-sm btn-danger" onclick="clearLocalStorage()">LIMPIAR CARRITO   <i class="fa fa-trash fa-sm text-white"></i></button>
-      <button class="btn btn-sm btn-success" onclick="clearLocalStorage()">REALIZAR PEDIDO  <i class="fab fa-whatsapp"></i></button>
+      <button class="btn btn-sm btn-success text-uppercase" onclick="mostrarModal()">REALIZAR PEDIDO  <i class="fab fa-whatsapp"></i></button>
     </div>
   </div>
 </div>
 
 
 
+    <!-- Modal personalizado -->
+    <div class="modal fade" id="addToCartModal" tabindex="-1">
+        <div class="modal-dialog  modal-fullscreen">
+            <div class="modal-content bg-dark text-white"> <!-- Fondo negro y texto blanco -->
+                <div class="modal-header border-0">
+                    <h5 class="modal-title text-white text-center w-100" id="addToCartModalLabel">Confirmar
+                        Pedido
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-center">Estos son los datos de la camiseta que has seleccionado.<br>
+                        Si estás seguro de que toda la información es correcta, haz clic en Aceptar para continuar
+                        con
+                        tu pedido.<br>
+                        Si detectas algún error, por favor haz clic en Cancelar, revisa los datos y vuelve a
+                        intentarlo.
+                    </p>
+                    <div class="text-center">
+                        <p><strong>Tela:</strong> <span id="modal-tela"></span></p>
+                        <p><strong>Género:</strong> <span id="modal-genero"></span></p>
+                        <p><strong>Talla:</strong> <span id="modal-talla"></span></p>
+                        <p><strong>Color:</strong> <span id="modal-color"></span></p>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center border-0"> <!-- Centra los botones -->
+                    <button type="button" class="btn btn-secondary me-2" id="cancelModal"
+                        data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="modal-accept" id="confirmAdd">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="{{ site.baseurl }}/assets/js/modal-confirm.js" defer></script>
 <script>
   renderizarCarrito();
 

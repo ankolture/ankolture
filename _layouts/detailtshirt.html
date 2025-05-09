@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: defaults
 ---
 
 
@@ -28,14 +28,16 @@ layout: default
                                 </a>
                             </div>
 
-                    
-                            <a style="text-decoration: none;" href="#"><i class="fab fa-instagram"></i> VER EN INSTAGRAM</a>
-                   
+
+                            <a style="text-decoration: none;" href="#"><i class="fab fa-instagram"></i> VER EN
+                                INSTAGRAM</a>
+
                         </div>
                         <div class="images">
 
                             <div class="image-wrapper w-100 p-2">
-                                <img id="main-image" class="main-img" src="{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/thepocketsn.png" />
+                                <img id="main-image" class="main-img"
+                                    src="{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/thepocketsn.png" />
                             </div>
                             <div id="thumbnail-container" class="thumbnail text-center">
                             </div>
@@ -128,102 +130,64 @@ layout: default
 
                             <div class="cart mt-4 d-flex flex-column align-items-center text-center">
 
-                                <!-- <button class="btn btn-danger text-uppercase mb-3 px-4"
-                                    onclick="mostrarModal()">Realizar Pedido</button> -->
-
                                 <button class="btn btn-danger text-uppercase mb-3 px-4"
                                     onclick="agregarAlCarrito()">Agregar al Carrito</button>
 
                                 <div id="btnHola" style="display: none;">
-                                    <a class="btn btn-success mb-2" style=" color: #fff !important; text-decoration: none;" href="{{site.url}}{{site.baseurl}}/shoppingcart">VER CARRITO <i class="fa fa-shopping-cart text-white fs-3">
-                                    </i></a>
-                                    </div>
-
-
-
-                                    <div class="share-section text-muted">
-                                        <strong class="d-block mb-2 share-text">Compartir:</strong>
-                                        <div>
-
-                                            <!-- WhatsApp -->
-                                            <a href="#" onclick="shareWhatsApp()" class="share-icon mx-2">
-                                                <i class="fab fa-whatsapp"></i>
+                                    <div class="d-flex justify-content-end p-3">
+                                        <div class="position-relative">
+                                            <a style="text-decoration: none;"
+                                                href="{{site.url}}{{site.baseurl}}/shoppingcart">VER CARRITO
+                                                <i class="fas fa-shopping-cart text-white fs-3">
+                                                    <span class="cart-count"
+                                                        style="position: absolute; top: -15px; right: -15px; background-color: #f69801; color: black; border-radius: 50%; padding: 5px 5px; font-size: 14px;"></span>
+                                                </i>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
 
+
+
+                                <div class="share-section text-muted">
+                                    <strong class="d-block mb-2 share-text">Compartir:</strong>
+                                    <div>
+
+                                        <!-- WhatsApp -->
+                                        <a href="#" onclick="shareWhatsApp()" class="share-icon mx-2">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div id="mensaje-compartir" class="mt-2 text-success text-center" style="display: none;">¡Producto agregado!</div>
+
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
+    <script>
+        const pocketsData = {{ site.data.images.thepockets | jsonify }};
+    </script>
 
-        <!-- Modal personalizado -->
-        <div class="modal fade" id="addToCartModal" tabindex="-1">
-            <div class="modal-dialog  modal-fullscreen">
-                <div class="modal-content bg-dark text-white"> <!-- Fondo negro y texto blanco -->
-                    <div class="modal-header border-0">
-                        <h5 class="modal-title text-white text-center w-100" id="addToCartModalLabel">Confirmar
-                            selección
-                        </h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
-                            aria-label="Cerrar"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p class="text-center">Estos son los datos de la camiseta que has seleccionado.<br>
-                            Si estás seguro de que toda la información es correcta, haz clic en Aceptar para continuar
-                            con
-                            tu pedido.<br>
-                            Si detectas algún error, por favor haz clic en Cancelar, revisa los datos y vuelve a
-                            intentarlo.
-                        </p>
-                        <div class="text-center">
-                            <p><strong>Tela:</strong> <span id="modal-tela"></span></p>
-                            <p><strong>Género:</strong> <span id="modal-genero"></span></p>
-                            <p><strong>Talla:</strong> <span id="modal-talla"></span></p>
-                            <p><strong>Color:</strong> <span id="modal-color"></span></p>
-                        </div>
-                    </div>
-                    <div class="modal-footer justify-content-center border-0"> <!-- Centra los botones -->
-                        <button type="button" class="btn btn-secondary me-2" id="cancelModal"
-                            data-bs-dismiss="modal">Cancelar</button>
-                        <button type="button" class="modal-accept" id="confirmAdd">Aceptar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <script src="{{ site.baseurl }}/assets/js/getproducts.js" defer></script>
+    <script src="{{ site.baseurl }}/assets/js/ispremium.js" defer></script>
+    <script src="{{ site.baseurl }}/assets/js/addshoppingcart.js" defer></script>
+    <script>
 
+        const pageUrl = window.location.href;
+        const message = encodeURIComponent("¡Mira esta super camiseta que encontré!");
 
-
-
-
-        <script>
-            const pocketsData = {{ site.data.images.thepockets | jsonify }};
-        </script>
-
-        <script src="{{ site.baseurl }}/assets/js/getproducts.js" defer></script>
-        <script src="{{ site.baseurl }}/assets/js/modal-confirm.js" defer></script>
-        <script src="{{ site.baseurl }}/assets/js/ispremium.js" defer></script>
-        <script src="{{ site.baseurl }}/assets/js/addshoppingcart.js" defer></script>
-        <script>
-
-            const pageUrl = window.location.href;
-            const message = encodeURIComponent("¡Mira esta super camiseta que encontré!");
-
-            function shareWhatsApp() {
-                const url = `https://api.whatsapp.com/send?text=${message}%20${encodeURIComponent(pageUrl)}`;
-                window.open(url, '_blank');
-            }
-
-
-
- 
-
-     
+        function shareWhatsApp() {
+            const url = `https://api.whatsapp.com/send?text=${message}%20${encodeURIComponent(pageUrl)}`;
+            window.open(url, '_blank');
+        }
 
 
 
@@ -240,4 +204,10 @@ layout: default
 
 
 
-        </script>
+
+
+
+
+
+
+    </script>

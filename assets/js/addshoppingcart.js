@@ -88,6 +88,15 @@ function agregarAlCarrito() {
     cantidadd = 1;
     cantidadSpan.textContent = 1;
     btnRestar.disabled = true;
+
+    const mensajeCompartir = document.getElementById("mensaje-compartir");
+    mensajeCompartir.style.display = "block";
+
+
+    setTimeout(() => {
+        mensajeCompartir.style.display = "none";
+    }, 2000);
+
 }
 
 

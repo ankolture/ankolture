@@ -1,10 +1,8 @@
 function mostrarModal() {
-    const tela = document.querySelector('input[name="cloth"]:checked')?.value;
-    const genero = document.querySelector('input[name="gender"]:checked')?.value;
-    const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
-        document.querySelectorAll('input[name="size"]')[2].checked ? "L" :
-            document.querySelectorAll('input[name="size"]')[3].checked ? "XL" : "S";
-    const color = document.querySelector('input[name="color"]:checked')?.value;
+    const tela = "a";
+    const genero = "a";
+    const talla = "a";
+    const color = "a";
 
 
     document.getElementById("modal-tela").textContent = tela;
