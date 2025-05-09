@@ -35,18 +35,31 @@ function mostrarModal() {
 }
 
 document.getElementById("confirmAdd").addEventListener("click", function () {
-    const tela = document.querySelector('input[name="cloth"]:checked')?.value;
-    const genero = document.querySelector('input[name="gender"]:checked')?.value;
-    const talla = document.querySelectorAll('input[name="size"]')[1].checked ? "M" :
-        document.querySelectorAll('input[name="size"]')[2].checked ? "L" :
-            document.querySelectorAll('input[name="size"]')[3].checked ? "XL" : "S";
-    const color = document.querySelector('input[name="color"]:checked')?.value;
+  const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
-    const message = encodeURIComponent(`¡Hola! Acabo de realizar mi pedido de la camiseta y estoy emocionado de recibirla. Quisiera confirmar que todo está en orden y que el pedido está siendo procesado. Detalles del pedido: Tela: ${tela}, Género: ${genero}, Talla: ${talla}, Color: ${color}`);
+  if (carrito.length === 0) {
+    alert("Tu carrito está vacío.");
+    return;
+  }
 
-    const phoneNumber = '573233398124';
-    const pid = document.getElementById("main-image").dataset.pid;
-    const pageUrl = `${window.location.origin}${window.location.pathname}?id=${pid}`;
-    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${decodeURIComponent(message)}%20${decodeURIComponent(pageUrl)}`;
-    window.open(url);
+  let mensaje = "¡Hola! Quiero realizar el siguiente pedido:%0A%0A";
+  let totalProductos = 0;
+  let totalPrecio = 0;
+
+  carrito.forEach(producto => {
+    mensaje += `👕 *${producto.name} T-SHIRT*%0A`;
+    mensaje += `Tela: ${producto.tela} | Género: ${producto.genero}%0A`;
+    mensaje += `Talla: ${producto.talla} | Color: ${producto.color}%0A`;
+    mensaje += `Cantidad: ${producto.cantidad} | Subtotal: $${(producto.price * producto.cantidad).toLocaleString('es-ES')}%0A%0A`;
+    totalProductos += producto.cantidad;
+    totalPrecio += producto.price * producto.cantidad;
+  });
+
+  mensaje += `🧮 *Total de productos:* ${totalProductos}%0A`;
+  mensaje += `💰 *Total a pagar:* $${totalPrecio.toLocaleString('es-ES')}%0A`;
+
+  const phoneNumber = "573233398124";
+  const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${mensaje}`;
+
+  window.open(url);
 });
