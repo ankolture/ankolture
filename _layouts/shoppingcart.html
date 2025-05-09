@@ -11,21 +11,22 @@ layout: default
   </div>
 
   <div id="carrito-listado" class="container"></div>
-
-  <!-- Total del carrito -->
-  <div id="total-carrito" class="mt-4 text-center">
-    <h4>Total: $<span id="total-sum"></span></h4>
-  </div>
-
-  <div class="cart mt-4 d-flex flex-column align-items-center text-center">
-    <button class="btn btn-success" onclick="clearLocalStorage()">LIMPIAR CARRITO</button>
-  </div>
-  <div class="cart mt-4 d-flex flex-column align-items-center text-center">
-    <button class="btn btn-success" onclick="clearLocalStorage()">REALIZAR PEDIDO</button>
-  </div>
-
-
 </div>
+
+<div style="height: 150px;"></div> <!-- Espacio para no tapar el contenido -->
+
+<div id="total-carrito-fixed"
+     class=" text-white py-3"
+     style="background-color:#1c1c1e; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1030; box-shadow: 0 -2px 10px rgba(0,0,0,0.2);">
+  <div class="container text-center">
+    <h4>Total: $<span id="total-sum"></span></h4>
+    <div class="cart mt-2 d-flex justify-content-center gap-3">
+      <button class="btn btn-danger" onclick="clearLocalStorage()">LIMPIAR CARRITO</button>
+      <button class="btn btn-success" onclick="clearLocalStorage()">REALIZAR PEDIDO</button>
+    </div>
+  </div>
+</div>
+
 
 <script>
   renderizarCarrito();
