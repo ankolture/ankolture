@@ -24,6 +24,7 @@ $(document).ready(function () {
         autoplayTimeout: 5000,     // ⏱️ Tiempo entre cambios (milisegundos)
         autoplayHoverPause: true,  // 🛑 Pausa si el mouse está encima
         navText: ["‹", "›"],
+        dots: false,  
         responsive: {
           0: {
             items: 1,     // 👈 Forzamos 3 en móvil
