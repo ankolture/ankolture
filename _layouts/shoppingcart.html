@@ -2,30 +2,36 @@
 layout: default
 ---
 
-<div class="container mt-5 mb-5">
-  <div class="d-flex align-items-center mt-5 mb-5">
-    <a href="{{site.url}}{{site.baseurl}}/" class="d-flex align-items-center text-decoration-none">
-      <i class="fa fa-long-arrow-alt-left mr-2"></i>
+<div class="d-flex align-items-center mt-5 mb-5">
+
+ <div id="volver-fixed"
+     class="text-white py-2"
+     style="background-color:#1c1c1e; font-size: 0.8rem; position: fixed; top: 56px; left: 0; width: 100%; z-index: 1030; box-shadow: 0 2px 10px rgba(0,0,0,0.2);">
+  <div class="container d-flex align-items-center">
+    <a href="{{site.url}}{{site.baseurl}}/" class="d-flex align-items-center text-decoration-none text-white">
+      <i class="fa fa-long-arrow-alt-left me-2"></i>
       <span>Volver</span>
     </a>
   </div>
-
-  <div id="carrito-listado" class="container"></div>
 </div>
 
-<div style="height: 150px;"></div> <!-- Espacio para no tapar el contenido -->
+  <div id="carrito-listado" class="container mt-4"></div>
+</div>
+
+
 
 <div id="total-carrito-fixed"
-     class=" text-white py-3"
-     style="background-color:#1c1c1e; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1030; box-shadow: 0 -2px 10px rgba(0,0,0,0.2);">
+     class="text-white py-2"
+     style="background-color:#1c1c1e; font-size: 0.8rem; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1030; box-shadow: 0 -2px 10px rgba(0,0,0,0.2);">
   <div class="container text-center">
-    <h4>Total: $<span id="total-sum"></span></h4>
-    <div class="cart mt-2 d-flex justify-content-center gap-3">
-      <button class="btn btn-danger" onclick="clearLocalStorage()">LIMPIAR CARRITO</button>
-      <button class="btn btn-success" onclick="clearLocalStorage()">REALIZAR PEDIDO</button>
+    <h6>Total: $<span id="total-sum"></span></h6>
+    <div class="cart mt-2 d-flex justify-content-center gap-2">
+      <button class="btn btn-sm btn-danger" onclick="clearLocalStorage()">LIMPIAR CARRITO</button>
+      <button class="btn btn-sm btn-success" onclick="clearLocalStorage()">REALIZAR PEDIDO</button>
     </div>
   </div>
 </div>
+
 
 
 <script>
