@@ -45,6 +45,8 @@ function agregarAlCarrito() {
     const price = document.querySelector('.act-price').textContent;
     const cleanPrice = parseInt(price.replace(/\$/g, "").replace(/\./g, ""), 10);
 
+    const url = window.location.pathname + window.location.search;
+
 
 
     if (!talla || !color || cantidad <= 0) {
@@ -56,6 +58,7 @@ function agregarAlCarrito() {
         id: id,
         name: name,
         image: image,
+        url: url,
         tela: tela,
         genero: genero,
         talla: talla,

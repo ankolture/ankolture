@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: defaults
 ---
 
 <div class="d-flex align-items-center mt-5 mb-5">
@@ -15,7 +15,7 @@ layout: default
   </div>
 </div>
 
-  <div id="carrito-listado" class="container mt-4"></div>
+  <div id="carrito-listado" class="container mt-4  mb-5"></div>
 </div>
 
 
@@ -61,10 +61,7 @@ layout: default
 item.innerHTML = `
  <div class="d-flex align-items-center justify-content-between flex-wrap">
   <div class="d-flex flex-wrap align-items-start border-bottom py-3 position-relative w-100">
-    <img src="${producto.image}" alt="${producto.name}" 
-         class="me-3 rounded" 
-         style="width: 20vw; max-width: 100px; height: auto; object-fit: cover;">
-    
+    <a href="${producto.url}"><img src="${producto.image}" alt="${producto.name}" class="me-3 rounded" style="width: 20vw; max-width: 100px; height: auto; object-fit: cover;"> </a>
     <div class="flex-grow-1">
       <h6 class="text-white text-truncate mb-1" style="max-width: 100%;">${producto.name} T-SHIRT</h6>
       <small class="text-white d-block mb-2">
