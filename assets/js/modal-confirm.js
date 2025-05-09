@@ -47,7 +47,7 @@ document.getElementById("confirmAdd").addEventListener("click", function () {
   let totalPrecio = 0;
 
   carrito.forEach(producto => {
-    mensaje += `👕 *${producto.name} T-SHIRT*%0A`;
+    mensaje += `👕 *${producto.name} T-SHIRT*%0A (${producto.id} )`;
     mensaje += `Tela: ${producto.tela} | Género: ${producto.genero}%0A`;
     mensaje += `Talla: ${producto.talla} | Color: ${producto.color}%0A`;
     mensaje += `Cantidad: ${producto.cantidad} | Subtotal: $${(producto.price * producto.cantidad).toLocaleString('es-ES')}%0A%0A`;
