@@ -47,19 +47,19 @@ layout: defaults
                         aria-label="Cerrar"></button>
                 </div>
                 <div class="modal-body">
-                    <p class="text-center">Estos son los datos de la camiseta que has seleccionado.<br>
+                    <p class="text-center">Estos son los datos de los productos que has seleccionado.<br>
                         Si estás seguro de que toda la información es correcta, haz clic en Aceptar para continuar
                         con
                         tu pedido.<br>
                         Si detectas algún error, por favor haz clic en Cancelar, revisa los datos y vuelve a
                         intentarlo.
                     </p>
-                    <div class="text-center">
-                        <p><strong>Tela:</strong> <span id="modal-tela"></span></p>
-                        <p><strong>Género:</strong> <span id="modal-genero"></span></p>
-                        <p><strong>Talla:</strong> <span id="modal-talla"></span></p>
-                        <p><strong>Color:</strong> <span id="modal-color"></span></p>
-                    </div>
+
+                      <div id="modal-resumen-carrito" class="text-white"></div>
+                  <div class="text-center mt-4">
+    <p><strong>Total de productos:</strong> <span id="modal-total-productos"></span></p>
+    <p><strong>Total a pagar:</strong> $<span id="modal-total-precio"></span></p>
+  </div>
                 </div>
                 <div class="modal-footer justify-content-center border-0"> <!-- Centra los botones -->
                     <button type="button" class="btn btn-secondary me-2" id="cancelModal"

@@ -1,18 +1,37 @@
 function mostrarModal() {
-    const tela = "a";
-    const genero = "a";
-    const talla = "a";
-    const color = "a";
+  const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+  const resumenDiv = document.getElementById('modal-resumen-carrito');
+  const totalProductosSpan = document.getElementById('modal-total-productos');
+  const totalPrecioSpan = document.getElementById('modal-total-precio');
 
+  resumenDiv.innerHTML = ''; // Limpiar antes de renderizar
 
-    document.getElementById("modal-tela").textContent = tela;
-    document.getElementById("modal-genero").textContent = genero;
-    document.getElementById("modal-talla").textContent = talla;
-    document.getElementById("modal-color").textContent = color;
+  let totalProductos = 0;
+  let totalPrecio = 0;
 
+  carrito.forEach(producto => {
+    const itemHTML = `
+      <div class="border-bottom py-2">
+        <p class="mb-1"><strong>${producto.name} T-SHIRT</strong></p>
+        <p class="mb-1">
+          <strong>Tela:</strong> ${producto.tela} | 
+          <strong>Género:</strong> ${producto.genero} | 
+          <strong>Talla:</strong> ${producto.talla} | 
+          <strong>Color:</strong> ${producto.color}
+        </p>
+        <p class="mb-1">Cantidad: ${producto.cantidad} | Subtotal: $${(producto.price * producto.cantidad).toLocaleString('es-ES')}</p>
+      </div>
+    `;
+    resumenDiv.innerHTML += itemHTML;
+    totalProductos += producto.cantidad;
+    totalPrecio += producto.price * producto.cantidad;
+  });
 
-    const modal = new bootstrap.Modal(document.getElementById('addToCartModal'));
-    modal.show();
+  totalProductosSpan.textContent = totalProductos;
+  totalPrecioSpan.textContent = totalPrecio.toLocaleString('es-ES');
+
+  const modal = new bootstrap.Modal(document.getElementById('addToCartModal'));
+  modal.show();
 }
 
 document.getElementById("confirmAdd").addEventListener("click", function () {
