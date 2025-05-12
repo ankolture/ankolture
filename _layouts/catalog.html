@@ -2,6 +2,9 @@
 layout: compress
 ---
 
+
+
+
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en" }}">
 {%- include head.html -%}
@@ -22,59 +25,27 @@ layout: compress
     {% endif %}
     {% endfor %}
 
+
+
 <div class="accordion mt-5" id="miAcordeon">
   {% for folder in site.data.collections %}
     {% assign collection_name = folder[0] %}
-    {% assign productos = folder[1] %}
 
     <div class="accordion-item">
       <h2 class="accordion-header" id="encabezado{{ forloop.index }}">
-        <button class="accordion-button mi-titulo collapsed" type="button" data-bs-toggle="collapse"
+        <button class="accordion-button collapsed mi-titulo" type="button" data-bs-toggle="collapse"
           data-bs-target="#contenido{{ forloop.index }}" aria-expanded="false"
-          aria-controls="contenido{{ forloop.index }}">
+          aria-controls="contenido{{ forloop.index }}"
+          data-collection="{{ collection_name }}">
           {{ collection_name | upcase }}
         </button>
       </h2>
       <div id="contenido{{ forloop.index }}" class="accordion-collapse collapse"
         aria-labelledby="encabezado{{ forloop.index }}" data-bs-parent="#miAcordeon">
         <div class="accordion-body">
-          <div class="row">
-
-            {% for subkey in productos %}
-              {% assign subname = subkey[0] %}
-              {% assign productos_lista = subkey[1] %}
-
-              <h4 class="text-uppercase fw-bold mt-4">{{ subname }}</h4>
-
-              {% for grupo in productos_lista %}
-                {% assign nombre_grupo = grupo[0] %}
-                {% assign items = grupo[1] %}
-
-                <h5 class="text-muted mt-3">{{ nombre_grupo }}</h5>
-
-                {% for producto in items %}
-                  <div class="col-md-6 mb-3">
-                    <div class="card">
-                      <img src="/assets/img/collection/{{ subname }}/{{ nombre_grupo }}/{{ producto.name }}" class="card-img-top" alt="{{ producto.name }}">
-                      <div class="card-body">
-                        <h5 class="card-title">ID: {{ producto.id }}</h5>
-
-                        <p class="card-text description-normal">{{ producto.description_normal }}</p>
-                        <p class="card-text description-premium d-none">{{ producto.description_premium }}</p>
-
-                        <p class="card-text price-normal"><strong>Precio Normal:</strong> {{ producto.price_normal }}</p>
-                        <p class="card-text price-premium d-none"><strong>Precio Premium:</strong> {{ producto.price_premium }}</p>
-
-                        <button class="btn btn-secondary toggle-mode">Modo Premium</button>
-                        <a href="{{ producto.url_instagram }}" class="btn btn-primary mt-2" target="_blank">Ver en Instagram</a>
-                      </div>
-                    </div>
-                  </div>
-                {% endfor %}
-
-              {% endfor %}
-            {% endfor %}
-
+          <div class="row" id="contenido-coleccion-{{ forloop.index }}">
+            <!-- Aquí se insertará el contenido dinámicamente -->
+            <p class="text-muted">Cargando contenido...</p>
           </div>
         </div>
       </div>
@@ -83,9 +54,88 @@ layout: compress
 </div>
 
 
+
   </div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+const pocketsData = {
+  {% for item in site.data.collections %}
+  
+    {% assign nombre = item[0] %}
+    {% assign datos = item[1] %}
+
+    
+    "{{ nombre }}": {{ datos | jsonify }}{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+};
+
+  const acordeones = document.querySelectorAll(".accordion-button");
+
+  acordeones.forEach(boton => {
+    boton.addEventListener("click", async function () {
+      const collection = this.dataset.collection;
+      const targetId = this.getAttribute("data-bs-target");
+      const container = document.querySelector(`${targetId} .row`);
+      if (!container.dataset.loaded) {
+        try {
+           const productos = pocketsData[collection];
+
+          container.innerHTML = "";
+
+          for (const subkey in productos) {
+                 
+            const subname = subkey;
+            const subdata = productos[subkey];
+
+  
+            const subTitle = document.createElement("h4");
+            subTitle.className = "text-uppercase fw-bold mt-4";
+            subTitle.textContent = subname;
+            container.appendChild(subTitle);
+
+            for (const grupoKey in subdata) {
+              const grupoTitle = document.createElement("h5");
+              grupoTitle.className = "text-muted mt-3";
+              grupoTitle.textContent = grupoKey;
+              container.appendChild(grupoTitle);
+
+              const productosGrupo = subdata[grupoKey];
+              productosGrupo.forEach(producto => {
+                const col = document.createElement("div");
+                col.className = "col-md-6 mb-3";
+                col.innerHTML = `
+                  <div class="card">
+                    <img loading="lazy" src="/assets/img/collection/${subname}/${grupoKey}/${producto.name}" class="card-img-top" alt="${producto.name}">
+                    <div class="card-body">
+                      <h2 class="card-title">ID: ${grupoKey}</h2>
+                      <h5 class="card-title">ID: ${producto.id}</h5>
+                      <a href="${producto.url_instagram}" class="btn btn-primary mt-2" target="_blank">Ver en Instagram</a>
+                    </div>
+                  </div>
+                `;
+                container.appendChild(col);
+              });
+            }
+          }
+
+          container.dataset.loaded = "true";
+        } catch (err) {
+          container.innerHTML = "<p class='text-danger'>Error al cargar los productos.</p>";
+        }
+      }
+    });
+  });
+});
+</script>
+
+
+
 
   {%- include footer.html -%}
 </body>
 
 </html>
+
