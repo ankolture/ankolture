@@ -42,20 +42,20 @@ layout: compress
       WhatsApp
     </a>
 
-        <a href="/" class="links"
+        <a href="/catalog" class="links"
       target="_blank">
       <i class="fas fa-book">&nbsp;</i>
       Catálogo
     </a>
 
-  
+
     <div class="slider-container">
       <!-- <h2>COLECCIONES</h2> -->
       <img src="{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/thepocketsn.png"
                                 alt="" style="width: 160px; height: auto;" class="img-fluid d-block mx-auto mt-3 mb-3">
-      {% if site.data.images %}
+      {% if site.data.collections.thepockets %}
       <div class="owl-carousel owl-theme">
-        {% for folder in site.data.images.thepockets %}
+        {% for folder in site.data.collections.thepockets.thepockets %}
         {% assign folder_name = folder[0] %}
         {% assign images = folder[1] %}
         {% for image in images %}
