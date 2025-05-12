@@ -42,7 +42,7 @@ layout: compress
       </h2>
       <div id="contenido{{ forloop.index }}" class="accordion-collapse collapse"
         aria-labelledby="encabezado{{ forloop.index }}" data-bs-parent="#miAcordeon">
-        <div class="accordion-body">
+        <div class="accordion-body" style="background-color: #1C1C1E;">
           <div class="row" id="contenido-coleccion-{{ forloop.index }}">
             <!-- Aquí se insertará el contenido dinámicamente -->
             <p class="text-muted">Cargando contenido...</p>
@@ -97,26 +97,23 @@ const pocketsData = {
             container.appendChild(subTitle);
 
             for (const grupoKey in subdata) {
-              const grupoTitle = document.createElement("h5");
-              grupoTitle.className = "text-muted mt-3";
-              grupoTitle.textContent = grupoKey;
-              container.appendChild(grupoTitle);
-
+    
               const productosGrupo = subdata[grupoKey];
-              productosGrupo.forEach(producto => {
+              productosGrupo.slice(0, 1).forEach(producto => {
                 const col = document.createElement("div");
                 col.className = "col-md-6 mb-3";
                 col.innerHTML = `
                  <div class="d-flex align-items-center justify-content-between flex-wrap text-white">
   <div class="d-flex flex-wrap align-items-start border-bottom py-3 position-relative w-100">
-    <a href="${producto.url}"><img src="/assets/img/collection/${subname}/${grupoKey}/thumbnail/${producto.thumbnail}" alt="${producto.thumbnail}" class="me-3 rounded" style="width: 20vw; max-width: 100px; height: auto; object-fit: cover;"> </a>
+    <a href="/${producto.url}?id=${producto.id}"><img src="/assets/img/collection/${subname}/${grupoKey}/thumbnail/${producto.thumbnail}" alt="${producto.thumbnail}" class="me-3 rounded" style="width: 20vw; max-width: 100px; height: auto; object-fit: cover;"> </a>
     <div class="flex-grow-1">
-      <h6 class="text-white text-truncate mb-1" style="max-width: 100%;">${grupoKey} T-SHIRT</h6>
+      <h6 class="text-white text-truncate mb-1" style="max-width: 100%; text-transform: uppercase;">${grupoKey} T-SHIRT</h6>
       <small class="text-white d-block mb-2">
-        <strong>Tela:</strong>
-        <strong>Género:</strong>}<br> 
-        <strong>Talla:</strong> 
-        <strong>Color:</strong>
+        <strong>Telas: NORMAL- PREMIUM</strong><br> 
+        <strong>Géneros: MUJER - HOMBRE</strong><br> 
+        <strong>Tallas: S - M - L - XL</strong> <br> 
+        <strong>Colores:  <span class="color-circle-catalog" style="background-color: black;"></span><span class="color-circle-catalog" style="background-color: white;"></span>
+        </strong>
       </small>
     </div>
   </div>

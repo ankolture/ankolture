@@ -1680,3 +1680,14 @@ footer {
     background-color: black !important; /* fondo negro puro */
     color: white !important;            /* texto blanco */
   }
+
+
+    .color-circle-catalog {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: border 0.2s ease;
+  }
+  
