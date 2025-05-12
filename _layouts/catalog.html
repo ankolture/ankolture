@@ -107,14 +107,20 @@ const pocketsData = {
                 const col = document.createElement("div");
                 col.className = "col-md-6 mb-3";
                 col.innerHTML = `
-                  <div class="card">
-                    <img loading="lazy" src="/assets/img/collection/${subname}/${grupoKey}/${producto.name}" class="card-img-top" alt="${producto.name}">
-                    <div class="card-body">
-                      <h2 class="card-title">ID: ${grupoKey}</h2>
-                      <h5 class="card-title">ID: ${producto.id}</h5>
-                      <a href="${producto.url_instagram}" class="btn btn-primary mt-2" target="_blank">Ver en Instagram</a>
-                    </div>
-                  </div>
+                 <div class="d-flex align-items-center justify-content-between flex-wrap text-white">
+  <div class="d-flex flex-wrap align-items-start border-bottom py-3 position-relative w-100">
+    <a href="${producto.url}"><img src="/assets/img/collection/${subname}/${grupoKey}/thumbnail/${producto.thumbnail}" alt="${producto.thumbnail}" class="me-3 rounded" style="width: 20vw; max-width: 100px; height: auto; object-fit: cover;"> </a>
+    <div class="flex-grow-1">
+      <h6 class="text-white text-truncate mb-1" style="max-width: 100%;">${grupoKey} T-SHIRT</h6>
+      <small class="text-white d-block mb-2">
+        <strong>Tela:</strong>
+        <strong>Género:</strong>}<br> 
+        <strong>Talla:</strong> 
+        <strong>Color:</strong>
+      </small>
+    </div>
+  </div>
+</div>
                 `;
                 container.appendChild(col);
               });
