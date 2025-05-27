@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /collections/thepockets.json
+---
+
+{{ site.data.collections.thepockets | jsonify }}

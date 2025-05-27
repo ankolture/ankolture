@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /collections/minimals.json
+---
+
+{{ site.data.collections.minimals | jsonify }}

@@ -1,0 +1,144 @@
+---
+layout: compress
+---
+
+
+
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+{%- include head.html -%}
+
+<body>
+  {%- include header.html -%}
+
+  <div class="container-fluid">
+    {{ content }}
+  </div>
+
+  <div class="containers mt-5">
+
+    <!-- 1. Logo -->
+    {% for exp in site.author_work_experiences %}
+    {% if exp.visibility == true %}
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ exp.company_logo }}" class="profile-picture" />
+    {% endif %}
+    {% endfor %}
+
+
+
+<div class="accordion mt-5" id="miAcordeon">
+  {% for folder in site.data.collections %}
+    {% assign collection_name = folder[0] %}
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="encabezado{{ forloop.index }}">
+        <button class="accordion-button collapsed mi-titulo" type="button" data-bs-toggle="collapse"
+          data-bs-target="#contenido{{ forloop.index }}" aria-expanded="false"
+          aria-controls="contenido{{ forloop.index }}"
+          data-collection="{{ collection_name }}">
+          {{ collection_name | upcase }}
+        </button>
+      </h2>
+      <div id="contenido{{ forloop.index }}" class="accordion-collapse collapse"
+        aria-labelledby="encabezado{{ forloop.index }}" data-bs-parent="#miAcordeon">
+        <div class="accordion-body" style="background-color: #1C1C1E;">
+          <div class="row" id="contenido-coleccion-{{ forloop.index }}">
+            <!-- Aquí se insertará el contenido dinámicamente -->
+            <p class="text-muted">Cargando contenido...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+
+
+  </div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+const pocketsData = {
+  {% for item in site.data.collections %}
+  
+    {% assign nombre = item[0] %}
+    {% assign datos = item[1] %}
+
+    
+    "{{ nombre }}": {{ datos | jsonify }}{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+};
+
+  const acordeones = document.querySelectorAll(".accordion-button");
+
+  acordeones.forEach(boton => {
+    boton.addEventListener("click", async function () {
+      const collection = this.dataset.collection;
+      const targetId = this.getAttribute("data-bs-target");
+      const container = document.querySelector(`${targetId} .row`);
+      if (!container.dataset.loaded) {
+        try {
+           const productos = pocketsData[collection];
+
+          container.innerHTML = "";
+
+          for (const subkey in productos) {
+                 
+            const subname = subkey;
+            const subdata = productos[subkey];
+
+  
+            const subTitle = document.createElement("h4");
+            subTitle.className = "text-uppercase fw-bold mt-4";
+            subTitle.textContent = subname;
+            container.appendChild(subTitle);
+
+            for (const grupoKey in subdata) {
+    
+              const productosGrupo = subdata[grupoKey];
+              productosGrupo.slice(0, 1).forEach(producto => {
+                const col = document.createElement("div");
+                col.className = "col-md-6 mb-3";
+                col.innerHTML = `
+                 <div class="d-flex align-items-center justify-content-between flex-wrap text-white">
+  <div class="d-flex flex-wrap align-items-start border-bottom py-3 position-relative w-100">
+    <a href="/${producto.url}?id=${producto.id}"><img src="/assets/img/collection/${subname}/${grupoKey}/thumbnail/${producto.thumbnail}" alt="${producto.thumbnail}" class="me-3 rounded" style="width: 20vw; max-width: 100px; height: auto; object-fit: cover;"> </a>
+    <div class="flex-grow-1">
+      <h6 class="text-white text-truncate mb-1" style="max-width: 100%; text-transform: uppercase;">${grupoKey} T-SHIRT</h6>
+      <small class="text-white d-block mb-2">
+        <strong>Telas: NORMAL- PREMIUM</strong><br> 
+        <strong>Géneros: MUJER - HOMBRE</strong><br> 
+        <strong>Tallas: S - M - L - XL</strong> <br> 
+        <strong>Colores:  <span class="color-circle-catalog" style="background-color: black;"></span><span class="color-circle-catalog" style="background-color: white;"></span>
+        </strong>
+      </small>
+    </div>
+  </div>
+</div>
+                `;
+                container.appendChild(col);
+              });
+            }
+          }
+
+          container.dataset.loaded = "true";
+        } catch (err) {
+          container.innerHTML = "<p class='text-danger'>Error al cargar los productos.</p>";
+        }
+      }
+    });
+  });
+});
+</script>
+
+
+
+
+  {%- include footer.html -%}
+</body>
+
+</html>
+
