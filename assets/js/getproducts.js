@@ -4,80 +4,97 @@
 let currentProduct = null;
 
 const params = new URLSearchParams(window.location.search);
+const collection = params.get("collection");
 const id = params.get("id");
 
 
-if (id) {
+if (collection && id) {
     document.querySelector(".tshirt-id").textContent = "SKU: " + id;
 
-    let found = false;
 
-    for (const [folderName, items] of Object.entries(pocketsData)) {
-        const match = items.find(item => String(item.id) === id);
-        if (match) {
+    fetch(`/collections/${collection}.json`)
+        .then(response => {
+            if (!response.ok) throw new Error('No se pudo cargar la colección');
+            return response.json();
+        })
+        .then(data => {
+          
+            const productos = data[collection];
 
+            let found = false;
 
-            currentProduct = match;
+            for (const [folderName, items] of Object.entries(productos)) {
+                const match = items.find(item => String(item.id) === id);
+                if (match) {
 
+                    currentProduct = match;
 
-            const imagePath = "/assets/img/collection/thepockets/" + folderName + "/" + match.name;
-            document.getElementById("main-image").src = imagePath;
-            document.getElementById("main-image").dataset.pid = id;
+                    const imagePath = "/assets/img/collection/" + collection +"/" + folderName + "/" + match.name;
+                    document.getElementById("main-image").src = imagePath;
+                    document.getElementById("main-image").dataset.pid = id;
 
-            const attribtshirtt = match.name.split('-');
+                    const attribtshirtt = match.name.split('-');
 
-            document.getElementById("main-image").dataset.name = attribtshirtt[0];
-            document.getElementById("main-image").dataset.gender = attribtshirtt[1];
-            document.getElementById("main-image").dataset.color = attribtshirtt[2];
+                    document.getElementById("main-image").dataset.name = attribtshirtt[0];
+                    document.getElementById("main-image").dataset.gender = attribtshirtt[1];
+                    document.getElementById("main-image").dataset.color = attribtshirtt[2];
 
-            document.querySelector('.act-price').textContent = '$' + match.price_premium;
-            document.querySelector('.about').textContent = match.description_premium;
+                    document.querySelector('.act-price').textContent = '$' + match.price_premium;
+                    document.querySelector('.about').textContent = match.description_premium;
 
-            document.querySelector('.act-price').textContent = '$' + match.price_normal;
-            document.querySelector('.about').textContent = match.description_normal;
+                    document.querySelector('.act-price').textContent = '$' + match.price_normal;
+                    document.querySelector('.about').textContent = match.description_normal;
 
-            document.querySelector("a[href='#'] i.fab.fa-instagram").parentElement.href = match.url_instagram;
-
-
-            document.querySelectorAll(".tshirt-name").forEach(function (el) {
-                el.textContent = folderName.toUpperCase();
-            });
-
-            const thumbnailContainer = document.getElementById("thumbnail-container");
-            thumbnailContainer.innerHTML = "";
-
-            items.forEach(item => {
-
-                const thumb = document.createElement("img");
-                const attribtshirt = item.name.split('-');
-                thumb.src = "/assets/img/collection/thepockets/" + folderName + "/" + item.name;
-                thumb.width = 70;
-                thumb.style.cursor = "pointer";
-                thumb.dataset.name = attribtshirt[0];
-                thumb.dataset.gender = attribtshirt[1];
-                thumb.dataset.color = attribtshirt[2];
-
-                thumb.onclick = function () {
-                    document.getElementById("main-image").dataset.pid = item.id;
-                    document.getElementById("main-image").dataset.name = attribtshirt[0];
-                    document.getElementById("main-image").dataset.gender = attribtshirt[1];
-                    document.getElementById("main-image").dataset.color = attribtshirt[2];
-                    document.querySelector(".tshirt-id").textContent = "SKU: " + item.id;
-                    change_image(this);
-                };
-                thumbnailContainer.appendChild(thumb);
+                    document.querySelector("a[href='#'] i.fab.fa-instagram").parentElement.href = match.url_instagram;
 
 
-            });
+                    document.querySelectorAll(".tshirt-name").forEach(function (el) {
+                        el.textContent = folderName.toUpperCase();
+                    });
 
-            found = true;
-            break;
-        }
-    }
+                    const thumbnailContainer = document.getElementById("thumbnail-container");
+                    thumbnailContainer.innerHTML = "";
 
-    if (!found) {
-        console.warn("Imagen no encontrada para ID:", id);
-    }
+                    items.forEach(item => {
+
+                        const thumb = document.createElement("img");
+                        const attribtshirt = item.name.split('-');
+                        thumb.src = "/assets/img/collection/thepockets/" + folderName + "/" + item.name;
+                        thumb.width = 70;
+                        thumb.style.cursor = "pointer";
+                        thumb.dataset.name = attribtshirt[0];
+                        thumb.dataset.gender = attribtshirt[1];
+                        thumb.dataset.color = attribtshirt[2];
+
+                        thumb.onclick = function () {
+                            document.getElementById("main-image").dataset.pid = item.id;
+                            document.getElementById("main-image").dataset.name = attribtshirt[0];
+                            document.getElementById("main-image").dataset.gender = attribtshirt[1];
+                            document.getElementById("main-image").dataset.color = attribtshirt[2];
+                            document.querySelector(".tshirt-id").textContent = "SKU: " + item.id;
+                            change_image(this);
+                        };
+                        thumbnailContainer.appendChild(thumb);
+
+
+                    });
+
+                    found = true;
+                    break;
+                }
+            }
+
+            if (!found) {
+                console.warn("Imagen no encontrada para ID:", id);
+            }
+
+
+        })
+        .catch(error => {
+            console.error(error);
+
+        });
+
 }
 
 
