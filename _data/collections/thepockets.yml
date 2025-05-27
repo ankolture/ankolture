@@ -975,6 +975,618 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
+  toaddette:
+    - name: toaddette-unisex-black.jpg
+      thumbnail: toaddette-men-black.webp
+      id : 107
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: toaddette-unisex-white.jpg
+      thumbnail: toaddette-men-black.webp
+      id : 108
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: toaddette-men-black.jpg
+      thumbnail: toaddette-men-black.webp
+      id : 103
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: toaddette-men-white.jpg
+      thumbnail: toaddette-men-black.webp
+      id : 104
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: toaddette-women-black.jpg
+      thumbnail: toaddette-men-black.webp
+      id : 105
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: toaddette-women-white.jpg
+      thumbnail: toaddette-men-black.webp
+      id : 106
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+  kingboo:
+    - name: kingboo-unisex-black.jpg
+      thumbnail: kingboo-men-black.webp
+      id : 113
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: kingboo-unisex-white.jpg
+      thumbnail: kingboo-men-black.webp
+      id : 114
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: kingboo-men-black.jpg
+      thumbnail: kingboo-men-black.webp
+      id : 109
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: kingboo-men-white.jpg
+      thumbnail: kingboo-men-black.webp
+      id : 110
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: kingboo-women-black.jpg
+      thumbnail: kingboo-men-black.webp
+      id : 111
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: kingboo-women-white.jpg
+      thumbnail: kingboo-men-black.webp
+      id : 112
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+  shyguy:
+    - name: shyguy-unisex-black.jpg
+      thumbnail: shyguy-men-black.webp
+      id : 119
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: shyguy-unisex-white.jpg
+      thumbnail: shyguy-men-black.webp
+      id : 120
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: shyguy-men-black.jpg
+      thumbnail: shyguy-men-black.webp
+      id : 115
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: shyguy-men-white.jpg
+      thumbnail: shyguy-men-black.webp
+      id : 116
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: shyguy-women-black.jpg
+      thumbnail: shyguy-men-black.webp
+      id : 117
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: shyguy-women-white.jpg
+      thumbnail: shyguy-men-black.webp
+      id : 118
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+  hammerbros:
+    - name: hammerbros-unisex-black.jpg
+      thumbnail: hammerbros-men-black.webp
+      id : 125
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: hammerbros-unisex-white.jpg
+      thumbnail: hammerbros-men-black.webp
+      id : 126
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: hammerbros-men-black.jpg
+      thumbnail: hammerbros-men-black.webp
+      id : 121
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: hammerbros-men-white.jpg
+      thumbnail: hammerbros-men-black.webp
+      id : 122
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: hammerbros-women-black.jpg
+      thumbnail: hammerbros-men-black.webp
+      id : 123
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: hammerbros-women-white.jpg
+      thumbnail: hammerbros-men-black.webp
+      id : 124
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+  goomba:
+    - name: goomba-unisex-black.jpg
+      thumbnail: goomba-men-black.webp
+      id : 131
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: goomba-unisex-white.jpg
+      thumbnail: goomba-men-black.webp
+      id : 132
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: goomba-men-black.jpg
+      thumbnail: goomba-men-black.webp
+      id : 127
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: goomba-men-white.jpg
+      thumbnail: goomba-men-black.webp
+      id : 128
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: goomba-women-black.jpg
+      thumbnail: goomba-men-black.webp
+      id : 129
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: goomba-women-white.jpg
+      thumbnail: goomba-men-black.webp
+      id : 130
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+  plantpiranha:
+    - name: plantpiranha-unisex-black.jpg
+      thumbnail: plantpiranha-men-black.webp
+      id : 137
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: plantpiranha-unisex-white.jpg
+      thumbnail: plantpiranha-men-black.webp
+      id : 138
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: plantpiranha-men-black.jpg
+      thumbnail: plantpiranha-men-black.webp
+      id : 133
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: plantpiranha-men-white.jpg
+      thumbnail: plantpiranha-men-black.webp
+      id : 134
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: plantpiranha-women-black.jpg
+      thumbnail: plantpiranha-men-black.webp
+      id : 135
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: plantpiranha-women-white.jpg
+      thumbnail: plantpiranha-men-black.webp
+      id : 136
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+  spiny:
+    - name: spiny-unisex-black.jpg
+      thumbnail: spiny-men-black.webp
+      id : 143
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: spiny-unisex-white.jpg
+      thumbnail: spiny-men-black.webp
+      id : 144
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: spiny-men-black.jpg
+      thumbnail: spiny-men-black.webp
+      id : 139
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: spiny-men-white.jpg
+      thumbnail: spiny-men-black.webp
+      id : 140
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: spiny-women-black.jpg
+      thumbnail: spiny-men-black.webp
+      id : 141
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: spiny-women-white.jpg
+      thumbnail: spiny-men-black.webp
+      id : 142
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+  chepchep:
+    - name: chepchep-unisex-black.jpg
+      thumbnail: chepchep-men-black.webp
+      id : 149
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: chepchep-unisex-white.jpg
+      thumbnail: chepchep-men-black.webp
+      id : 150
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: chepchep-men-black.jpg
+      thumbnail: chepchep-men-black.webp
+      id : 145
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: chepchep-men-white.jpg
+      thumbnail: chepchep-men-black.webp
+      id : 146
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: chepchep-women-black.jpg
+      thumbnail: chepchep-men-black.webp
+      id : 147
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: chepchep-women-white.jpg
+      thumbnail: chepchep-men-black.webp
+      id : 148
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+  birdo:
+    - name: birdo-unisex-black.jpg
+      thumbnail: birdo-men-black.webp
+      id : 155
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: birdo-unisex-white.jpg
+      thumbnail: birdo-men-black.webp
+      id : 156
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: birdo-men-black.jpg
+      thumbnail: birdo-men-black.webp
+      id : 151
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: birdo-men-white.jpg
+      thumbnail: birdo-men-black.webp
+      id : 152
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: birdo-women-black.jpg
+      thumbnail: birdo-men-black.webp
+      id : 153
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: birdo-women-white.jpg
+      thumbnail: birdo-men-black.webp
+      id : 154
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+  blooper:
+    - name: blooper-unisex-black.jpg
+      thumbnail: blooper-men-black.webp
+      id : 161
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: blooper-unisex-white.jpg
+      thumbnail: blooper-men-black.webp
+      id : 162
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: blooper-men-black.jpg
+      thumbnail: blooper-men-black.webp
+      id : 157
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: blooper-men-white.jpg
+      thumbnail: blooper-men-black.webp
+      id : 158
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: blooper-women-black.jpg
+      thumbnail: blooper-men-black.webp
+      id : 159
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: blooper-women-white.jpg
+      thumbnail: blooper-men-black.webp
+      id : 160
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINOKhKv2xH
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+
+
 
 
 
