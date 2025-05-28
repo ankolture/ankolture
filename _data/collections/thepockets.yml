@@ -1,6 +1,6 @@
 thepockets:
   donkeykong:
-    - name: donkeykong-unisex-black.jpg
+    - name: donkeykong-unisex-black.webp
       id : 11
       thumbnail: donkeykong-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -10,7 +10,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: donkeykong-unisex-white.jpg
+    - name: donkeykong-unisex-white.webp
       id : 12
       thumbnail: donkeykong-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -20,7 +20,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: donkeykong-men-black.jpg
+    - name: donkeykong-men-black.webp
       thumbnail: donkeykong-men-black.webp
       id : 7
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -30,7 +30,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: donkeykong-men-white.jpg
+    - name: donkeykong-men-white.webp
       id : 8
       thumbnail: donkeykong-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -40,7 +40,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: donkeykong-women-black.jpg
+    - name: donkeykong-women-black.webp
       id : 9
       thumbnail: donkeykong-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -50,7 +50,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: donkeykong-women-white.jpg
+    - name: donkeykong-women-white.webp
       id : 10
       thumbnail: donkeykong-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -61,7 +61,7 @@ thepockets:
       price_premium: "60.000"
 
   yoshi:
-    - name: yoshi-unisex-black.jpg
+    - name: yoshi-unisex-black.webp
       id : 17
       thumbnail: yoshi-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -71,7 +71,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: yoshi-unisex-white.jpg
+    - name: yoshi-unisex-white.webp
       id : 18
       thumbnail: yoshi-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -81,7 +81,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: yoshi-men-black.jpg
+    - name: yoshi-men-black.webp
       thumbnail: yoshi-men-black.webp
       id : 13
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -91,7 +91,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: yoshi-men-white.jpg
+    - name: yoshi-men-white.webp
       id : 14
       thumbnail: yoshi-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -101,7 +101,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: yoshi-women-black.jpg
+    - name: yoshi-women-black.webp
       id : 15
       thumbnail: yoshi-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -111,7 +111,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: yoshi-women-white.jpg
+    - name: yoshi-women-white.webp
       id : 16
       thumbnail: yoshi-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -122,7 +122,7 @@ thepockets:
       price_premium: "60.000"
 
   waluigi:
-    - name: waluigi-unisex-black.jpg
+    - name: waluigi-unisex-black.webp
       id : 23
       thumbnail: waluigi-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -132,7 +132,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: waluigi-unisex-white.jpg
+    - name: waluigi-unisex-white.webp
       id : 24
       thumbnail: waluigi-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -142,7 +142,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: waluigi-men-black.jpg
+    - name: waluigi-men-black.webp
       thumbnail: waluigi-men-black.webp
       id : 19
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -152,8 +152,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: waluigi-men-white.jpg
-      id : 20
+    - name: waluigi-men-white.webp
       thumbnail: waluigi-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
       description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
@@ -162,7 +161,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: waluigi-women-black.jpg
+    - name: waluigi-women-black.webp
       id : 21
       thumbnail: waluigi-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -172,7 +171,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: waluigi-women-white.jpg
+    - name: waluigi-women-white.webp
       id : 22
       thumbnail: waluigi-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -183,7 +182,7 @@ thepockets:
       price_premium: "60.000"
 
   wario:
-    - name: wario-unisex-black.jpg
+    - name: wario-unisex-black.webp
       id : 29
       thumbnail: wario-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -193,7 +192,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: wario-unisex-white.jpg
+    - name: wario-unisex-white.webp
       id : 30
       thumbnail: wario-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -203,7 +202,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: wario-men-black.jpg
+    - name: wario-men-black.webp
       thumbnail: wario-men-black.webp
       id : 25
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -213,7 +212,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: wario-men-white.jpg
+    - name: wario-men-white.webp
       id : 26
       thumbnail: wario-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -223,7 +222,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: wario-women-black.jpg
+    - name: wario-women-black.webp
       id : 27
       thumbnail: wario-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -233,7 +232,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: wario-women-white.jpg
+    - name: wario-women-white.webp
       id : 28
       thumbnail: wario-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -244,7 +243,7 @@ thepockets:
       price_premium: "60.000"
 
   roy:
-    - name: roy-unisex-black.jpg
+    - name: roy-unisex-black.webp
       id : 35
       thumbnail: roy-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -254,7 +253,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: roy-unisex-white.jpg
+    - name: roy-unisex-white.webp
       id : 36
       thumbnail: roy-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -264,7 +263,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: roy-men-black.jpg
+    - name: roy-men-black.webp
       thumbnail: roy-men-black.webp
       id : 31
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -274,7 +273,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: roy-men-white.jpg
+    - name: roy-men-white.webp
       id : 32
       thumbnail: roy-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -284,7 +283,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: roy-women-black.jpg
+    - name: roy-women-black.webp
       id : 33
       thumbnail: roy-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -294,7 +293,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: roy-women-white.jpg
+    - name: roy-women-white.webp
       id : 34
       thumbnail: roy-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -305,7 +304,7 @@ thepockets:
       price_premium: "60.000"
 
   koopa:
-    - name: koopa-unisex-black.jpg
+    - name: koopa-unisex-black.webp
       id : 41
       thumbnail: koopa-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -315,7 +314,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: koopa-unisex-white.jpg
+    - name: koopa-unisex-white.webp
       id : 41
       thumbnail: koopa-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -325,7 +324,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: koopa-men-black.jpg
+    - name: koopa-men-black.webp
       thumbnail: koopa-men-black.webp
       id : 37
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -335,7 +334,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: koopa-men-white.jpg
+    - name: koopa-men-white.webp
       id : 38
       thumbnail: koopa-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -345,7 +344,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: koopa-women-black.jpg
+    - name: koopa-women-black.webp
       id : 39
       thumbnail: koopa-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -355,7 +354,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: koopa-women-white.jpg
+    - name: koopa-women-white.webp
       id : 40
       thumbnail: koopa-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -366,7 +365,7 @@ thepockets:
       price_premium: "60.000"
 
   huesitos:
-    - name: huesitos-unisex-black.jpg
+    - name: huesitos-unisex-black.webp
       id : 47
       thumbnail: huesitos-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -376,7 +375,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: huesitos-unisex-white.jpg
+    - name: huesitos-unisex-white.webp
       id : 48
       thumbnail: huesitos-unisex-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -386,7 +385,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: huesitos-men-black.jpg
+    - name: huesitos-men-black.webp
       thumbnail: huesitos-men-black.webp
       id : 43
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -396,7 +395,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: huesitos-men-white.jpg
+    - name: huesitos-men-white.webp
       id : 44
       thumbnail: huesitos-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -406,7 +405,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: huesitos-women-black.jpg
+    - name: huesitos-women-black.webp
       id : 45
       thumbnail: huesitos-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -416,7 +415,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: huesitos-women-white.jpg
+    - name: huesitos-women-white.webp
       id : 46
       thumbnail: huesitos-men-black.webp
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -488,7 +487,7 @@ thepockets:
       price_premium: "60.000"
 
   bowsy:
-    - name: bowsy-unisex-black.jpg
+    - name: bowsy-unisex-black.webp
       thumbnail: bowsy-men-black.webp
       id : 59
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -498,7 +497,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: bowsy-unisex-white.jpg
+    - name: bowsy-unisex-white.webp
       thumbnail: bowsy-men-black.webp
       id : 60
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -508,7 +507,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: bowsy-men-black.jpg
+    - name: bowsy-men-black.webp
       thumbnail: bowsy-men-black.webp
       id : 55
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -518,7 +517,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: bowsy-men-white.jpg
+    - name: bowsy-men-white.webp
       thumbnail: bowsy-men-black.webp
       id : 56
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -528,7 +527,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: bowsy-women-black.jpg
+    - name: bowsy-women-black.webp
       thumbnail: bowsy-men-black.webp
       id : 57
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -538,7 +537,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: bowsy-women-white.jpg
+    - name: bowsy-women-white.webp
       thumbnail: bowsy-men-black.webp
       id : 58
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -620,7 +619,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: luigi-unisex-white.jpg
+    - name: luigi-unisex-white.webp
       thumbnail: luigi-men-black.webp
       id : 72
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -630,7 +629,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: luigi-men-black.jpg
+    - name: luigi-men-black.webp
       thumbnail: luigi-men-black.webp
       id : 67
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -640,7 +639,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: luigi-men-white.jpg
+    - name: luigi-men-white.webp
       thumbnail: luigi-men-black.webp
       id : 68
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -650,7 +649,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: luigi-women-black.jpg
+    - name: luigi-women-black.webp
       thumbnail: luigi-men-black.webp
       id : 69
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -660,7 +659,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: luigi-women-white.jpg
+    - name: luigi-women-white.webp
       thumbnail: luigi-men-black.webp
       id : 70
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -671,7 +670,7 @@ thepockets:
       price_premium: "60.000"
 
   peach:
-    - name: peach-unisex-black.jpg
+    - name: peach-unisex-black.webp
       thumbnail: peach-men-black.webp
       id : 77
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -681,7 +680,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: peach-unisex-white.jpg
+    - name: peach-unisex-white.webp
       thumbnail: peach-men-black.webp
       id : 78
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -691,7 +690,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: peach-men-black.jpg
+    - name: peach-men-black.webp
       thumbnail: peach-men-black.webp
       id : 73
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -701,7 +700,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: peach-men-white.jpg
+    - name: peach-men-white.webp
       thumbnail: peach-men-black.webp
       id : 74
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -711,7 +710,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: peach-women-black.jpg
+    - name: peach-women-black.webp
       thumbnail: peach-men-black.webp
       id : 75
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -721,7 +720,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: peach-women-white.jpg
+    - name: peach-women-white.webp
       thumbnail: peach-men-black.webp
       id : 76
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -732,7 +731,7 @@ thepockets:
       price_premium: "60.000"
 
   rosalina:
-    - name: rosalina-unisex-black.jpg
+    - name: rosalina-unisex-black.webp
       thumbnail: rosalina-men-black.webp
       id : 83
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -742,7 +741,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: rosalina-unisex-white.jpg
+    - name: rosalina-unisex-white.webp
       thumbnail: rosalina-men-black.webp
       id : 84
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -752,7 +751,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: rosalina-men-black.jpg
+    - name: rosalina-men-black.webp
       thumbnail: rosalina-men-black.webp
       id : 79
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -762,7 +761,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: rosalina-men-white.jpg
+    - name: rosalina-men-white.webp
       thumbnail: rosalina-men-black.webp
       id : 80
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -772,7 +771,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: rosalina-women-black.jpg
+    - name: rosalina-women-black.webp
       thumbnail: rosalina-men-black.webp
       id : 81
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -782,7 +781,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: rosalina-women-white.jpg
+    - name: rosalina-women-white.webp
       thumbnail: rosalina-men-black.webp
       id : 82
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -793,7 +792,7 @@ thepockets:
       price_premium: "60.000"
 
   daisy:
-    - name: daisy-unisex-black.jpg
+    - name: daisy-unisex-black.webp
       thumbnail: daisy-men-black.webp
       id : 89
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -803,7 +802,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: daisy-unisex-white.jpg
+    - name: daisy-unisex-white.webp
       thumbnail: daisy-men-black.webp
       id : 90
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -813,7 +812,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: daisy-men-black.jpg
+    - name: daisy-men-black.webp
       thumbnail: daisy-men-black.webp
       id : 85
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -823,7 +822,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: daisy-men-white.jpg
+    - name: daisy-men-white.webp
       thumbnail: daisy-men-black.webp
       id : 86
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -833,7 +832,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: daisy-women-black.jpg
+    - name: daisy-women-black.webp
       thumbnail: daisy-men-black.webp
       id : 87
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -843,7 +842,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: daisy-women-white.jpg
+    - name: daisy-women-white.webp
       thumbnail: daisy-men-black.webp
       id : 88
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -854,7 +853,7 @@ thepockets:
       price_premium: "60.000"
 
   lakitu:
-    - name: lakitu-unisex-black.jpg
+    - name: lakitu-unisex-black.webp
       thumbnail: lakitu-men-black.webp
       id : 95
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -864,7 +863,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: lakitu-unisex-white.jpg
+    - name: lakitu-unisex-white.webp
       thumbnail: lakitu-men-black.webp
       id : 96
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -874,7 +873,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: lakitu-men-black.jpg
+    - name: lakitu-men-black.webp
       thumbnail: lakitu-men-black.webp
       id : 91
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -884,7 +883,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: lakitu-men-white.jpg
+    - name: lakitu-men-white.webp
       thumbnail: lakitu-men-black.webp
       id : 92
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -894,7 +893,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: lakitu-women-black.jpg
+    - name: lakitu-women-black.webp
       thumbnail: lakitu-men-black.webp
       id : 93
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -904,7 +903,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: lakitu-women-white.jpg
+    - name: lakitu-women-white.webp
       thumbnail: lakitu-men-black.webp
       id : 94
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -915,7 +914,7 @@ thepockets:
       price_premium: "60.000"
 
   toad:
-    - name: toad-unisex-black.jpg
+    - name: toad-unisex-black.webp
       thumbnail: toad-men-black.webp
       id : 101
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -925,7 +924,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: toad-unisex-white.jpg
+    - name: toad-unisex-white.webp
       thumbnail: toad-men-black.webp
       id : 102
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -935,7 +934,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: toad-men-black.jpg
+    - name: toad-men-black.webp
       thumbnail: toad-men-black.webp
       id : 97
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -945,7 +944,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: toad-men-white.jpg
+    - name: toad-men-white.webp
       thumbnail: toad-men-black.webp
       id : 98
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -955,7 +954,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: toad-women-black.jpg
+    - name: toad-women-black.webp
       thumbnail: toad-men-black.webp
       id : 99
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -965,7 +964,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: toad-women-white.jpg
+    - name: toad-women-white.webp
       thumbnail: toad-men-black.webp
       id : 100
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -976,7 +975,7 @@ thepockets:
       price_premium: "60.000"
 
   toaddette:
-    - name: toaddette-unisex-black.jpg
+    - name: toaddette-unisex-black.webp
       thumbnail: toaddette-men-black.webp
       id : 107
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -986,7 +985,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: toaddette-unisex-white.jpg
+    - name: toaddette-unisex-white.webp
       thumbnail: toaddette-men-black.webp
       id : 108
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -996,7 +995,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: toaddette-men-black.jpg
+    - name: toaddette-men-black.webp
       thumbnail: toaddette-men-black.webp
       id : 103
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1006,7 +1005,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: toaddette-men-white.jpg
+    - name: toaddette-men-white.webp
       thumbnail: toaddette-men-black.webp
       id : 104
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1016,7 +1015,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: toaddette-women-black.jpg
+    - name: toaddette-women-black.webp
       thumbnail: toaddette-men-black.webp
       id : 105
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1026,7 +1025,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: toaddette-women-white.jpg
+    - name: toaddette-women-white.webp
       thumbnail: toaddette-men-black.webp
       id : 106
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1037,7 +1036,7 @@ thepockets:
       price_premium: "60.000"
 
   kingboo:
-    - name: kingboo-unisex-black.jpg
+    - name: kingboo-unisex-black.webp
       thumbnail: kingboo-men-black.webp
       id : 113
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1047,7 +1046,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: kingboo-unisex-white.jpg
+    - name: kingboo-unisex-white.webp
       thumbnail: kingboo-men-black.webp
       id : 114
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1057,7 +1056,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: kingboo-men-black.jpg
+    - name: kingboo-men-black.webp
       thumbnail: kingboo-men-black.webp
       id : 109
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1067,7 +1066,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: kingboo-men-white.jpg
+    - name: kingboo-men-white.webp
       thumbnail: kingboo-men-black.webp
       id : 110
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1077,7 +1076,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: kingboo-women-black.jpg
+    - name: kingboo-women-black.webp
       thumbnail: kingboo-men-black.webp
       id : 111
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1087,7 +1086,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: kingboo-women-white.jpg
+    - name: kingboo-women-white.webp
       thumbnail: kingboo-men-black.webp
       id : 112
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1098,7 +1097,7 @@ thepockets:
       price_premium: "60.000"
 
   shyguy:
-    - name: shyguy-unisex-black.jpg
+    - name: shyguy-unisex-black.webp
       thumbnail: shyguy-men-black.webp
       id : 119
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1108,7 +1107,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: shyguy-unisex-white.jpg
+    - name: shyguy-unisex-white.webp
       thumbnail: shyguy-men-black.webp
       id : 120
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1118,7 +1117,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: shyguy-men-black.jpg
+    - name: shyguy-men-black.webp
       thumbnail: shyguy-men-black.webp
       id : 115
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1128,7 +1127,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: shyguy-men-white.jpg
+    - name: shyguy-men-white.webp
       thumbnail: shyguy-men-black.webp
       id : 116
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1138,7 +1137,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: shyguy-women-black.jpg
+    - name: shyguy-women-black.webp
       thumbnail: shyguy-men-black.webp
       id : 117
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1148,7 +1147,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: shyguy-women-white.jpg
+    - name: shyguy-women-white.webp
       thumbnail: shyguy-men-black.webp
       id : 118
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1159,7 +1158,7 @@ thepockets:
       price_premium: "60.000"
 
   hammerbros:
-    - name: hammerbros-unisex-black.jpg
+    - name: hammerbros-unisex-black.webp
       thumbnail: hammerbros-men-black.webp
       id : 125
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1169,7 +1168,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: hammerbros-unisex-white.jpg
+    - name: hammerbros-unisex-white.webp
       thumbnail: hammerbros-men-black.webp
       id : 126
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1179,7 +1178,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: hammerbros-men-black.jpg
+    - name: hammerbros-men-black.webp
       thumbnail: hammerbros-men-black.webp
       id : 121
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1189,7 +1188,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: hammerbros-men-white.jpg
+    - name: hammerbros-men-white.webp
       thumbnail: hammerbros-men-black.webp
       id : 122
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1199,7 +1198,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: hammerbros-women-black.jpg
+    - name: hammerbros-women-black.webp
       thumbnail: hammerbros-men-black.webp
       id : 123
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1209,7 +1208,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: hammerbros-women-white.jpg
+    - name: hammerbros-women-white.webp
       thumbnail: hammerbros-men-black.webp
       id : 124
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1220,7 +1219,7 @@ thepockets:
       price_premium: "60.000"
 
   goomba:
-    - name: goomba-unisex-black.jpg
+    - name: goomba-unisex-black.webp
       thumbnail: goomba-men-black.webp
       id : 131
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1230,7 +1229,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: goomba-unisex-white.jpg
+    - name: goomba-unisex-white.webp
       thumbnail: goomba-men-black.webp
       id : 132
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1240,7 +1239,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: goomba-men-black.jpg
+    - name: goomba-men-black.webp
       thumbnail: goomba-men-black.webp
       id : 127
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1250,7 +1249,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: goomba-men-white.jpg
+    - name: goomba-men-white.webp
       thumbnail: goomba-men-black.webp
       id : 128
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1260,7 +1259,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: goomba-women-black.jpg
+    - name: goomba-women-black.webp
       thumbnail: goomba-men-black.webp
       id : 129
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1270,7 +1269,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: goomba-women-white.jpg
+    - name: goomba-women-white.webp
       thumbnail: goomba-men-black.webp
       id : 130
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1281,7 +1280,7 @@ thepockets:
       price_premium: "60.000"
 
   plantpiranha:
-    - name: plantpiranha-unisex-black.jpg
+    - name: plantpiranha-unisex-black.webp
       thumbnail: plantpiranha-men-black.webp
       id : 137
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1291,7 +1290,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: plantpiranha-unisex-white.jpg
+    - name: plantpiranha-unisex-white.webp
       thumbnail: plantpiranha-men-black.webp
       id : 138
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1301,7 +1300,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: plantpiranha-men-black.jpg
+    - name: plantpiranha-men-black.webp
       thumbnail: plantpiranha-men-black.webp
       id : 133
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1311,7 +1310,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: plantpiranha-men-white.jpg
+    - name: plantpiranha-men-white.webp
       thumbnail: plantpiranha-men-black.webp
       id : 134
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1321,7 +1320,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: plantpiranha-women-black.jpg
+    - name: plantpiranha-women-black.webp
       thumbnail: plantpiranha-men-black.webp
       id : 135
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1331,7 +1330,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: plantpiranha-women-white.jpg
+    - name: plantpiranha-women-white.webp
       thumbnail: plantpiranha-men-black.webp
       id : 136
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1342,7 +1341,7 @@ thepockets:
       price_premium: "60.000"
 
   spiny:
-    - name: spiny-unisex-black.jpg
+    - name: spiny-unisex-black.webp
       thumbnail: spiny-men-black.webp
       id : 143
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1352,7 +1351,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: spiny-unisex-white.jpg
+    - name: spiny-unisex-white.webp
       thumbnail: spiny-men-black.webp
       id : 144
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1362,7 +1361,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: spiny-men-black.jpg
+    - name: spiny-men-black.webp
       thumbnail: spiny-men-black.webp
       id : 139
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1372,7 +1371,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: spiny-men-white.jpg
+    - name: spiny-men-white.webp
       thumbnail: spiny-men-black.webp
       id : 140
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1382,7 +1381,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: spiny-women-black.jpg
+    - name: spiny-women-black.webp
       thumbnail: spiny-men-black.webp
       id : 141
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1392,7 +1391,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: spiny-women-white.jpg
+    - name: spiny-women-white.webp
       thumbnail: spiny-men-black.webp
       id : 142
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1403,7 +1402,7 @@ thepockets:
       price_premium: "60.000"
 
   chepchep:
-    - name: chepchep-unisex-black.jpg
+    - name: chepchep-unisex-black.webp
       thumbnail: chepchep-men-black.webp
       id : 149
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1413,7 +1412,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: chepchep-unisex-white.jpg
+    - name: chepchep-unisex-white.webp
       thumbnail: chepchep-men-black.webp
       id : 150
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1423,7 +1422,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: chepchep-men-black.jpg
+    - name: chepchep-men-black.webp
       thumbnail: chepchep-men-black.webp
       id : 145
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1433,7 +1432,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: chepchep-men-white.jpg
+    - name: chepchep-men-white.webp
       thumbnail: chepchep-men-black.webp
       id : 146
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
@@ -1443,7 +1442,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: chepchep-women-black.jpg
+    - name: chepchep-women-black.webp
       thumbnail: chepchep-men-black.webp
       id : 147
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
@@ -1453,7 +1452,7 @@ thepockets:
       price_normal: "50.000"
       price_premium: "60.000"
 
-    - name: chepchep-women-white.jpg
+    - name: chepchep-women-white.webp
       thumbnail: chepchep-men-black.webp
       id : 148
       description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
