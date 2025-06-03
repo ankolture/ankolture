@@ -59,7 +59,7 @@ if (collection && id) {
 
                         const thumb = document.createElement("img");
                         const attribtshirt = item.name.split('-');
-                        thumb.src = "/assets/img/collection/thepockets/" + folderName + "/" + item.name;
+                        thumb.src = "/assets/img/collection/"+ collection + "/" + folderName + "/" + item.name;
                         thumb.width = 70;
                         thumb.style.cursor = "pointer";
                         thumb.dataset.name = attribtshirt[0];
