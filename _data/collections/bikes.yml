@@ -1,0 +1,61 @@
+bikes:
+  rider:
+    - name: rider-unisex-black.webp
+      id : 167
+      thumbnail: rider-unisex-black.webp
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINRuR0xK68
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: rider-unisex-white.webp
+      id : 168
+      thumbnail: rider-unisex-black.webp
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINRuR0xK68
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: rider-men-black.webp
+      thumbnail: rider-men-black.webp
+      id : 163
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINRuR0xK68
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: rider-men-white.webp
+      id : 164
+      thumbnail: rider-men-black.webp
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINRuR0xK68
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: rider-women-black.webp
+      id : 165
+      thumbnail: rider-men-black.webp
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINRuR0xK68
+      price_normal: "50.000"
+      price_premium: "60.000"
+
+    - name: rider-women-white.webp
+      id : 166
+      thumbnail: rider-men-black.webp
+      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
+      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
+      url: detailthirt
+      url_instagram: https://www.instagram.com/p/DINRuR0xK68
+      price_normal: "50.000"
+      price_premium: "60.000"
