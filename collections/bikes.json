@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /collections/bikes.json
+---
+
+{{ site.data.collections.bikes | jsonify }}
