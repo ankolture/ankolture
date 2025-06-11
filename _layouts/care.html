@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{%- include head.html -%}
+
+<body>
+  {%- include header.html -%}
+  <div id="volver-fixed" class="text-white py-2"
+    style="background-color:#1c1c1e; font-size: 0.8rem; position: fixed; top: 56px; left: 0; width: 100%; z-index: 1030; box-shadow: 0 2px 10px rgba(0,0,0,0.2);">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="/" class="volver-link d-flex align-items-center text-decoration-none text-white">
+        <i class="fa fa-long-arrow-alt-left me-2"></i>
+        <span>Volver</span>
+      </a>
+      <a style="text-decoration: none;" href="#"><i class="fab fa-whatsapp"></i> El Pedido se realizará por Whatsapp</a>
+    </div>
+  </div>
+
+
+  <div class="container-fluid">
+    {{ content }}
+  </div>
+
+  <div class="containers mt-5">
+
+    <!-- 1. Logo -->
+    {% for exp in site.author_work_experiences %}
+    {% if exp.visibility == true %}
+    <!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ exp.company_logo }}" class="profile-picture" /> -->
+    {% endif %}
+    {% endfor %}
+    <div class="card text-white">
+      <h6>RECOMENDACIONES</h6>
+      <p> Gracias por adquirir una de nuestras prendas personalizadas. Cada diseño ha sido elaborado con especial
+        atención
+        al detalle, utilizando impresión digital con tintas y materiales de alta calidad, específicos para textiles.
+
+        El estampado se fija mediante una prensa de calor que activa su adhesivo, garantizando un acabado duradero y de
+        excelente presentación.
+      </p>
+
+      <h6>LAVADO</h6>
+      <p>Lava a mano o en ciclo delicado en lavadora.
+        Utiliza siempre agua fría.
+        Emplea detergentes suaves, preferiblemente neutros.
+        Evita el uso de blanqueadores o productos agresivos que puedan dañar el estampado y la tela.
+      </p>
+
+      <h6>SECADO</h6>
+      <p>
+        No utilices secadora.
+        Seca al aire libre, preferentemente a la sombra.
+        Evita la exposición directa al sol durante el secado para prevenir la decoloración.
+      </p>
+
+      <h6>PLANCHADO</h6>
+      <p>
+        No planches directamente sobre el estampado.
+        Si es necesario, plancha la prenda del revés y a temperatura baja
+      </p>
+
+      <h6>ALMACENAMIENTO Y USO</h6>
+      <p>
+        Guarda la prenda en un lugar fresco, seco y alejado de fuentes de calor o luz solar directa.
+        Evita el contacto con superficies ásperas o abrasivas que puedan dañar el estampado mediante fricción o roce
+        excesivo.
+      </p>
+
+      <p>
+        Tu satisfacción es muy importante para nosotros.
+
+        Si tienes alguna duda o necesitas asistencia adicional sobre el cuidado de tu prenda, no dudes en comunicarte
+        con
+        nuestro equipo.
+
+        Gracias por confiar en nuestra marca.
+
+        Esperamos que disfrutes de tu prenda tanto como nosotros disfrutamos creándola para ti.
+      </p>
+
+    </div>
+  </div>
+
+  {%- include footer.html -%}
+</body>
+
+</html>
