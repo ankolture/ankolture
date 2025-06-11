@@ -45,29 +45,33 @@ layout: defaults
                             </div>
 
                             <img src="{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/thepockets.png"
-                                alt="" style="width: 160px; height: auto;" class="logo-collection img-fluid d-block mx-auto mb-1">
+                                alt="" style="width: 160px; height: auto;"
+                                class="logo-collection img-fluid d-block mx-auto mb-1">
                             <div class="mt-4 mb-3"> <span class="text-uppercase brand">ANKOLTURE</span>
                                 <h5 class="text-uppercase"><span class="tshirt-name">###</span> T-SHIRT</h5>
                                 <div class="price d-flex flex-row align-items-center"> <span
                                         class="act-price">$60.000</span> <span>-COP</span>
-                                    <div class="ml-2"> <small class="dis-price"> </small> <span class="text-danger">-INCLUYE ENVIO</span>
+                                    <div class="ml-2"> <small class="dis-price"> </small> <span
+                                            class="text-danger">-INCLUYE ENVIO</span>
                                     </div>
                                 </div>
                                 <div class="text-white mt-1 ">
                                     <p class="guia-tallas">
-                                        <a href="/sizeguide" class="btn btn-outline-light rounded-pill guia-tallas text-white">
-                                        <i class="fas fa-ruler"></i> GUIA DE TALLAS
+                                        <a href="/sizeguide"
+                                            class="btn btn-outline-light rounded-pill guia-tallas text-white">
+                                            <i class="fas fa-ruler"></i> GUIA DE TALLAS
                                         </a>
-                                         <i class="fas fa-arrow-left animated-arrow"></i>
+                                        <i class="fas fa-arrow-left animated-arrow"></i>
                                     </p>
-                                      <div class="text-white mt-1 ">
-                                    <p class="cuidados">
-                                        <a href="/" class="btn btn-outline-light rounded-pill guia-tallas text-white">
-                                        <i class="fas fa-tshirt"></i> CUIDADOS
-                                        </a>
-                                         <i class="fas fa-arrow-left animated-arrow"></i>
-                                    </p>
-                                </div>
+                                    <div class="text-white mt-1 ">
+                                        <p class="cuidados">
+                                            <a href="/"
+                                                class="btn btn-outline-light rounded-pill guia-tallas text-white">
+                                                <i class="fas fa-tshirt"></i> CUIDADOS
+                                            </a>
+                                            <i class="fas fa-arrow-left animated-arrow"></i>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <p class="about">Shop from a wide range of t-shirt. Pefect for
@@ -163,16 +167,15 @@ layout: defaults
 
 
 
-                                <div class="share-section text-muted">
+                                <!-- <div class="share-section text-muted">
                                     <strong class="d-block mb-2 share-text">Compartir:</strong>
                                     <div>
 
-                                        <!-- WhatsApp -->
                                         <a href="#" onclick="shareWhatsApp()" class="share-icon mx-2">
                                             <i class="fab fa-whatsapp"></i>
                                         </a>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <div id="mensaje-compartir" class="mt-2 text-success text-center"
                                     style="display: none;">¡Producto agregado!</div>
@@ -182,6 +185,18 @@ layout: defaults
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="total-carrito-fixed" class="text-white py-2"
+        style="background-color:#1c1c1e; font-size: 0.8rem; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1030; box-shadow: 0 -2px 10px rgba(0,0,0,0.2);">
+        <div class="container text-center">
+            <div class="cart mt-2 d-flex justify-content-center gap-2">
+                <button class="btn btn-sm btn-danger text-uppercase" onclick="goCatalog()">Catálogo <i
+                        class="fas fa-book fa-sm text-white"></i></button>
+                <a href="#" class="btn btn-sm btn-success text-uppercase  text-white"
+                    onclick="shareWhatsApp()">Compartir <i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
     </div>
@@ -198,6 +213,16 @@ layout: defaults
         function shareWhatsApp() {
             const url = `https://api.whatsapp.com/send?text=${message}%20${encodeURIComponent(pageUrl)}`;
             window.open(url, '_blank');
+        }
+
+        function goCatalog() {
+            const params = new URLSearchParams(window.location.search);
+            const collection = params.get("collection");
+            if (collection) {
+                window.location.href = `/coleccion/?nombre=${encodeURIComponent(collection)}`;
+            } else {
+                console.warn("No se encontró el parámetro 'collection' en la URL.");
+            }
         }
 
     </script>
