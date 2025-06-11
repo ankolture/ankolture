@@ -1,3 +1,8 @@
+function mostrarModalWarning() {
+    const modal = new bootstrap.Modal(document.getElementById('warningModal'));
+    modal.show();
+}
+
 function mostrarModal() {
     const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
     const resumenDiv = document.getElementById('modal-resumen-carrito');
