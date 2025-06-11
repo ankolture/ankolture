@@ -128,12 +128,12 @@ function change_image(image) {
 
 
     const colorMap = {
-        "white.jpg": "Blanco",
-        "black.jpg": "Negro"
+        "white.webp": "Blanco",
+        "black.webp": "Negro"
     };
 
     const colorRadio = document.querySelector(
-        `input[name="color"][value="${colorMap[color]}"]`
+        `input[name="color"][value="${colorMap[color]}"]`,
     );
 
     if (colorRadio) {
