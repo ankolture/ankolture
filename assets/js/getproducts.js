@@ -8,6 +8,10 @@ const collection = params.get("collection");
 const id = params.get("id");
 
 
+const logoCollection = "/assets/img/collection/" + collection + "/" + collection + ".png";
+document.querySelector('.logo-collection').src = logoCollection;
+
+
 if (collection && id) {
     document.querySelector(".tshirt-id").textContent = "SKU: " + id;
 
@@ -18,7 +22,7 @@ if (collection && id) {
             return response.json();
         })
         .then(data => {
-          
+
             const productos = data[collection];
 
             let found = false;
@@ -29,7 +33,7 @@ if (collection && id) {
 
                     currentProduct = match;
 
-                    const imagePath = "/assets/img/collection/" + collection +"/" + folderName + "/" + match.name;
+                    const imagePath = "/assets/img/collection/" + collection + "/" + folderName + "/" + match.name;
                     document.getElementById("main-image").src = imagePath;
                     document.getElementById("main-image").dataset.pid = id;
 
@@ -59,7 +63,7 @@ if (collection && id) {
 
                         const thumb = document.createElement("img");
                         const attribtshirt = item.name.split('-');
-                        thumb.src = "/assets/img/collection/"+ collection + "/" + folderName + "/" + item.name;
+                        thumb.src = "/assets/img/collection/" + collection + "/" + folderName + "/" + item.name;
                         thumb.width = 70;
                         thumb.style.cursor = "pointer";
                         thumb.dataset.name = attribtshirt[0];
