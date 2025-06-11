@@ -1541,6 +1541,15 @@ footer {
     border: 2px solid #ffffff; /* Borde blanco de 4px */
     border-radius: 20px;
   }
+
+   .sizeguide-img {
+    width: 80%;         /* Ocupa el 95% del ancho del contenedor */
+    height: auto !important;      /* Mantiene la proporción original */
+    display: block;     /* Permite centrado con margin */
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain; /* Asegura que no se recorte nada */
+  }
   
 
  #thumbnail-container img {
@@ -1710,3 +1719,46 @@ footer {
         transform: translateX(6px);
     }
 }
+
+
+
+
+  .size-box {
+    border-radius: 12px;
+    border: 2px solid #000;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .size-header {
+    background-color: #00aee9;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+  }
+
+  .size-header.gray {
+    background-color: #444;
+  }
+
+  .size-body {
+    padding: 1rem;
+    font-weight: bold;
+  }
+
+  .size-body .row {
+    margin-bottom: 0.5rem;
+  }
+
+  .label-blue {
+    color: #00aee9;
+  }
+
+  .divider {
+    border-left: 2px solid #000;
+    height: 100%;
+  }

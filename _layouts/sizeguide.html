@@ -1,0 +1,143 @@
+---
+layout: compress
+---
+
+
+
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+{%- include head.html -%}
+
+<body>
+  {%- include header.html -%}
+  <div id="volver-fixed" class="text-white py-2"
+    style="background-color:#1c1c1e; font-size: 0.8rem; position: fixed; top: 56px; left: 0; width: 100%; z-index: 1030; box-shadow: 0 2px 10px rgba(0,0,0,0.2);">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="/" class="volver-link d-flex align-items-center text-decoration-none text-white">
+        <i class="fa fa-long-arrow-alt-left me-2"></i>
+        <span>Volver</span>
+      </a>
+      <a style="text-decoration: none;" href="#"><i class="fab fa-whatsapp"></i> El Pedido se realizará por Whatsapp</a>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    {{ content }}
+  </div>
+
+  <div class="containers mt-5">
+
+    <!-- 1. Logo -->
+    {% for exp in site.author_work_experiences %}
+    {% if exp.visibility == true %}
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ exp.company_logo }}" class="profile-picture" />
+    {% endif %}
+    {% endfor %}
+
+    
+     <div class="card">
+
+ <img class="sizeguide-img" src="{{site.url}}{{site.baseurl}}/assets/img/sizeguide/talla-unisex.webp" />
+
+
+<div class="size-box">
+  <div class="size-header">S</div>
+  <div class="size-body">
+    <div class="row">
+      <div class="col-6">
+        <span class="label-blue">HOMBRO</span><br>43CM
+      </div>
+      <div class="col-6">
+        <span class="label-blue">ANCHO</span><br>50CM
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <span class="label-blue">MANGA</span><br>25CM
+      </div>
+      <div class="col-6">
+        <span class="label-blue">LARGO</span><br>70CM
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="size-box">
+  <div class="size-header gray">M</div>
+  <div class="size-body">
+    <div class="row">
+      <div class="col-6">
+        HOMBRO<br>48CM
+      </div>
+      <div class="col-6">
+        ANCHO<br>53CM
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        MANGA<br>25CM
+      </div>
+      <div class="col-6">
+        LARGO<br>71CM
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="size-box">
+  <div class="size-header">L</div>
+  <div class="size-body">
+    <div class="row">
+      <div class="col-6">
+        <span class="label-blue">HOMBRO</span><br>49CM
+      </div>
+      <div class="col-6">
+        <span class="label-blue">ANCHO</span><br>55CM
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <span class="label-blue">MANGA</span><br>27CM
+      </div>
+      <div class="col-6">
+        <span class="label-blue">LARGO</span><br>74CM
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="size-box">
+  <div class="size-header gray">XL</div>
+  <div class="size-body">
+    <div class="row">
+      <div class="col-6">
+        HOMBRO<br>53CM
+      </div>
+      <div class="col-6">
+        ANCHO<br>57CM
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        MANGA<br>27CM
+      </div>
+      <div class="col-6">
+        LARGO<br>78CM
+      </div>
+    </div>
+  </div>
+</div>
+  
+  </div>
+
+  </div>
+
+
+  {%- include footer.html -%}
+</body>
+
+</html>
