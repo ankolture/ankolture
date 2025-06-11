@@ -1711,6 +1711,13 @@ footer {
     color: #dc3545; /* rojo Bootstrap opcional */
 }
 
+  .animated-arrow-warning {
+    display: inline-block;
+    margin-left: 1px;
+    animation: arrow-move 0.8s infinite alternate;
+    color: #fff; /* rojo Bootstrap opcional */
+}
+
 @keyframes arrow-move {
     0% {
         transform: translateX(0);
@@ -1762,3 +1769,8 @@ footer {
     border-left: 2px solid #000;
     height: 100%;
   }
+
+
+  .text-xs {
+  font-size: 0.75rem !important;
+}
