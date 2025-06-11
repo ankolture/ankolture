@@ -108,22 +108,34 @@ function change_image(image) {
     const gender = document.getElementById("main-image").dataset.gender;
     const color = document.getElementById("main-image").dataset.color;
 
-    const selectedCloth = document.querySelector('input[name="cloth"]:checked');
-    const isPremium = selectedCloth && selectedCloth.value === "Premium";
 
-    if (!isPremium) {
-        const genderMap = {
-            women: "Mujer",
-            men: "Hombre"
-        };
+    const clothMap = {
+        women: "Normal",
+        men: "Normal",
+        unisex: "Premium"
+    };
 
-        const genderRadio = document.querySelector(
-            `input[name="gender"][value="${genderMap[gender]}"]`
-        );
+    const clothRadio = document.querySelector(
+        `input[name="cloth"][value="${clothMap[gender]}"]`
+    );
 
-        if (genderRadio) {
-            genderRadio.checked = true;
-        }
+    if (clothRadio) {
+        clothRadio.checked = true;
+    }
+
+
+    const genderMap = {
+        women: "Mujer",
+        men: "Hombre",
+        unisex: "Premium"
+    };
+
+    const genderRadio = document.querySelector(
+        `input[name="gender"][value="${genderMap[gender]}"]`
+    );
+
+    if (genderRadio) {
+        genderRadio.checked = true;
     }
 
 
