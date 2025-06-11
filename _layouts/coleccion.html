@@ -4,6 +4,17 @@
 
 <body>
   {%- include header.html -%}
+    <div id="volver-fixed" class="text-white py-2"
+    style="background-color:#1c1c1e; font-size: 0.8rem; position: fixed; top: 56px; left: 0; width: 100%; z-index: 1030; box-shadow: 0 2px 10px rgba(0,0,0,0.2);">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="/" class="volver-link d-flex align-items-center text-decoration-none text-white">
+        <i class="fa fa-long-arrow-alt-left me-2"></i>
+        <span>Volver</span>
+      </a>
+      <a style="text-decoration: none;" href="#"><i class="fab fa-whatsapp"></i> El Pedido se realizará por Whatsapp</a>
+    </div>
+  </div>
+
 
   <div class="container-fluid">
     {{ content }}
