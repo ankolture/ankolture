@@ -121,6 +121,7 @@ function change_image(image) {
 
     if (clothRadio) {
         clothRadio.checked = true;
+        setupClothSelectionHandler();
     }
 
 
