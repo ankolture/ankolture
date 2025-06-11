@@ -27,40 +27,40 @@
 
   </div>
 
-<script>
-  const params = new URLSearchParams(window.location.search);
-  const nombre = params.get("nombre");
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const nombre = params.get("nombre");
 
-  if (nombre) {
-    document.getElementById('titulo-coleccion').textContent = nombre.toUpperCase();
+    if (nombre) {
+      document.getElementById('titulo-coleccion').textContent = nombre.toUpperCase();
 
-    fetch(`/collections/${nombre}.json`)
-      .then(response => {
-        if (!response.ok) throw new Error('No se pudo cargar la colección');
-        return response.json();
-      })
-      .then(data => {
-        console.log("Datos de la colección:", data);
+      fetch(`/collections/${nombre}.json`)
+        .then(response => {
+          if (!response.ok) throw new Error('No se pudo cargar la colección');
+          return response.json();
+        })
+        .then(data => {
+          console.log("Datos de la colección:", data);
 
-        const contenedor = document.getElementById('contenedor-coleccion');
-        contenedor.innerHTML = '';
+          const contenedor = document.getElementById('contenedor-coleccion');
+          contenedor.innerHTML = '';
 
-        const productos = data[nombre];
-        console.log("productos:", productos);
+          const productos = data[nombre];
+          console.log("productos:", productos);
 
-        if (!productos || typeof productos !== 'object') {
-          contenedor.innerHTML = '<p class="text-warning">No hay productos disponibles en esta colección.</p>';
-          return;
-        }
+          if (!productos || typeof productos !== 'object') {
+            contenedor.innerHTML = '<p class="text-warning">No hay productos disponibles en esta colección.</p>';
+            return;
+          }
 
-        // Recorremos cada grupo (clave) y mostramos solo el primer producto
-        Object.entries(productos).forEach(([grupoKey, arrayDeProductos]) => {
-          const primerProducto = arrayDeProductos[0];
-          if (primerProducto) {
-            const productoDiv = document.createElement('div');
-            productoDiv.classList.add('producto-item', 'mb-4', 'text-white');
+          // Recorremos cada grupo (clave) y mostramos solo el primer producto
+          Object.entries(productos).forEach(([grupoKey, arrayDeProductos]) => {
+            const primerProducto = arrayDeProductos[0];
+            if (primerProducto) {
+              const productoDiv = document.createElement('div');
+              productoDiv.classList.add('producto-item', 'mb-4', 'text-white');
 
-            productoDiv.innerHTML = `
+              productoDiv.innerHTML = `
               <div class="d-flex align-items-center justify-content-between flex-wrap text-white">
                 <div class="d-flex flex-wrap align-items-start border-bottom py-3 position-relative w-100">
                   <a href="/${primerProducto.url}?collection=${nombre}&id=${primerProducto.id}">
@@ -76,24 +76,29 @@
                       <span class="color-circle-catalog" style="background-color: black;"></span>
                       <span class="color-circle-catalog" style="background-color: white;"></span>
                     </small>
+                     <a href="/${primerProducto.url}?collection=${nombre}&id=${primerProducto.id}">
+                        <button class="btn btn-link text-danger position-absolute top-0 end-0">
+        <i class="fa fa-eye"></i>
+      </button>
+        </a>
                   </div>
                 </div>
               </div>
             `;
 
-            contenedor.appendChild(productoDiv);
-          }
+              contenedor.appendChild(productoDiv);
+            }
+          });
+        })
+        .catch(error => {
+          console.error(error);
+          const contenedor = document.getElementById('contenedor-coleccion');
+          contenedor.innerHTML = '<p class="text-danger">Error cargando productos.</p>';
         });
-      })
-      .catch(error => {
-        console.error(error);
-        const contenedor = document.getElementById('contenedor-coleccion');
-        contenedor.innerHTML = '<p class="text-danger">Error cargando productos.</p>';
-      });
-  } else {
-    document.getElementById('contenedor-coleccion').innerHTML = '<p class="text-warning">No se especificó ninguna colección.</p>';
-  }
-</script>
+    } else {
+      document.getElementById('contenedor-coleccion').innerHTML = '<p class="text-warning">No se especificó ninguna colección.</p>';
+    }
+  </script>
 
 
 
