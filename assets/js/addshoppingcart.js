@@ -101,6 +101,8 @@ function agregarAlCarrito() {
         mensajeCompartir.style.display = "none";
     }, 2000);
 
+     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+
 }
 
 
