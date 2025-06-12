@@ -1,3 +1,39 @@
+let autoClickInProgress = false;
+
+const colorMap = {
+    "negro": "black.webp",
+    "blanco": "white.webp"
+};
+
+const genderMap = {
+    "hombre": "men",
+    "mujer": "women",
+    "unisex": "unisex"
+};
+
+function autoSelectThumbnail() {
+    if (autoClickInProgress) return;
+
+    const selectedColor = document.querySelector('input[name="color"]:checked');
+    const selectedGender = document.querySelector('input[name="gender"]:checked');
+    if (!selectedColor || !selectedGender) return;
+
+    const colorValue = colorMap[selectedColor.value.toLowerCase()];
+    const genderValue = genderMap[selectedGender.value.toLowerCase()];
+    if (!colorValue || !genderValue) return;
+
+    const targetImg = document.querySelector(`#thumbnail-container img[data-gender="${genderValue}"][data-color="${colorValue}"]`);
+    if (targetImg) {
+        autoClickInProgress = true;
+        targetImg.click();
+        setTimeout(() => {
+            autoClickInProgress = false;
+        }, 100);
+    } else {
+        console.warn("No se encontró una imagen para:", genderValue, colorValue);
+    }
+}
+
 function handleClothChange(value) {
     const isPremium = value === "Premium";
 
@@ -7,19 +43,14 @@ function handleClothChange(value) {
     const priceEl = document.querySelector('.act-price');
     const aboutEl = document.querySelector('.about');
 
-    if (!currentProduct) {
-        console.error("currentProduct no está definido");
-        return;
-    }
-
-    if (!priceEl || !aboutEl) {
-        console.warn("Elementos .act-price o .about no encontrados en el DOM");
+    if (!currentProduct || !priceEl || !aboutEl) {
+        console.error("Faltan elementos necesarios.");
         return;
     }
 
     if (isPremium) {
-        if (genderRadiosContainer) genderRadiosContainer.style.display = "none";
-        if (genderUnisexText) genderUnisexText.style.display = "block";
+        genderRadiosContainer?.style.setProperty("display", "none");
+        genderUnisexText?.style.setProperty("display", "block");
 
         genderRadios.forEach(r => {
             r.disabled = true;
@@ -28,10 +59,9 @@ function handleClothChange(value) {
 
         priceEl.textContent = '$' + currentProduct.price_premium;
         aboutEl.textContent = currentProduct.description_premium;
-
     } else {
-        if (genderRadiosContainer) genderRadiosContainer.style.display = "block";
-        if (genderUnisexText) genderUnisexText.style.display = "none";
+        genderRadiosContainer?.style.setProperty("display", "block");
+        genderUnisexText?.style.setProperty("display", "none");
 
         genderRadios.forEach(r => {
             r.disabled = false;
@@ -41,11 +71,12 @@ function handleClothChange(value) {
         priceEl.textContent = '$' + currentProduct.price_normal;
         aboutEl.textContent = currentProduct.description_normal;
     }
+
+    autoSelectThumbnail();
 }
 
 function setupClothSelectionHandler() {
     const clothRadios = document.querySelectorAll('input[name="cloth"]');
-
     clothRadios.forEach(radio => {
         radio.addEventListener('change', function () {
             handleClothChange(this.value);
@@ -72,3 +103,10 @@ document.addEventListener('DOMContentLoaded', () => {
     waitForCurrentProduct(setupClothSelectionHandler);
 });
 
+document.querySelectorAll('input[name="gender"]').forEach(radio => {
+    radio.addEventListener("change", autoSelectThumbnail);
+});
+
+document.querySelectorAll('input[name="color"]').forEach(radio => {
+    radio.addEventListener("change", autoSelectThumbnail);
+});
