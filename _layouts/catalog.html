@@ -32,29 +32,27 @@ layout: compress
      
       <img src="{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/thepockets.png"
                                 alt="" style="width: 160px; height: auto;" class="img-fluid d-block mx-auto mt-3 mb-3">
-      {% if site.data.collections.thepockets %}
-      <div class="owl-carousel owl-theme">
-        {% for folder in site.data.collections.thepockets.thepockets %}
-        {% assign folder_name = folder[0] %}
-        {% assign images = folder[1] %}
-        {% for image in images %}
+
+                 
+  {% assign collections = "bikes,thepockets" | split: "," %}
+{% for collection_name in collections %}
+  {% assign data = site.data.collections[collection_name][collection_name]  %}
+  {% for folder in data %}
+    {% assign folder_name = folder[0] %}
+    {% assign images = folder[1] %}
+    <div class="owl-carousel owl-theme">
+      {% for image in images %}
         <div class="item">
-          <a href="{{site.url}}{{site.baseurl}}/{{ image.url }}?collection=thepockets&id={{ image.id }}">
-            <img src="{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/{{ folder_name }}/{{ image.name }}"
-              alt="{{ image.name | split: '/' | last }}">
+          <a href="{{ site.url }}{{ site.baseurl }}/{{ image.url }}?collection={{ collection_name }}&id={{ image.id }}">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collection/{{ collection_name }}/{{ folder_name }}/{{ image.name }}"
+                 alt="{{ image.name | split: '/' | last }}">
           </a>
         </div>
-        {% endfor %}
-        {% endfor %}
-
-      </div>
-
-      {% else %}
-      <p>No se pudo cargar el archivo de imágenes.</p>
-      {% endif %}
-
-      <p>HAZ CLICK EN LA IMAGEN PARA VER EL DETALLE DE LA CAMISETA</p>
+      {% endfor %}
     </div>
+  {% endfor %}
+{% endfor %}
+
 
 
 
