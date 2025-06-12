@@ -29,6 +29,7 @@ btnRestar.addEventListener('click', (event) => {
 
 function agregarAlCarrito() {
 
+    const pid = document.getElementById('main-image').dataset.pid;
     const name = document.querySelector('.tshirt-name').textContent;
     const tela = document.querySelector('input[name="cloth"]:checked')?.value;
     const genero = document.querySelector('input[name="gender"]:checked')?.value;
@@ -46,6 +47,9 @@ function agregarAlCarrito() {
     const cleanPrice = parseInt(price.replace(/\$/g, "").replace(/\./g, ""), 10);
 
     const url = window.location.pathname + window.location.search;
+    let params = new URLSearchParams(url.split('?')[1]);
+    params.set('id', pid);
+    let newUrl = "/detailthirt/?" + params.toString();
 
 
 
@@ -55,10 +59,10 @@ function agregarAlCarrito() {
     }
 
     const producto = {
-        id: id,
+        id: pid,
         name: name,
         image: image,
-        url: url,
+        url: newUrl,
         tela: tela,
         genero: genero,
         talla: talla,
