@@ -1,36 +1,32 @@
 let autoClickInProgress = false;
 
-const colorMap = {
-    "negro": "black.webp",
-    "blanco": "white.webp"
-};
-
-const genderMap = {
-    "hombre": "men",
-    "mujer": "women",
-    "unisex": "unisex"
-};
-
-function autoSelectThumbnail() {
-    if (autoClickInProgress) return;
-
-    const selectedColor = document.querySelector('input[name="color"]:checked');
+function getTargetGender() {
     const selectedGender = document.querySelector('input[name="gender"]:checked');
-    if (!selectedColor || !selectedGender) return;
+    if (!selectedGender) return null;
 
-    const colorValue = colorMap[selectedColor.value.toLowerCase()];
-    const genderValue = genderMap[selectedGender.value.toLowerCase()];
-    if (!colorValue || !genderValue) return;
+    const genderValue = selectedGender.value.toLowerCase();
+    if (genderValue === "hombre") return "men";
+    if (genderValue === "mujer") return "women";
+    return "unisex";
+}
 
-    const targetImg = document.querySelector(`#thumbnail-container img[data-gender="${genderValue}"][data-color="${colorValue}"]`);
+function getTargetColor() {
+    const selectedColor = document.querySelector('input[name="color"]:checked');
+    if (!selectedColor) return null;
+
+    return selectedColor.value.toLowerCase() === "negro" ? "black.webp" : "white.webp";
+}
+
+function autoClickTargetImage(gender, color) {
+    if (autoClickInProgress || !gender || !color) return;
+
+    const targetImg = document.querySelector(`#thumbnail-container img[data-gender="${gender}"][data-color="${color}"]`);
     if (targetImg) {
         autoClickInProgress = true;
         targetImg.click();
         setTimeout(() => {
             autoClickInProgress = false;
         }, 100);
-    } else {
-        console.warn("No se encontró una imagen para:", genderValue, colorValue);
     }
 }
 
@@ -43,36 +39,40 @@ function handleClothChange(value) {
     const priceEl = document.querySelector('.act-price');
     const aboutEl = document.querySelector('.about');
 
-    if (!currentProduct || !priceEl || !aboutEl) {
-        console.error("Faltan elementos necesarios.");
+    if (!currentProduct) {
+        console.error("currentProduct no está definido");
+        return;
+    }
+
+    if (!priceEl || !aboutEl) {
+        console.warn("Elementos .act-price o .about no encontrados en el DOM");
         return;
     }
 
     if (isPremium) {
-        genderRadiosContainer?.style.setProperty("display", "none");
-        genderUnisexText?.style.setProperty("display", "block");
+        genderRadiosContainer?.style?.setProperty('display', 'none');
+        genderUnisexText?.style?.setProperty('display', 'block');
 
         genderRadios.forEach(r => {
             r.disabled = true;
             r.checked = (r.value === "Unisex");
         });
 
-        priceEl.textContent = '$' + currentProduct.price_premium;
+        priceEl.textContent = `$${currentProduct.price_premium}`;
         aboutEl.textContent = currentProduct.description_premium;
+
     } else {
-        genderRadiosContainer?.style.setProperty("display", "block");
-        genderUnisexText?.style.setProperty("display", "none");
+        genderRadiosContainer?.style?.setProperty('display', 'block');
+        genderUnisexText?.style?.setProperty('display', 'none');
 
         genderRadios.forEach(r => {
             r.disabled = false;
             r.checked = (r.value === "Hombre");
         });
 
-        priceEl.textContent = '$' + currentProduct.price_normal;
+        priceEl.textContent = `$${currentProduct.price_normal}`;
         aboutEl.textContent = currentProduct.description_normal;
     }
-
-    autoSelectThumbnail();
 }
 
 function setupClothSelectionHandler() {
@@ -99,14 +99,32 @@ function waitForCurrentProduct(callback, retries = 10) {
     }
 }
 
+function seleccionarTipo() {
+    autoClickTargetImage("unisex", getTargetColor());
+}
+
+function seleccionarGenero() {
+    autoClickTargetImage(getTargetGender(), getTargetColor());
+}
+
+function seleccionarColor() {
+    autoClickTargetImage(getTargetGender(), getTargetColor());
+}
+
+// ========== INICIALIZACIÓN ==========
 document.addEventListener('DOMContentLoaded', () => {
     waitForCurrentProduct(setupClothSelectionHandler);
 });
 
+document.querySelectorAll('input[name="cloth"]').forEach(radio => {
+    radio.addEventListener("change", seleccionarTipo);
+});
+
 document.querySelectorAll('input[name="gender"]').forEach(radio => {
-    radio.addEventListener("change", autoSelectThumbnail);
+    radio.addEventListener("change", seleccionarGenero);
 });
 
 document.querySelectorAll('input[name="color"]').forEach(radio => {
-    radio.addEventListener("change", autoSelectThumbnail);
+    radio.addEventListener("change", seleccionarColor);
 });
+

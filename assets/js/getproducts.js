@@ -103,6 +103,7 @@ if (collection && id) {
 
 
 function change_image(image) {
+   
     document.getElementById("main-image").src = image.src;
 
     const gender = document.getElementById("main-image").dataset.gender;
