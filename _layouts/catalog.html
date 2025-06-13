@@ -29,67 +29,66 @@ layout: compress
   <div class="containers mt-5">
 
     <div class="slider-container mt-5">
-     
-      <img src="{{site.url}}{{site.baseurl}}/assets/img/collection/thepockets/thepockets.png"
-                                alt="" style="width: 160px; height: auto;" class="img-fluid d-block mx-auto mt-3 mb-3">
 
-                 
-  {% assign collections = "bikes,thepockets" | split: "," %}
-{% for collection_name in collections %}
-  {% assign data = site.data.collections[collection_name][collection_name]  %}
-  {% for folder in data %}
-    {% assign folder_name = folder[0] %}
-    {% assign images = folder[1] %}
-    <div class="owl-carousel owl-theme">
-      {% for image in images %}
+      <div class="mt-3">
+        <h1>COLECCIONES</h1>
+      </div>
+
+
+      {% assign collections = "bikes,thepockets" | split: "," %}
+      {% for collection_name in collections %}
+      {% assign data = site.data.collections[collection_name][collection_name] %}
+      {% for folder in data %}
+      {% assign folder_name = folder[0] %}
+      {% assign images = folder[1] %}
+      <div class="owl-carousel owl-theme">
+        {% for image in images %}
         <div class="item">
           <a href="{{ site.url }}{{ site.baseurl }}/{{ image.url }}?collection={{ collection_name }}&id={{ image.id }}">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/img/collection/{{ collection_name }}/{{ folder_name }}/{{ image.name }}"
-                 alt="{{ image.name | split: '/' | last }}">
+            <img
+              src="{{ site.url }}{{ site.baseurl }}/assets/img/collection/{{ collection_name }}/{{ folder_name }}/{{ image.name }}"
+              alt="{{ image.name | split: '/' | last }}">
           </a>
         </div>
-      {% endfor %}
-    </div>
-  {% endfor %}
-{% endfor %}
-
-
-
-
-    <div class="accordion mt-1" id="miAcordeon">
-      {% for folder in site.data.collections %}
-      {% assign collection_name = folder[0] %}
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="encabezado{{ forloop.index }}">
-          <a class="accordion-button collapsed mi-titulo" href="/coleccion?nombre={{ collection_name | downcase }}">
-            {{ collection_name | upcase }}
-          </a>
-        </h2>
+        {% endfor %}
       </div>
       {% endfor %}
-    </div>
+      {% endfor %}
 
 
 
-    <div class="text-white py-2"
-      style="background-color:#1c1c1e; font-size: 0.8rem; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1030; box-shadow: 0 -2px 10px rgba(0,0,0,0.2);">
-      <div class="container text-center">
-        <div class="cart mt-2 d-flex justify-content-center gap-2">
-          <a href="/care" class="btn btn-sm btn-danger text-uppercase text-white">Cuidados <i
-              class="fas fas fa-tshirt fa-sm text-white"></i></a>
-          <a href="/sizeguide" class="btn btn-sm btn-success text-uppercase  text-white">Guia de tallas <i
-              class="fas fa-ruler"></i></a>
+
+      <div class="accordion mt-1" id="miAcordeon">
+        {% for folder in site.data.collections %}
+        {% assign collection_name = folder[0] %}
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="encabezado{{ forloop.index }}">
+            <a class="accordion-button collapsed mi-titulo" href="/coleccion?nombre={{ collection_name | downcase }}">
+              {{ collection_name | upcase }}
+            </a>
+          </h2>
+        </div>
+        {% endfor %}
+      </div>
+
+
+
+      <div class="text-white py-2"
+        style="background-color:#1c1c1e; font-size: 0.8rem; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1030; box-shadow: 0 -2px 10px rgba(0,0,0,0.2);">
+        <div class="container text-center">
+          <div class="cart mt-2 d-flex justify-content-center gap-2">
+            <a href="/care" class="btn btn-sm btn-danger text-uppercase text-white">Cuidados <i
+                class="fas fas fa-tshirt fa-sm text-white"></i></a>
+            <a href="/sizeguide" class="btn btn-sm btn-success text-uppercase  text-white">Guia de tallas <i
+                class="fas fa-ruler"></i></a>
+          </div>
         </div>
       </div>
+
     </div>
 
-  </div>
 
 
-
-
-
-  {%- include footer.html -%}
     <script src="{{site.url}}{{site.baseurl}}/assets/js/owlcarrusel.js"></script>
 </body>
 
