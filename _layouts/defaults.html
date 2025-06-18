@@ -5,22 +5,36 @@ layout: compress
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
 {%- include head.html -%}
-<body>
-        {%- include header.html -%}
-        <div class="main-container">
-            {{ content }}
-        </div>
-    
-     <script>
-            var options = {
-                classname: 'progressline',
-                id: 'my-id'
-            };
-            var nanobar = new Nanobar( options );
-            nanobar.go( 30 );
-            nanobar.go( 76 );
-            nanobar.go(100);
-        </script>
 
-  </body>
+<body>
+    {%- include header.html -%}
+
+    <div id="loader">
+         <img src="{{ '/assets/img/ankolture.png' | relative_url }}" alt="Cargando..." class="loader-image">
+    </div>
+
+    <div class="main-container">
+        {{ content }}
+    </div>
+
+    <script>
+        var options = {
+            classname: 'progressline',
+            id: 'my-id'
+        };
+        var nanobar = new Nanobar(options);
+        nanobar.go(30);
+        nanobar.go(76);
+        nanobar.go(100);
+
+
+        window.addEventListener('load', function () {
+            const loader = document.getElementById('loader');
+            loader.style.opacity = '0';
+            setTimeout(() => loader.style.display = 'none', 400);
+        });
+    </script>
+
+</body>
+
 </html>
