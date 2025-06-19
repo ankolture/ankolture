@@ -32,7 +32,6 @@ function autoClickTargetImage(gender, color) {
 
 function handleClothChange(value) {
     const isPremium = value === "Premium";
-
     const genderRadiosContainer = document.getElementById('gender-radios');
     const genderUnisexText = document.getElementById('gender-unisex');
     const genderRadios = document.querySelectorAll('input[name="gender"]');
@@ -50,6 +49,7 @@ function handleClothChange(value) {
     }
 
     if (isPremium) {
+            document.querySelector('input[name="cloth"][value="Premium"]').checked = true;
         genderRadiosContainer?.style?.setProperty('display', 'none');
         genderUnisexText?.style?.setProperty('display', 'block');
 
@@ -62,6 +62,7 @@ function handleClothChange(value) {
         aboutEl.textContent = currentProduct.description_premium;
 
     } else {
+         document.querySelector('input[name="cloth"][value="Normal"]').checked = true;
         genderRadiosContainer?.style?.setProperty('display', 'block');
         genderUnisexText?.style?.setProperty('display', 'none');
 
@@ -77,9 +78,11 @@ function handleClothChange(value) {
 
 function setupClothSelectionHandler() {
     const clothRadios = document.querySelectorAll('input[name="cloth"]');
+
     clothRadios.forEach(radio => {
         radio.addEventListener('change', function () {
             handleClothChange(this.value);
+   
         });
     });
 
