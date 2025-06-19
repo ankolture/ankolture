@@ -2,13 +2,15 @@
 layout: default
 ---
 
-<div class="row justify-content-center" id="blog-post-container">
+<!-- <div class="row justify-content-center" id="blog-post-containers"> -->
+<div>
   <div class="col-lg-10">
     {%- include blog_post_article.html -%}
-     {%- include blog_post_comments.html-%}
+    {%- include blog_post_comments.html-%}
   </div>
 </div>
-<div class="row">
+<!-- <div class="row"> -->
+<div>
   <div class="col-md-4">
     <div class="card">
       <div class="card-header">About {{site.author}}</div>
@@ -39,4 +41,3 @@ layout: default
     </div>
   </div>
 </div>
-
