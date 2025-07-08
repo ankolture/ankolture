@@ -1,61 +1,111 @@
-harrypotter:
+﻿harrypotter:
+  nimbus:
+  - name: nimbus-men-black.webp
+    id: 228
+    thumbnail: nimbus-men-black.webp
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    url: detailthirt
+    url_instagram: https://www.instagram.com/p/DINRuR0xK68
+    price_normal: "50.000"
+    price_premium: "60.000"
+  - name: nimbus-men-white.webp
+    id: 229
+    thumbnail: nimbus-men-white.webp
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    url: detailthirt
+    url_instagram: https://www.instagram.com/p/DINRuR0xK68
+    price_normal: "50.000"
+    price_premium: "60.000"
+  - name: nimbus-women-black.webp
+    id: 230
+    thumbnail: nimbus-women-black.webp
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    url: detailthirt
+    url_instagram: https://www.instagram.com/p/DINRuR0xK68
+    price_normal: "50.000"
+    price_premium: "60.000"
+  - name: nimbus-women-white.webp
+    id: 231
+    thumbnail: nimbus-women-white.webp
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    url: detailthirt
+    url_instagram: https://www.instagram.com/p/DINRuR0xK68
+    price_normal: "50.000"
+    price_premium: "60.000"
+  - name: nimbus-unisex-black.webp
+    id: 232
+    thumbnail: nimbus-unisex-black.webp
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    url: detailthirt
+    url_instagram: https://www.instagram.com/p/DINRuR0xK68
+    price_normal: "50.000"
+    price_premium: "60.000"
+  - name: nimbus-unisex-white.webp
+    id: 233
+    thumbnail: nimbus-unisex-white.webp
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    url: detailthirt
+    url_instagram: https://www.instagram.com/p/DINRuR0xK68
+    price_normal: "50.000"
+    price_premium: "60.000"
   dobby:
-    - name: dobby-unisex-black.webp
-      id : 227
-      thumbnail: dobby-unisex-black.webp
-      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
-      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
-      url: detailthirt
-      url_instagram: https://www.instagram.com/ankolture
-      price_normal: "50.000"
-      price_premium: "60.000"
-
-    - name: dobby-unisex-white.webp
-      id : 226
-      thumbnail: dobby-unisex-black.webp
-      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
-      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
-      url: detailthirt
-      url_instagram: https://www.instagram.com/ankolture
-      price_normal: "50.000"
-      price_premium: "60.000"
-
-    - name: dobby-men-black.webp
-      thumbnail: dobby-men-black.webp
-      id : 222
-      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
-      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
-      url: detailthirt
-      url_instagram: https://www.instagram.com/ankolture
-      price_normal: "50.000"
-      price_premium: "60.000"
-
-    - name: dobby-men-white.webp
-      id : 223
-      thumbnail: dobby-men-black.webp
-      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno."
-      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
-      url: detailthirt
-      url_instagram: https://www.instagram.com/ankolture
-      price_normal: "50.000"
-      price_premium: "60.000"
-
-    - name: dobby-women-black.webp
-      id : 224
-      thumbnail: dobby-men-black.webp
-      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
-      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
-      url: detailthirt
-      url_instagram: https://www.instagram.com/ankolture
-      price_normal: "50.000"
-      price_premium: "60.000"
-
-    - name: dobby-women-white.webp
-      id : 225
-      thumbnail: dobby-men-black.webp
-      description_normal: "Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno."
-      description_premium: "Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera."
-      url: detailthirt
-      url_instagram: https://www.instagram.com/ankolture
-      price_normal: "50.000"
-      price_premium: "60.000"
+  - url: detailthirt
+    id: 227
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: dobby-unisex-black.webp
+    description_premium: Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: dobby-unisex-black.webp
+  - url: detailthirt
+    id: 226
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: dobby-unisex-white.webp
+    description_premium: Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: dobby-unisex-black.webp
+  - url: detailthirt
+    id: 222
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: dobby-men-black.webp
+    description_premium: Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: dobby-men-black.webp
+  - url: detailthirt
+    id: 223
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: dobby-men-white.webp
+    description_premium: Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: dobby-men-black.webp
+  - url: detailthirt
+    id: 224
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: dobby-women-black.webp
+    description_premium: Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: dobby-men-black.webp
+  - url: detailthirt
+    id: 225
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: dobby-women-white.webp
+    description_premium: Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: dobby-men-black.webp
