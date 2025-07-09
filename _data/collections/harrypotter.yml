@@ -1,7 +1,6 @@
 ﻿harrypotter:
   dobby:
   - url: detailthirt
-    thumbnail: dobby-unisex-black.webp
     id: 227
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -9,8 +8,8 @@
     name: dobby-unisex-black.webp
     description_premium: Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-  - url: detailthirt
     thumbnail: dobby-unisex-black.webp
+  - url: detailthirt
     id: 226
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -18,8 +17,8 @@
     name: dobby-unisex-white.webp
     description_premium: Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: dobby-unisex-black.webp
   - url: detailthirt
-    thumbnail: dobby-men-black.webp
     id: 222
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno.
@@ -27,8 +26,8 @@
     name: dobby-men-black.webp
     description_premium: Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-  - url: detailthirt
     thumbnail: dobby-men-black.webp
+  - url: detailthirt
     id: 223
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 170 g/m, Cuello Redondo, Mangas Cortas, con acabado limpio y moderno.
@@ -36,8 +35,8 @@
     name: dobby-men-white.webp
     description_premium: Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-  - url: detailthirt
     thumbnail: dobby-men-black.webp
+  - url: detailthirt
     id: 224
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -45,8 +44,8 @@
     name: dobby-women-black.webp
     description_premium: Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-  - url: detailthirt
     thumbnail: dobby-men-black.webp
+  - url: detailthirt
     id: 225
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodón peinado 100%, diseñada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -54,9 +53,9 @@
     name: dobby-women-white.webp
     description_premium: Diseñada para quienes buscan calidad, estilo y resistencia, esta camiseta está confeccionada en algodón peinado 100% con un gramaje pesado de 220 g/m,    Cuello Redondo tipo rib, elástico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versátil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: dobby-men-black.webp
   basilisco:
   - url: detailthirt
-    thumbnail: basilisco-unisex-black.webp
     id: 287
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -64,8 +63,8 @@
     name: basilisco-unisex-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: basilisco-unisex-black.webp
   - url: detailthirt
-    thumbnail: basilisco-unisex-white.webp
     id: 286
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -73,8 +72,8 @@
     name: basilisco-unisex-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: basilisco-unisex-white.webp
   - url: detailthirt
-    thumbnail: basilisco-women-black.webp
     id: 285
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -82,8 +81,8 @@
     name: basilisco-women-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: basilisco-women-black.webp
   - url: detailthirt
-    thumbnail: basilisco-women-white.webp
     id: 284
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -91,8 +90,8 @@
     name: basilisco-women-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: basilisco-women-white.webp
   - url: detailthirt
-    thumbnail: basilisco-men-black.webp
     id: 283
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -100,8 +99,8 @@
     name: basilisco-men-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: basilisco-men-black.webp
   - url: detailthirt
-    thumbnail: basilisco-men-white.webp
     id: 282
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -109,9 +108,9 @@
     name: basilisco-men-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: basilisco-men-white.webp
   ravenclaw:
   - url: detailthirt
-    thumbnail: ravenclawnew-unisex-black.webp
     id: 275
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -119,8 +118,8 @@
     name: ravenclawnew-unisex-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: ravenclawnew-unisex-black.webp
   - url: detailthirt
-    thumbnail: ravenclownew-unisex-white.webp
     id: 274
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -128,8 +127,8 @@
     name: ravenclownew-unisex-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: ravenclownew-unisex-white.webp
   - url: detailthirt
-    thumbnail: ravenclawnew-women-black.webp
     id: 273
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -137,8 +136,8 @@
     name: ravenclawnew-women-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: ravenclawnew-women-black.webp
   - url: detailthirt
-    thumbnail: ravenclawnew-women-white.webp
     id: 272
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -146,8 +145,8 @@
     name: ravenclawnew-women-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: ravenclawnew-women-white.webp
   - url: detailthirt
-    thumbnail: ravenclawnew-men-black.webp
     id: 271
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -155,8 +154,8 @@
     name: ravenclawnew-men-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: ravenclawnew-men-black.webp
   - url: detailthirt
-    thumbnail: ravenclawnew-men-white.webp
     id: 270
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -164,8 +163,10 @@
     name: ravenclawnew-men-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: ravenclawnew-men-white.webp
   reliquias:
   - url: detailthirt
+    thumbnail: reliquias-unisex-black.webp
     id: 281
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -173,8 +174,8 @@
     name: reliquias-unisex-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-    thumbnail: reliquias-unisex-black.webp
   - url: detailthirt
+    thumbnail: reliquias-unisex-white.webp
     id: 280
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -182,8 +183,8 @@
     name: reliquias-unisex-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-    thumbnail: reliquias-unisex-white.webp
   - url: detailthirt
+    thumbnail: reliquias-women-black.webp
     id: 279
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -191,8 +192,8 @@
     name: reliquias-women-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-    thumbnail: reliquias-women-black.webp
   - url: detailthirt
+    thumbnail: reliquias-women-white.webp
     id: 278
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -200,8 +201,8 @@
     name: reliquias-women-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-    thumbnail: reliquias-women-white.webp
   - url: detailthirt
+    thumbnail: reliquias-men-black.webp
     id: 277
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -209,8 +210,8 @@
     name: reliquias-men-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-    thumbnail: reliquias-men-black.webp
   - url: detailthirt
+    thumbnail: reliquias-men-white.webp
     id: 276
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -218,65 +219,8 @@
     name: reliquias-men-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-    thumbnail: reliquias-men-white.webp
-  gryffindornew:
-  - url: detailthirt
-    id: 257
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: gryffindornew-unisex-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: gryffindornew-unisex-black.webp
-  - url: detailthirt
-    id: 256
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: gryffindornew-unisex-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: gryffindornew-unisex-white.webp
-  - url: detailthirt
-    id: 255
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: gryffindornew-women-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: gryffindornew-women-black.webp
-  - url: detailthirt
-    id: 254
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: gryffindornew-women-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: gryffindornew-women-white.webp
-  - url: detailthirt
-    id: 253
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: gryffindornew-men-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: gryffindornew-men-black.webp
-  - url: detailthirt
-    id: 252
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: gryffindornew-men-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: gryffindornew-men-white.webp
   slytherinnew:
   - url: detailthirt
-    thumbnail: slytherinnew-unisex-black.webp
     id: 263
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -284,8 +228,8 @@
     name: slytherinnew-unisex-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: slytherinnew-unisex-black.webp
   - url: detailthirt
-    thumbnail: slytherinnew-unisex-white.webp
     id: 262
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -293,8 +237,8 @@
     name: slytherinnew-unisex-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: slytherinnew-unisex-white.webp
   - url: detailthirt
-    thumbnail: slytherinnew-women-black.webp
     id: 261
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -302,8 +246,8 @@
     name: slytherinnew-women-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: slytherinnew-women-black.webp
   - url: detailthirt
-    thumbnail: slytherinnew-women-white.webp
     id: 260
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -311,8 +255,8 @@
     name: slytherinnew-women-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: slytherinnew-women-white.webp
   - url: detailthirt
-    thumbnail: slytherinnew-men-black.webp
     id: 259
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -320,8 +264,8 @@
     name: slytherinnew-men-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: slytherinnew-men-black.webp
   - url: detailthirt
-    thumbnail: slytherinnew-men-white.webp
     id: 258
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -329,8 +273,10 @@
     name: slytherinnew-men-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: slytherinnew-men-white.webp
   mtenebrosa:
   - url: detailthirt
+    thumbnail: mtenebrosa-unisex-black.webp
     id: 293
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -338,8 +284,8 @@
     name: mtenebrosa-unisex-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-    thumbnail: mtenebrosa-unisex-black.webp
   - url: detailthirt
+    thumbnail: mtenebrosa-unisex-white.webp
     id: 292
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -347,8 +293,8 @@
     name: mtenebrosa-unisex-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-    thumbnail: mtenebrosa-unisex-white.webp
   - url: detailthirt
+    thumbnail: mtenebrosa-women-black.webp
     id: 291
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -356,8 +302,8 @@
     name: mtenebrosa-women-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-    thumbnail: mtenebrosa-women-black.webp
   - url: detailthirt
+    thumbnail: mtenebrosa-women-white.webp
     id: 290
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -365,8 +311,8 @@
     name: mtenebrosa-women-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-    thumbnail: mtenebrosa-women-white.webp
   - url: detailthirt
+    thumbnail: mtenebrosa-men-black.webp
     id: 289
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -374,8 +320,8 @@
     name: mtenebrosa-men-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-    thumbnail: mtenebrosa-men-black.webp
   - url: detailthirt
+    thumbnail: mtenebrosa-men-white.webp
     id: 288
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -383,285 +329,8 @@
     name: mtenebrosa-men-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-    thumbnail: mtenebrosa-men-white.webp
-  hedwig:
-  - name: hedwig-unisex-black.webp
-    id: 299
-    thumbnail: hedwig-unisex-black.webp
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    url: detailthirt
-    url_instagram: https://www.instagram.com/ankolture
-    price_normal: "50.000"
-    price_premium: "60.000"
-  - name: hedwig-unisex-white.webp
-    id: 298
-    thumbnail: hedwig-unisex-white.webp
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    url: detailthirt
-    url_instagram: https://www.instagram.com/ankolture
-    price_normal: "50.000"
-    price_premium: "60.000"
-  - name: hedwig-women-black.webp
-    id: 297
-    thumbnail: hedwig-women-black.webp
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    url: detailthirt
-    url_instagram: https://www.instagram.com/ankolture
-    price_normal: "50.000"
-    price_premium: "60.000"
-  - name: hedwig-women-white.webp
-    id: 296
-    thumbnail: hedwig-women-white.webp
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    url: detailthirt
-    url_instagram: https://www.instagram.com/ankolture
-    price_normal: "50.000"
-    price_premium: "60.000"
-  - name: hedwig-men-black.webp
-    id: 295
-    thumbnail: hedwig-men-black.webp
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    url: detailthirt
-    url_instagram: https://www.instagram.com/ankolture
-    price_normal: "50.000"
-    price_premium: "60.000"
-  - name: hedwig-men-white.webp
-    id: 294
-    thumbnail: hedwig-men-white.webp
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    url: detailthirt
-    url_instagram: https://www.instagram.com/ankolture
-    price_normal: "50.000"
-    price_premium: "60.000"
-  hogwarts:
-  - url: detailthirt
-    id: 238
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: hogwarts-unisex-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: hogwarts-unisex-black.webp
-  - url: detailthirt
-    id: 239
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: hogwarts-unisex-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: hogwarts-unisex-white.webp
-  - url: detailthirt
-    id: 234
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: hogwarts-men-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: hogwarts-men-black.webp
-  - url: detailthirt
-    id: 235
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: hogwarts-men-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: hogwarts-men-white.webp
-  - url: detailthirt
-    id: 236
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: hogwarts-women-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: hogwarts-women-black.webp
-  - url: detailthirt
-    id: 237
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: hogwarts-women-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: hogwarts-women-white.webp
-  sombrero:
-  - url: detailthirt
-    id: 250
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: sombrero-unisex-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: sombrero-unisex-black.webp
-  - url: detailthirt
-    id: 251
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: sombrero-unisex-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: sombrero-unisex-white.webp
-  - url: detailthirt
-    id: 249
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: sombrero-women-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: sombrero-women-white.webp
-  - url: detailthirt
-    id: 248
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: sombrero-women-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: sombrero-women-black.webp
-  - url: detailthirt
-    id: 247
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: sombrero-men-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: sombrero-men-white.webp
-  - url: detailthirt
-    id: 246
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: sombrero-men-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: sombrero-men-black.webp
-  sombrerocasas:
-  - url: detailthirt
-    thumbnail: sombrerocasas-unisex-black.webp
-    id: 244
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: sombrerocasas-unisex-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-  - url: detailthirt
-    thumbnail: sombrerocasas-unisex-white.webp
-    id: 245
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: sombrerocasas-unisex-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-  - url: detailthirt
-    thumbnail: sombrerocasas-men-black.webp
-    id: 240
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: sombrerocasas-men-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-  - url: detailthirt
-    thumbnail: sombrerocasas-men-white.webp
-    id: 241
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: sombrerocasas-men-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-  - url: detailthirt
-    thumbnail: sombrerocasas-women-black.webp
-    id: 242
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: sombrerocasas-women-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-  - url: detailthirt
-    thumbnail: sombrerocasas-women-white.webp
-    id: 243
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: sombrerocasas-women-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-  hufflepuff:
-  - url: detailthirt
-    id: 269
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: hufflepuffnew-unisex-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: hufflepuffnew-unisex-black.webp
-  - url: detailthirt
-    id: 268
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: hufflepuffnew-unisex-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: hufflepuffnew-unisex-white.webp
-  - url: detailthirt
-    id: 267
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: hufflepuffnew-women-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: hufflepuffnew-women-black.webp
-  - url: detailthirt
-    id: 266
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: hufflepuffnew-women-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: hufflepuffnew-women-white.webp
-  - url: detailthirt
-    id: 265
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: hufflepuffnew-men-black.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: hufflepuffnew-men-black.webp
-  - url: detailthirt
-    id: 264
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: hufflepuffnew-men-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: hufflepuffnew-men-white.webp
   nimbus:
   - url: detailthirt
-    thumbnail: nimbus-unisex-black.webp
     id: 228
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -669,8 +338,8 @@
     name: nimbus-men-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: nimbus-unisex-black.webp
   - url: detailthirt
-    thumbnail: nimbus-unisex-white.webp
     id: 229
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -678,8 +347,8 @@
     name: nimbus-men-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: nimbus-unisex-white.webp
   - url: detailthirt
-    thumbnail: nimbus-women-black.webp
     id: 230
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -687,8 +356,8 @@
     name: nimbus-women-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: nimbus-women-black.webp
   - url: detailthirt
-    thumbnail: nimbus-women-white.webp
     id: 231
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -696,8 +365,8 @@
     name: nimbus-women-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: nimbus-women-white.webp
   - url: detailthirt
-    thumbnail: nimbus-unisex-black.webp
     id: 232
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -705,8 +374,8 @@
     name: nimbus-unisex-black.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: nimbus-unisex-black.webp
   - url: detailthirt
-    thumbnail: nimbus-unisex-white.webp
     id: 233
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -714,3 +383,389 @@
     name: nimbus-unisex-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
+    thumbnail: nimbus-unisex-white.webp
+  hedwig:
+  - url: detailthirt
+    id: 299
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hedwig-unisex-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: hedwig-unisex-black.webp
+  - url: detailthirt
+    id: 298
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hedwig-unisex-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: hedwig-unisex-white.webp
+  - url: detailthirt
+    id: 297
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hedwig-women-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: hedwig-women-black.webp
+  - url: detailthirt
+    id: 296
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hedwig-women-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: hedwig-women-white.webp
+  - url: detailthirt
+    id: 295
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hedwig-men-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: hedwig-men-black.webp
+  - url: detailthirt
+    id: 294
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hedwig-men-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: hedwig-men-white.webp
+  hogwarts:
+  - url: detailthirt
+    thumbnail: hogwarts-unisex-black.webp
+    id: 238
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hogwarts-unisex-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: hogwarts-unisex-white.webp
+    id: 239
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hogwarts-unisex-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: hogwarts-men-black.webp
+    id: 234
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hogwarts-men-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: hogwarts-men-white.webp
+    id: 235
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hogwarts-men-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: hogwarts-women-black.webp
+    id: 236
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hogwarts-women-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: hogwarts-women-white.webp
+    id: 237
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hogwarts-women-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  sombrero:
+  - url: detailthirt
+    thumbnail: sombrero-unisex-black.webp
+    id: 250
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: sombrero-unisex-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: sombrero-unisex-white.webp
+    id: 251
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: sombrero-unisex-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: sombrero-women-white.webp
+    id: 249
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: sombrero-women-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: sombrero-women-black.webp
+    id: 248
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: sombrero-women-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: sombrero-men-white.webp
+    id: 247
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: sombrero-men-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: sombrero-men-black.webp
+    id: 246
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: sombrero-men-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  sombrerocasas:
+  - url: detailthirt
+    id: 244
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: sombrerocasas-unisex-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: sombrerocasas-unisex-black.webp
+  - url: detailthirt
+    id: 245
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: sombrerocasas-unisex-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: sombrerocasas-unisex-white.webp
+  - url: detailthirt
+    id: 240
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: sombrerocasas-men-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: sombrerocasas-men-black.webp
+  - url: detailthirt
+    id: 241
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: sombrerocasas-men-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: sombrerocasas-men-white.webp
+  - url: detailthirt
+    id: 242
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: sombrerocasas-women-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: sombrerocasas-women-black.webp
+  - url: detailthirt
+    id: 243
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: sombrerocasas-women-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: sombrerocasas-women-white.webp
+  hufflepuff:
+  - url: detailthirt
+    thumbnail: hufflepuffnew-unisex-black.webp
+    id: 269
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hufflepuffnew-unisex-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: hufflepuffnew-unisex-white.webp
+    id: 268
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hufflepuffnew-unisex-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: hufflepuffnew-women-black.webp
+    id: 267
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hufflepuffnew-women-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: hufflepuffnew-women-white.webp
+    id: 266
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hufflepuffnew-women-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: hufflepuffnew-men-black.webp
+    id: 265
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hufflepuffnew-men-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: hufflepuffnew-men-white.webp
+    id: 264
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: hufflepuffnew-men-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  gryffindornew:
+  - url: detailthirt
+    thumbnail: gryffindornew-unisex-black.webp
+    id: 257
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: gryffindornew-unisex-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: gryffindornew-unisex-white.webp
+    id: 256
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: gryffindornew-unisex-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: gryffindornew-women-black.webp
+    id: 255
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: gryffindornew-women-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: gryffindornew-women-white.webp
+    id: 254
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: gryffindornew-women-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: gryffindornew-men-black.webp
+    id: 253
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: gryffindornew-men-black.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  - url: detailthirt
+    thumbnail: gryffindornew-men-white.webp
+    id: 252
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: gryffindornew-men-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+  colacuerno:
+  - name: colacuerno-unisex-black.webp
+    id: 305
+    thumbnail: colacuerno-unisex-black.webp
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    url: detailthirt
+    url_instagram: https://www.instagram.com/ankolture
+    price_normal: "50.000"
+    price_premium: "60.000"
+  - name: colacuerno-unisex-white.webp
+    id: 304
+    thumbnail: colacuerno-unisex-white.webp
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    url: detailthirt
+    url_instagram: https://www.instagram.com/ankolture
+    price_normal: "50.000"
+    price_premium: "60.000"
+  - name: colacuerno-women-black.webp
+    id: 303
+    thumbnail: colacuerno-women-black.webp
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    url: detailthirt
+    url_instagram: https://www.instagram.com/ankolture
+    price_normal: "50.000"
+    price_premium: "60.000"
+  - name: colacuerno-women-white.webp
+    id: 302
+    thumbnail: colacuerno-women-white.webp
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    url: detailthirt
+    url_instagram: https://www.instagram.com/ankolture
+    price_normal: "50.000"
+    price_premium: "60.000"
+  - name: colacuerno-men-black.webp
+    id: 301
+    thumbnail: colacuerno-men-black.webp
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    url: detailthirt
+    url_instagram: https://www.instagram.com/ankolture
+    price_normal: "50.000"
+    price_premium: "60.000"
+  - name: colacuerno-men-white.webp
+    id: 300
+    thumbnail: colacuerno-men-white.webp
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    url: detailthirt
+    url_instagram: https://www.instagram.com/ankolture
+    price_normal: "50.000"
+    price_premium: "60.000"
