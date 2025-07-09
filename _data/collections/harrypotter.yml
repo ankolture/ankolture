@@ -221,15 +221,6 @@
     price_normal: "50.000"
   sombrero:
   - url: detailthirt
-    id: 251
-    url_instagram: https://www.instagram.com/ankolture
-    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
-    price_premium: "60.000"
-    name: sombrero-unisex-white.webp
-    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
-    price_normal: "50.000"
-    thumbnail: sombrero-unisex-white.webp
-  - url: detailthirt
     id: 250
     url_instagram: https://www.instagram.com/ankolture
     description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
@@ -238,6 +229,15 @@
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
     thumbnail: sombrero-unisex-black.webp
+  - url: detailthirt
+    id: 251
+    url_instagram: https://www.instagram.com/ankolture
+    description_normal: Descubre la comodidad y calidad superior de nuestra camiseta de algodon peinado 100%, disenada para ofrecerte un estilo moderno sin comprometer la durabilidad. Con un gramaje de 150 g/m, Cuello rib licrado, Mangas Cortas, con acabado limpio y moderno.
+    price_premium: "60.000"
+    name: sombrero-unisex-white.webp
+    description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
+    price_normal: "50.000"
+    thumbnail: sombrero-unisex-white.webp
   - url: detailthirt
     id: 249
     url_instagram: https://www.instagram.com/ankolture
