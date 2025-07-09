@@ -37,6 +37,7 @@
 
   {% if page.url %}
   <meta content="{{ site.url }}{{ page.url }}" property="og:url" />
+  <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ exp.company_logo }}" property="og:image" />
   {% endif %}
 
   {% if page.date %}
