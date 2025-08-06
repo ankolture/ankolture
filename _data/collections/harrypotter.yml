@@ -109,7 +109,7 @@
     name: basilisco-men-white.webp
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
-  ravenclaw:
+  ravenclawnew:
   - url: detailthirt
     thumbnail: ravenclawnew-unisex-black.webp
     id: 275
@@ -824,7 +824,7 @@
     description_premium: Disenada para quienes buscan calidad, estilo y resistencia, esta camiseta esta confeccionada en algodon peinado 100% con un gramaje pesado de 220 g/m, Cuello Redondo tipo rib, elastico y reforzado para mayor comodidad y resistencia al uso, Mangas 3/4, modernas y funcionales, ideales para un look urbano y versatil lo que la convierte en una prenda robusta, suave al tacto y duradera.
     price_normal: "50.000"
     thumbnail: gryffindor-men-white.webp
-  hufflepuff:
+  hufflepuffnew:
   - url: detailthirt
     id: 269
     url_instagram: https://www.instagram.com/ankolture
