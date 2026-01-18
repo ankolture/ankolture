@@ -1,8 +1,10 @@
 backend:
   name: github
-  repo: ankolture.github.io/ankolture/
+  repo: ankolture/ankolture
   branch: main
   base_url: https://ankolture.netlify.app
+  site_url: https://ankolture.com
+  auth_endpoint: auth
   
 
 media_folder: "assets/img/posts" # Media files will be stored in the repo under images/uploads
