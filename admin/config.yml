@@ -2,6 +2,7 @@ backend:
   name: github
   repo: ankolture/ankolture
   branch: main
+  auth_type: pkce
 
 site_url: https://ankolture.github.io/ankolture
 display_url: https://ankolture.github.io/ankolture
