@@ -4,8 +4,8 @@ backend:
   branch: main
   auth_type: pkce
 
-site_url: https://ankolture.github.io/ankolture
-display_url: https://ankolture.github.io/ankolture
+site_url: https://ankolture.com
+display_url: https://ankolture.com
 
 media_folder: "assets/img/posts"
 public_folder: "/ankolture/assets/img/posts"
